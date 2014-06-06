@@ -1,0 +1,77 @@
+terminals
+a
+b
+c
+nonterminals
+START 2
+X1 2
+X2 2
+%%%%%%%%%%%%%%%%%%%%%%%
+project probabilities
+% nodeSlotCombi = goalNodeLabel + "@" + slotnr + "@" + leftCornerLabel + "@" + projectedNodeLabel;
+% project to X1
+START@2@a@X1#0.7
+X1@2@a@X1#0.4
+X2@2@a@X1#0.5
+START@2@b@X1#0.4
+X1@2@b@X1#0.2
+X2@2@b@X1#0.3
+START@2@c@X1#0.6
+X1@2@c@X1#0.2
+X2@2@c@X1#0.5
+START@2@X1@X1#0.6
+X1@2@X1@X1#0.1
+X2@2@X1@X1#0.1
+START@2@X2@X1#0.3
+X1@2@X2@X1#0.2
+X2@2@X2@X1#0.1
+%project to X2
+START@2@a@X2#0.3
+X1@2@a@X2#0.4
+X2@2@a@X2#0.2
+START@2@b@X2#0.6
+X1@2@b@X2#0.1
+X2@2@b@X2#0.3
+START@2@c@X2#0.4
+X1@2@c@X2#0.3
+X2@2@c@X2#0.3
+START@2@X1@X2#0.2
+X1@2@X1@X2#0.1
+X2@2@X1@X2#0.5
+START@2@X2@X2#0.2
+X1@2@X2@X2#0.7
+X2@2@X2@X2#0.6
+%%%%%%%%%%%%%%%%%%%%%%%
+attach probabilities
+% nodeSlotCombi = goalNodeLabel + "@" + slotnr + "@" + leftCornerLabel;
+START@2@a#0
+X1@2@a#0.2
+X2@2@a#0.3
+START@2@b#0.
+X1@2@b#0.7
+X2@2@b#0.4
+START@2@c#0.
+X1@2@c#0.5
+X2@2@c#0.2
+START@2@X1#0.2
+X1@2@X1#0.8
+X2@2@X1#0.4
+START@2@X2#0.5
+X1@2@X2#0.1
+X2@2@X2#0.3
+%%%%%%%%%%%%%%%%%%%%%%%
+shift probabilities
+% nodeSlotCombi = goalNodeLabel + "@" + slotnr + "@" + leftCornerLabel
+% for given slot, P_shiftGivenSlot of all input nodes and cnodes should add up to one
+% goal slot@shift a@shift b@shift c@
+START@2@a#0.7
+X1@2@a#0.4
+X2@2@a#0.1
+% shift to b
+START@2@b#0.2
+X1@2@b#0.4
+X2@2@b#0.6
+% shit to c
+START@2@c#0.1
+X1@2@c#0.2
+X2@2@c#0.3

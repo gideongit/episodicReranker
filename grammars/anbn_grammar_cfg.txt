@@ -1,0 +1,14 @@
+terminals
+a
+b
+nonterminals
+S
+A
+B
+X
+productions
+S --> A S B
+S --> A B
+lexical_productions
+A --> a
+B --> b

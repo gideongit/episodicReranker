@@ -1,0 +1,5 @@
+(TOP (S (NP-SBJ (NN Champagne) (CC and) (NN dessert)) (VP (VBD followed))))
+(TOP (S (NP-SBJ (NNS Imports)) (VP (VBD were) (PP-LOC-PRD (IN at) (NP (NP (QP (CD 50.38) (CD billion))))) (ADVP (RB up) (NP (CD 19) (NN %))))))
+(TOP (S (NP-SBJ (NP (DT A) (JJ full) (JJ four-color) (NN page)) (PP-LOC (IN at) (NP (NNP Newsweek)))) (VP (MD will) (VP (VB cost) (NP (CD 100,980))))))
+(TOP (S (ADVP-TMP (RB Previously)) (NP-SBJ (PRP he)) (VP (VBD was) (NP-PRD (NP (RB vice) (NN president)) (PP (IN of) (NP (NNP Eastern) (NNP president)))))))
+

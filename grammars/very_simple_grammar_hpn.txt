@@ -1,0 +1,14 @@
+terminals
+boy*1 0 0 1
+girl*1 0 0 1
+chases*0 0 1 0 
+feeds*0 0 1 0 
+walks*0 1 0 0
+nonterminals
+S*0 0 0 0
+VP*0 1 0 0
+VP2*0 1 0 0
+productions
+S*1 0 0 0*0 1 0 0
+VP*0 0 1 0*0 0 0 1
+VP2*0 0 1 0*0 0 0 1

@@ -1,0 +1,95 @@
+terminals
+a
+b
+c
+nonterminals
+START 2
+X_1 2
+X_2 2
+%%%%%%%%%%%%%%%%%%%%%%%
+project probabilities
+% nodeSlotCombi = goalNodeLabel + "@" + slotnr + "@" + leftCornerLabel + "@" + projectedNodeLabel;
+% for given (non-left) goalSlot+left corner the project and attach probabilities should add up to one
+% the only non-zero projections are from a to X_1 given goal START-sl2, and from b to X_2 given goal X_1-slot2
+START@2@a@X_1#1.
+START@2@a@X_2#0.
+%sum (project + bu attach) given goal START@2 and l.c. a = 1
+START@2@b@X_1#0.
+START@2@b@X_2#0.
+START@2@c@X_1#0.
+START@2@c@X_2#0.
+% projection from l.c.=cnode
+START@2@X_1@X_1#0.
+START@2@X_1@X_2#0.
+START@2@X_2@X_1#0.
+START@2@X_1@X_2#0.
+%
+X_1@2@a@X_1#0.
+X_1@2@a@X_2#0.
+X_1@2@b@X_1#0.
+X_1@2@b@X_2#1.
+X_1@2@c@X_1#0.
+X_1@2@c@X_2#0.
+% projections from l.c.=cnode are all 0
+%
+X_2@2@a@X_1#0.
+X_2@2@a@X_2#0.
+X_2@2@b@X_1#0.
+X_2@2@b@X_2#0.
+X_2@2@c@X_1#0.
+X_2@2@c@X_2#0.
+% projections from l.c.=cnode are all 0
+% others are zero
+%%%%%%%%%%%%%%%%%%%%%%%
+attach probabilities
+% nodeSlotCombi = goalNodeLabel + "@" + slotnr + "@" + leftCornerLabel;
+START@2@a#0.
+START@2@b#0.
+START@2@c#0.
+START@2@X_1#1.
+START@2@X_2#0.
+%
+X_1@2@a#0.
+X_1@2@b#0.
+X_1@2@c#0.
+X_1@2@X_1#0.
+X_1@2@X_2#1.
+%
+X_2@2@a#0.
+X_2@2@b#0.
+X_2@2@c#1.
+X_2@2@X_1#0.
+X_2@2@X_2#0.
+%%%%%%%%%%%%%%%%%%%%%%%
+shift probabilities
+%nodeSlotCombi = goalNodeLabel + "@" + slotnr + "@" + leftCornerLabel
+% for given slot, P_shiftGivenSlot of all input nodes and cnodes should add up to one
+START@2@a#1.
+START@2@b#0.
+START@2@c#0.
+START@2@X_1#1.
+START@2@X_2#0.
+%
+X_1@1@a#1.
+X_1@1@b#0.
+X_1@1@c#0.
+X_1@1@X_1#0.
+X_1@1@X_2#0.
+%
+X_1@2@a#0.
+X_1@2@b#1.
+X_1@2@c#0.
+X_1@2@X_1#0.
+X_1@2@X_2#1.
+%
+X_2@1@a#0.
+X_2@1@b#1.
+X_2@1@c#0.
+X_2@1@X_1#0.
+X_2@1@X_2#0.
+%
+X_2@2@a#0.
+X_2@2@b#0.
+X_2@2@c#1.
+X_2@2@X_1#0.
+X_2@2@X_2#0.

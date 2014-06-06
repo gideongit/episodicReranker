@@ -1,0 +1,14 @@
+terminals
+boy*0 1 0 0 0 1
+girl*0 1 0 0 0 1
+take*0 0 0 0 1 0
+put*0 0 0 0 1 0
+down*0 0 0 1 0 0
+nonterminals
+S*0 0 0 0 0 0
+VP1*1 0 0 0 0 0
+VP2*0 0 1 0 0 0
+productions
+S*1 0 0 0 0 0*0 1 0 0 0 0
+VP1*0 0 1 0 0 0*0 0 0 1 0 0
+VP2*0 0 0 0 1 0*0 0 0 0 0 1

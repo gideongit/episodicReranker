@@ -1,0 +1,1135 @@
+\documentclass[10pt]{article}
+\oddsidemargin 0in
+\evensidemargin 0in
+\usepackage[latin2]{inputenc}
+\usepackage{../../../Latex/styles/graphicx}
+\usepackage[T1]{fontenc}
+
+\usepackage{../../../Latex/styles/longtable}
+\topmargin -1.5cm
+\begin{document}
+\begin{longtable}[htbp]{lllllllllll} \centering 
+nr & & state & gc & type & forwP & vitP & op. & lc & gc & P \\ 
+\hline \multicolumn{5}{l}{\textbf{Chart Cell 0}} & forwP & vitP & op. & lc & gc & P \\ \hline
+0 & & $ {}_0 \textrm{-} \  \bullet \ {}_{0} \textrm{START*} \ \textrm{TOP} \  \otimes \ \textrm{START} $ & START-s2 [0,0] & starred & 1 & 1 & & & & \\ 
+1 & & $ {}_0 \textrm{-} \ \textrm{START*} \  \bullet \ {}_{0} \textrm{TOP} \  \otimes \ \textrm{START} $ & START-s2 [0,0] & incomplete & 1 & 1 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{-} \  \bullet \ {}_{0} \textrm{START*} \ \textrm{TOP} \  \otimes \ \textrm{START} $ & START-s2 [0,0] & starred & 1 & 1 & shift1 & - & - & 0,0164 \\ 
+\hline \multicolumn{5}{l}{\textbf{Chart Cell 1}} & forwP & vitP & op. & lc & gc & P \\ \hline
+2 & & $ {}_0 \textrm{START*} \  \otimes \  \bullet \ {}_{1} \textrm{we} $ & START-s2 [0,0] & completed & 0,0164 & 0,0164 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{-} \  \bullet \ {}_{0} \textrm{START*} \ \textrm{TOP} \  \otimes \ \textrm{START} $ & START-s2 [0,0] & starred & 0,0164 & 0,0164 & shift2 & START* & TOP & 0,0164 \\ 
+3 & & $ {}_0 \textrm{we} \  \otimes \  \bullet \ {}_{1} \textrm{PP} $ & START-s2 [0,0] & completed & 0,0164 & 0,0164 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{START*} \  \otimes \  \bullet \ {}_{1} \textrm{we} $ & START-s2 [0,0] & completed & 0,0164 & 0,0164 & proj & we & TOP-START*-*TOP & 1 \\ 
+4 & & $ {}_0 \textrm{PP} \  \otimes \  \bullet \ {}_{1} \textrm{S>PP} $ & START-s2 [0,0] & completed & 0,0001 & 0,0001 & & & & \\ 
+ & Pre & $ {}_0 \textrm{PP>PP} \  \otimes \  \bullet \ {}_{1} \textrm{PP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & PP & TOP-START*-*TOP & 0,0073 \\ 
+ & Pre *& $ {}_0 \textrm{we} \  \otimes \  \bullet \ {}_{1} \textrm{PP} $ & START-s2 [0,0] & completed & 0,0001 & 0,0001 & proj & PP & TOP-START*-*TOP & 0,0073 \\ 
+5 & & $ {}_0 \textrm{PP} \  \otimes \  \bullet \ {}_{1} \textrm{PP>PP} $ & START-s2 [0,0] & completed & 0,0001 & 0,0001 & & & & \\ 
+ & Pre & $ {}_0 \textrm{PP>PP} \  \otimes \  \bullet \ {}_{1} \textrm{PP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & PP & TOP-START*-*TOP & 0,0087 \\ 
+ & Pre *& $ {}_0 \textrm{we} \  \otimes \  \bullet \ {}_{1} \textrm{PP} $ & START-s2 [0,0] & completed & 0,0001 & 0,0001 & proj & PP & TOP-START*-*TOP & 0,0087 \\ 
+6 & & $ {}_0 \textrm{PP} \  \otimes \  \bullet \ {}_{1} \textrm{NP} $ & START-s2 [0,0] & completed & 0,0126 & 0,0125 & & & & \\ 
+ & Pre & $ {}_0 \textrm{PP>PP} \  \otimes \  \bullet \ {}_{1} \textrm{PP} $ & START-s2 [0,0] & completed & 0,0001 & 0,0001 & proj & PP & TOP-START*-*TOP & 0,764 \\ 
+ & Pre *& $ {}_0 \textrm{we} \  \otimes \  \bullet \ {}_{1} \textrm{PP} $ & START-s2 [0,0] & completed & 0,0125 & 0,0125 & proj & PP & TOP-START*-*TOP & 0,764 \\ 
+7 & & $ {}_0 \textrm{PP} \  \otimes \  \bullet \ {}_{1} \textrm{VP>PP} $ & START-s2 [0,0] & completed & 0 & 0 & & & & \\ 
+ & Pre & $ {}_0 \textrm{PP>PP} \  \otimes \  \bullet \ {}_{1} \textrm{PP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & PP & TOP-START*-*TOP & 0,0005 \\ 
+ & Pre *& $ {}_0 \textrm{we} \  \otimes \  \bullet \ {}_{1} \textrm{PP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & PP & TOP-START*-*TOP & 0,0005 \\ 
+8 & & $ {}_0 \textrm{PP} \  \otimes \  \bullet \ {}_{1} \textrm{TOP} $ & START-s2 [0,0] & completed & 0 & 0 & & & & \\ 
+ & Pre & $ {}_0 \textrm{PP>PP} \  \otimes \  \bullet \ {}_{1} \textrm{PP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & PP & TOP-START*-*TOP & 0,0009 \\ 
+ & Pre *& $ {}_0 \textrm{we} \  \otimes \  \bullet \ {}_{1} \textrm{PP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & PP & TOP-START*-*TOP & 0,0009 \\ 
+9 & & $ {}_0 \textrm{PP} \  \otimes \  \bullet \ {}_{1} \textrm{NP>PP} $ & START-s2 [0,0] & completed & 0,0002 & 0,0002 & & & & \\ 
+ & Pre & $ {}_0 \textrm{PP>PP} \  \otimes \  \bullet \ {}_{1} \textrm{PP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & PP & TOP-START*-*TOP & 0,0142 \\ 
+ & Pre *& $ {}_0 \textrm{we} \  \otimes \  \bullet \ {}_{1} \textrm{PP} $ & START-s2 [0,0] & completed & 0,0002 & 0,0002 & proj & PP & TOP-START*-*TOP & 0,0142 \\ 
+10 & & $ {}_0 \textrm{PP} \  \otimes \  \bullet \ {}_{1} \textrm{TOP>PP} $ & START-s2 [0,0] & completed & 0,0034 & 0,0034 & & & & \\ 
+ & Pre & $ {}_0 \textrm{PP>PP} \  \otimes \  \bullet \ {}_{1} \textrm{PP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & PP & TOP-START*-*TOP & 0,2045 \\ 
+ & Pre *& $ {}_0 \textrm{we} \  \otimes \  \bullet \ {}_{1} \textrm{PP} $ & START-s2 [0,0] & completed & 0,0034 & 0,0034 & proj & PP & TOP-START*-*TOP & 0,2045 \\ 
+11 & & $ {}_0 \textrm{TOP>PP} \  \bullet \ {}_{1} \textrm{TOP>VP*} \ \textrm{VP} \  \otimes \ \textrm{TOP>VP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{PP} \  \otimes \  \bullet \ {}_{1} \textrm{TOP>PP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>PP & TOP-START*-*TOP & 0,002 \\ 
+12 & & $ {}_0 \textrm{TOP>PP} \  \bullet \ {}_{1} \textrm{TOP>S*} \ \textrm{S} \  \otimes \ \textrm{TOP>S} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{PP} \  \otimes \  \bullet \ {}_{1} \textrm{TOP>PP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>PP & TOP-START*-*TOP & 0,002 \\ 
+13 & & $ {}_0 \textrm{TOP>PP} \  \bullet \ {}_{1} \textrm{TOP>UH*} \ \textrm{UH} \  \otimes \ \textrm{TOP>UH} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{PP} \  \otimes \  \bullet \ {}_{1} \textrm{TOP>PP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>PP & TOP-START*-*TOP & 0,0098 \\ 
+14 & & $ {}_0 \textrm{TOP>PP} \  \otimes \  \bullet \ {}_{1} \textrm{TOP} $ & START-s2 [0,0] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{PP} \  \otimes \  \bullet \ {}_{1} \textrm{TOP>PP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>PP & TOP-START*-*TOP & 0,0039 \\ 
+15 & & $ {}_0 \textrm{TOP>PP} \  \bullet \ {}_{1} \textrm{TOP>PUN*} \ \textrm{PUN} \  \otimes \ \textrm{TOP>PUN} $ & START-s2 [0,0] & starred & 0,0031 & 0,0031 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{PP} \  \otimes \  \bullet \ {}_{1} \textrm{TOP>PP} $ & START-s2 [0,0] & completed & 0,0031 & 0,0031 & proj & TOP>PP & TOP-START*-*TOP & 0,918 \\ 
+16 & & $ {}_0 \textrm{TOP>PP} \  \bullet \ {}_{1} \textrm{TOP>COMMA*} \ \textrm{COMMA} \  \otimes \ \textrm{TOP>COMMA} $ & START-s2 [0,0] & starred & 0,0002 & 0,0002 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{PP} \  \otimes \  \bullet \ {}_{1} \textrm{TOP>PP} $ & START-s2 [0,0] & completed & 0,0002 & 0,0002 & proj & TOP>PP & TOP-START*-*TOP & 0,0508 \\ 
+17 & & $ {}_0 \textrm{TOP>PP} \  \bullet \ {}_{1} \textrm{TOP>NP*} \ \textrm{NP} \  \otimes \ \textrm{TOP>NP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{PP} \  \otimes \  \bullet \ {}_{1} \textrm{TOP>PP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>PP & TOP-START*-*TOP & 0,0078 \\ 
+18 & & $ {}_0 \textrm{TOP>PP} \  \bullet \ {}_{1} \textrm{TOP>PP*} \ \textrm{PP} \  \otimes \ \textrm{TOP>PP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{PP} \  \otimes \  \bullet \ {}_{1} \textrm{TOP>PP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>PP & TOP-START*-*TOP & 0,0039 \\ 
+19 & & $ {}_0 \textrm{TOP>PP} \  \bullet \ {}_{1} \textrm{TOP>ADVP*} \ \textrm{ADVP} \  \otimes \ \textrm{TOP>ADVP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{PP} \  \otimes \  \bullet \ {}_{1} \textrm{TOP>PP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>PP & TOP-START*-*TOP & 0,002 \\ 
+20 & & $ {}_0 \textrm{NP>PP} \  \bullet \ {}_{1} \textrm{NP>UH*} \ \textrm{UH} \  \otimes \ \textrm{NP>UH} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{PP} \  \otimes \  \bullet \ {}_{1} \textrm{NP>PP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & NP>PP & TOP-START*-*TOP & 0,0032 \\ 
+21 & & $ {}_0 \textrm{NP>PP} \  \bullet \ {}_{1} \textrm{NP>COMMA*} \ \textrm{COMMA} \  \otimes \ \textrm{NP>COMMA} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{PP} \  \otimes \  \bullet \ {}_{1} \textrm{NP>PP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & NP>PP & TOP-START*-*TOP & 0,0323 \\ 
+22 & & $ {}_0 \textrm{NP>PP} \  \bullet \ {}_{1} \textrm{NP>S*} \ \textrm{S} \  \otimes \ \textrm{NP>S} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{PP} \  \otimes \  \bullet \ {}_{1} \textrm{NP>PP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & NP>PP & TOP-START*-*TOP & 0,0032 \\ 
+23 & & $ {}_0 \textrm{NP>PP} \  \bullet \ {}_{1} \textrm{NP>VP*} \ \textrm{VP} \  \otimes \ \textrm{NP>VP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{PP} \  \otimes \  \bullet \ {}_{1} \textrm{NP>PP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & NP>PP & TOP-START*-*TOP & 0,0032 \\ 
+24 & & $ {}_0 \textrm{NP>PP} \  \bullet \ {}_{1} \textrm{NP>AP*} \ \textrm{AP} \  \otimes \ \textrm{NP>AP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{PP} \  \otimes \  \bullet \ {}_{1} \textrm{NP>PP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & NP>PP & TOP-START*-*TOP & 0,0097 \\ 
+25 & & $ {}_0 \textrm{NP>PP} \  \bullet \ {}_{1} \textrm{NP>NP*} \ \textrm{NP} \  \otimes \ \textrm{NP>NP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{PP} \  \otimes \  \bullet \ {}_{1} \textrm{NP>PP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & NP>PP & TOP-START*-*TOP & 0,0032 \\ 
+26 & & $ {}_0 \textrm{NP>PP} \  \bullet \ {}_{1} \textrm{NP>PP*} \ \textrm{PP} \  \otimes \ \textrm{NP>PP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{PP} \  \otimes \  \bullet \ {}_{1} \textrm{NP>PP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & NP>PP & TOP-START*-*TOP & 0,0194 \\ 
+27 & & $ {}_0 \textrm{NP>PP} \  \bullet \ {}_{1} \textrm{NP>ADVP*} \ \textrm{ADVP} \  \otimes \ \textrm{NP>ADVP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{PP} \  \otimes \  \bullet \ {}_{1} \textrm{NP>PP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & NP>PP & TOP-START*-*TOP & 0,0968 \\ 
+28 & & $ {}_0 \textrm{NP>PP} \  \otimes \  \bullet \ {}_{1} \textrm{NP} $ & START-s2 [0,0] & completed & 0,0002 & 0,0002 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{PP} \  \otimes \  \bullet \ {}_{1} \textrm{NP>PP} $ & START-s2 [0,0] & completed & 0,0002 & 0,0002 & proj & NP>PP & TOP-START*-*TOP & 0,829 \\ 
+29 & & $ {}_0 \textrm{NP} \  \otimes \  \bullet \ {}_{1} \textrm{TOP} $ & START-s2 [0,0] & completed & 0,0001 & 0,0001 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{PP} \  \otimes \  \bullet \ {}_{1} \textrm{NP} $ & START-s2 [0,0] & completed & 0,0001 & 0,0001 & proj & NP & TOP-START*-*TOP & 0,0109 \\ 
+ & Pre & $ {}_0 \textrm{NP>PP} \  \otimes \  \bullet \ {}_{1} \textrm{NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & NP & TOP-START*-*TOP & 0,0109 \\ 
+ & Pre & $ {}_0 \textrm{NP>AP} \  \otimes \  \bullet \ {}_{1} \textrm{NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & NP & TOP-START*-*TOP & 0,0109 \\ 
+ & Pre & $ {}_0 \textrm{NP>VP} \  \otimes \  \bullet \ {}_{1} \textrm{NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & NP & TOP-START*-*TOP & 0,0109 \\ 
+ & Pre & $ {}_0 \textrm{NP} \  \otimes \  \bullet \ {}_{1} \textrm{NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & NP & TOP-START*-*TOP & 0,0109 \\ 
+ & Pre & $ {}_0 \textrm{NP>NP} \  \otimes \  \bullet \ {}_{1} \textrm{NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & NP & TOP-START*-*TOP & 0,0109 \\ 
+30 & & $ {}_0 \textrm{NP} \  \otimes \  \bullet \ {}_{1} \textrm{TOP>NP} $ & START-s2 [0,0] & completed & 0,004 & 0,0039 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{PP} \  \otimes \  \bullet \ {}_{1} \textrm{NP} $ & START-s2 [0,0] & completed & 0,0039 & 0,0039 & proj & NP & TOP-START*-*TOP & 0,313 \\ 
+ & Pre & $ {}_0 \textrm{NP>PP} \  \otimes \  \bullet \ {}_{1} \textrm{NP} $ & START-s2 [0,0] & completed & 0,0001 & 0,0001 & proj & NP & TOP-START*-*TOP & 0,313 \\ 
+ & Pre & $ {}_0 \textrm{NP>AP} \  \otimes \  \bullet \ {}_{1} \textrm{NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & NP & TOP-START*-*TOP & 0,313 \\ 
+ & Pre & $ {}_0 \textrm{NP>VP} \  \otimes \  \bullet \ {}_{1} \textrm{NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & NP & TOP-START*-*TOP & 0,313 \\ 
+ & Pre & $ {}_0 \textrm{NP} \  \otimes \  \bullet \ {}_{1} \textrm{NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & NP & TOP-START*-*TOP & 0,313 \\ 
+ & Pre & $ {}_0 \textrm{NP>NP} \  \otimes \  \bullet \ {}_{1} \textrm{NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & NP & TOP-START*-*TOP & 0,313 \\ 
+31 & & $ {}_0 \textrm{NP} \  \otimes \  \bullet \ {}_{1} \textrm{N>NP} $ & START-s2 [0,0] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{PP} \  \otimes \  \bullet \ {}_{1} \textrm{NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & NP & TOP-START*-*TOP & 0,0021 \\ 
+ & Pre & $ {}_0 \textrm{NP>PP} \  \otimes \  \bullet \ {}_{1} \textrm{NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & NP & TOP-START*-*TOP & 0,0021 \\ 
+ & Pre & $ {}_0 \textrm{NP>AP} \  \otimes \  \bullet \ {}_{1} \textrm{NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & NP & TOP-START*-*TOP & 0,0021 \\ 
+ & Pre & $ {}_0 \textrm{NP>VP} \  \otimes \  \bullet \ {}_{1} \textrm{NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & NP & TOP-START*-*TOP & 0,0021 \\ 
+ & Pre & $ {}_0 \textrm{NP} \  \otimes \  \bullet \ {}_{1} \textrm{NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & NP & TOP-START*-*TOP & 0,0021 \\ 
+ & Pre & $ {}_0 \textrm{NP>NP} \  \otimes \  \bullet \ {}_{1} \textrm{NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & NP & TOP-START*-*TOP & 0,0021 \\ 
+32 & & $ {}_0 \textrm{NP} \  \otimes \  \bullet \ {}_{1} \textrm{NP>NP} $ & START-s2 [0,0] & completed & 0,0007 & 0,0007 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{PP} \  \otimes \  \bullet \ {}_{1} \textrm{NP} $ & START-s2 [0,0] & completed & 0,0007 & 0,0007 & proj & NP & TOP-START*-*TOP & 0,0549 \\ 
+ & Pre & $ {}_0 \textrm{NP>PP} \  \otimes \  \bullet \ {}_{1} \textrm{NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & NP & TOP-START*-*TOP & 0,0549 \\ 
+ & Pre & $ {}_0 \textrm{NP>AP} \  \otimes \  \bullet \ {}_{1} \textrm{NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & NP & TOP-START*-*TOP & 0,0549 \\ 
+ & Pre & $ {}_0 \textrm{NP>VP} \  \otimes \  \bullet \ {}_{1} \textrm{NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & NP & TOP-START*-*TOP & 0,0549 \\ 
+ & Pre & $ {}_0 \textrm{NP} \  \otimes \  \bullet \ {}_{1} \textrm{NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & NP & TOP-START*-*TOP & 0,0549 \\ 
+ & Pre & $ {}_0 \textrm{NP>NP} \  \otimes \  \bullet \ {}_{1} \textrm{NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & NP & TOP-START*-*TOP & 0,0549 \\ 
+33 & & $ {}_0 \textrm{NP} \  \otimes \  \bullet \ {}_{1} \textrm{VP>NP} $ & START-s2 [0,0] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{PP} \  \otimes \  \bullet \ {}_{1} \textrm{NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & NP & TOP-START*-*TOP & 0,0002 \\ 
+ & Pre & $ {}_0 \textrm{NP>PP} \  \otimes \  \bullet \ {}_{1} \textrm{NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & NP & TOP-START*-*TOP & 0,0002 \\ 
+ & Pre & $ {}_0 \textrm{NP>AP} \  \otimes \  \bullet \ {}_{1} \textrm{NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & NP & TOP-START*-*TOP & 0,0002 \\ 
+ & Pre & $ {}_0 \textrm{NP>VP} \  \otimes \  \bullet \ {}_{1} \textrm{NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & NP & TOP-START*-*TOP & 0,0002 \\ 
+ & Pre & $ {}_0 \textrm{NP} \  \otimes \  \bullet \ {}_{1} \textrm{NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & NP & TOP-START*-*TOP & 0,0002 \\ 
+ & Pre & $ {}_0 \textrm{NP>NP} \  \otimes \  \bullet \ {}_{1} \textrm{NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & NP & TOP-START*-*TOP & 0,0002 \\ 
+34 & & $ {}_0 \textrm{NP} \  \otimes \  \bullet \ {}_{1} \textrm{AP>NP} $ & START-s2 [0,0] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{PP} \  \otimes \  \bullet \ {}_{1} \textrm{NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & NP & TOP-START*-*TOP & 0,0004 \\ 
+ & Pre & $ {}_0 \textrm{NP>PP} \  \otimes \  \bullet \ {}_{1} \textrm{NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & NP & TOP-START*-*TOP & 0,0004 \\ 
+ & Pre & $ {}_0 \textrm{NP>AP} \  \otimes \  \bullet \ {}_{1} \textrm{NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & NP & TOP-START*-*TOP & 0,0004 \\ 
+ & Pre & $ {}_0 \textrm{NP>VP} \  \otimes \  \bullet \ {}_{1} \textrm{NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & NP & TOP-START*-*TOP & 0,0004 \\ 
+ & Pre & $ {}_0 \textrm{NP} \  \otimes \  \bullet \ {}_{1} \textrm{NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & NP & TOP-START*-*TOP & 0,0004 \\ 
+ & Pre & $ {}_0 \textrm{NP>NP} \  \otimes \  \bullet \ {}_{1} \textrm{NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & NP & TOP-START*-*TOP & 0,0004 \\ 
+35 & & $ {}_0 \textrm{NP} \  \otimes \  \bullet \ {}_{1} \textrm{S>NP} $ & START-s2 [0,0] & completed & 0,0075 & 0,0073 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{PP} \  \otimes \  \bullet \ {}_{1} \textrm{NP} $ & START-s2 [0,0] & completed & 0,0073 & 0,0073 & proj & NP & TOP-START*-*TOP & 0,5855 \\ 
+ & Pre & $ {}_0 \textrm{NP>PP} \  \otimes \  \bullet \ {}_{1} \textrm{NP} $ & START-s2 [0,0] & completed & 0,0001 & 0,0001 & proj & NP & TOP-START*-*TOP & 0,5855 \\ 
+ & Pre & $ {}_0 \textrm{NP>AP} \  \otimes \  \bullet \ {}_{1} \textrm{NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & NP & TOP-START*-*TOP & 0,5855 \\ 
+ & Pre & $ {}_0 \textrm{NP>VP} \  \otimes \  \bullet \ {}_{1} \textrm{NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & NP & TOP-START*-*TOP & 0,5855 \\ 
+ & Pre & $ {}_0 \textrm{NP} \  \otimes \  \bullet \ {}_{1} \textrm{NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & NP & TOP-START*-*TOP & 0,5855 \\ 
+ & Pre & $ {}_0 \textrm{NP>NP} \  \otimes \  \bullet \ {}_{1} \textrm{NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & NP & TOP-START*-*TOP & 0,5855 \\ 
+36 & & $ {}_0 \textrm{NP} \  \otimes \  \bullet \ {}_{1} \textrm{NP} $ & START-s2 [0,0] & completed & 0,0004 & 0,0004 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{PP} \  \otimes \  \bullet \ {}_{1} \textrm{NP} $ & START-s2 [0,0] & completed & 0,0004 & 0,0004 & proj & NP & TOP-START*-*TOP & 0,033 \\ 
+ & Pre & $ {}_0 \textrm{NP>PP} \  \otimes \  \bullet \ {}_{1} \textrm{NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & NP & TOP-START*-*TOP & 0,033 \\ 
+ & Pre & $ {}_0 \textrm{NP>AP} \  \otimes \  \bullet \ {}_{1} \textrm{NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & NP & TOP-START*-*TOP & 0,033 \\ 
+ & Pre & $ {}_0 \textrm{NP>VP} \  \otimes \  \bullet \ {}_{1} \textrm{NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & NP & TOP-START*-*TOP & 0,033 \\ 
+ & Pre & $ {}_0 \textrm{NP} \  \otimes \  \bullet \ {}_{1} \textrm{NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & NP & TOP-START*-*TOP & 0,033 \\ 
+ & Pre & $ {}_0 \textrm{NP>NP} \  \otimes \  \bullet \ {}_{1} \textrm{NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & NP & TOP-START*-*TOP & 0,033 \\ 
+45 & & $ {}_0 \textrm{S>NP} \  \bullet \ {}_{1} \textrm{S>MD*} \ \textrm{MD} \  \otimes \ \textrm{S>MD} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{NP} \  \otimes \  \bullet \ {}_{1} \textrm{S>NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S>NP & TOP-START*-*TOP & 0,1604 \\ 
+46 & & $ {}_0 \textrm{S>NP} \  \bullet \ {}_{1} \textrm{S>NP*} \ \textrm{NP} \  \otimes \ \textrm{S>NP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{NP} \  \otimes \  \bullet \ {}_{1} \textrm{S>NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S>NP & TOP-START*-*TOP & 0,0249 \\ 
+47 & & $ {}_0 \textrm{S>NP} \  \bullet \ {}_{1} \textrm{S>RB*} \ \textrm{RB} \  \otimes \ \textrm{S>RB} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{NP} \  \otimes \  \bullet \ {}_{1} \textrm{S>NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S>NP & TOP-START*-*TOP & 0,0006 \\ 
+48 & & $ {}_0 \textrm{S>NP} \  \bullet \ {}_{1} \textrm{S>IN*} \ \textrm{IN} \  \otimes \ \textrm{S>IN} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{NP} \  \otimes \  \bullet \ {}_{1} \textrm{S>NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S>NP & TOP-START*-*TOP & 0,0002 \\ 
+49 & & $ {}_0 \textrm{S>NP} \  \bullet \ {}_{1} \textrm{S>COMMA*} \ \textrm{COMMA} \  \otimes \ \textrm{S>COMMA} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{NP} \  \otimes \  \bullet \ {}_{1} \textrm{S>NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S>NP & TOP-START*-*TOP & 0,015 \\ 
+50 & & $ {}_0 \textrm{S>NP} \  \bullet \ {}_{1} \textrm{S>S*} \ \textrm{S} \  \otimes \ \textrm{S>S} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{NP} \  \otimes \  \bullet \ {}_{1} \textrm{S>NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S>NP & TOP-START*-*TOP & 0,0019 \\ 
+51 & & $ {}_0 \textrm{S>NP} \  \bullet \ {}_{1} \textrm{S>VP*} \ \textrm{VP} \  \otimes \ \textrm{S>VP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{NP} \  \otimes \  \bullet \ {}_{1} \textrm{S>NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S>NP & TOP-START*-*TOP & 0,1617 \\ 
+52 & & $ {}_0 \textrm{S>NP} \  \bullet \ {}_{1} \textrm{S>DTP*} \ \textrm{DTP} \  \otimes \ \textrm{S>DTP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{NP} \  \otimes \  \bullet \ {}_{1} \textrm{S>NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S>NP & TOP-START*-*TOP & 0,0007 \\ 
+53 & & $ {}_0 \textrm{S>NP} \  \bullet \ {}_{1} \textrm{S>RP*} \ \textrm{RP} \  \otimes \ \textrm{S>RP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{NP} \  \otimes \  \bullet \ {}_{1} \textrm{S>NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S>NP & TOP-START*-*TOP & 0,0009 \\ 
+54 & & $ {}_0 \textrm{S>NP} \  \bullet \ {}_{1} \textrm{S>VBP*} \ \textrm{VBP} \  \otimes \ \textrm{S>VBP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{NP} \  \otimes \  \bullet \ {}_{1} \textrm{S>NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S>NP & TOP-START*-*TOP & 0,1999 \\ 
+55 & & $ {}_0 \textrm{S>NP} \  \bullet \ {}_{1} \textrm{S>--*} \ \textrm{--} \  \otimes \ \textrm{S>--} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{NP} \  \otimes \  \bullet \ {}_{1} \textrm{S>NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S>NP & TOP-START*-*TOP & 0,0009 \\ 
+56 & & $ {}_0 \textrm{S>NP} \  \bullet \ {}_{1} \textrm{S>ADVP*} \ \textrm{ADVP} \  \otimes \ \textrm{S>ADVP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{NP} \  \otimes \  \bullet \ {}_{1} \textrm{S>NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S>NP & TOP-START*-*TOP & 0,0251 \\ 
+57 & & $ {}_0 \textrm{S>NP} \  \bullet \ {}_{1} \textrm{S>AP*} \ \textrm{AP} \  \otimes \ \textrm{S>AP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{NP} \  \otimes \  \bullet \ {}_{1} \textrm{S>NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S>NP & TOP-START*-*TOP & 0,0247 \\ 
+58 & & $ {}_0 \textrm{S>NP} \  \otimes \  \bullet \ {}_{1} \textrm{S} $ & START-s2 [0,0] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{NP} \  \otimes \  \bullet \ {}_{1} \textrm{S>NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S>NP & TOP-START*-*TOP & 0,1398 \\ 
+59 & & $ {}_0 \textrm{S>NP} \  \bullet \ {}_{1} \textrm{S>VBD*} \ \textrm{VBD} \  \otimes \ \textrm{S>VBD} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{NP} \  \otimes \  \bullet \ {}_{1} \textrm{S>NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S>NP & TOP-START*-*TOP & 0,0204 \\ 
+60 & & $ {}_0 \textrm{S>NP} \  \bullet \ {}_{1} \textrm{S>VBZ*} \ \textrm{VBZ} \  \otimes \ \textrm{S>VBZ} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{NP} \  \otimes \  \bullet \ {}_{1} \textrm{S>NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S>NP & TOP-START*-*TOP & 0,2038 \\ 
+61 & & $ {}_0 \textrm{S>NP} \  \bullet \ {}_{1} \textrm{S>PP*} \ \textrm{PP} \  \otimes \ \textrm{S>PP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{NP} \  \otimes \  \bullet \ {}_{1} \textrm{S>NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S>NP & TOP-START*-*TOP & 0,0191 \\ 
+62 & & $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{1} \textrm{TOP} $ & START-s2 [0,0] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S>PP} \  \otimes \  \bullet \ {}_{1} \textrm{S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S & TOP-START*-*TOP & 0,035 \\ 
+ & Pre & $ {}_0 \textrm{S>S} \  \otimes \  \bullet \ {}_{1} \textrm{S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S & TOP-START*-*TOP & 0,035 \\ 
+ & Pre & $ {}_0 \textrm{S>NP} \  \otimes \  \bullet \ {}_{1} \textrm{S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S & TOP-START*-*TOP & 0,035 \\ 
+ & Pre & $ {}_0 \textrm{S>AP} \  \otimes \  \bullet \ {}_{1} \textrm{S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S & TOP-START*-*TOP & 0,035 \\ 
+63 & & $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{1} \textrm{TOP>S} $ & START-s2 [0,0] & completed & 0,0001 & 0,0001 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S>PP} \  \otimes \  \bullet \ {}_{1} \textrm{S} $ & START-s2 [0,0] & completed & 0,0001 & 0,0001 & proj & S & TOP-START*-*TOP & 0,9637 \\ 
+ & Pre & $ {}_0 \textrm{S>S} \  \otimes \  \bullet \ {}_{1} \textrm{S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S & TOP-START*-*TOP & 0,9637 \\ 
+ & Pre & $ {}_0 \textrm{S>NP} \  \otimes \  \bullet \ {}_{1} \textrm{S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S & TOP-START*-*TOP & 0,9637 \\ 
+ & Pre & $ {}_0 \textrm{S>AP} \  \otimes \  \bullet \ {}_{1} \textrm{S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S & TOP-START*-*TOP & 0,9637 \\ 
+64 & & $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{1} \textrm{SUGG>S} $ & START-s2 [0,0] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S>PP} \  \otimes \  \bullet \ {}_{1} \textrm{S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S & TOP-START*-*TOP & 0,0002 \\ 
+ & Pre & $ {}_0 \textrm{S>S} \  \otimes \  \bullet \ {}_{1} \textrm{S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S & TOP-START*-*TOP & 0,0002 \\ 
+ & Pre & $ {}_0 \textrm{S>NP} \  \otimes \  \bullet \ {}_{1} \textrm{S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S & TOP-START*-*TOP & 0,0002 \\ 
+ & Pre & $ {}_0 \textrm{S>AP} \  \otimes \  \bullet \ {}_{1} \textrm{S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S & TOP-START*-*TOP & 0,0002 \\ 
+65 & & $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{1} \textrm{S>S} $ & START-s2 [0,0] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S>PP} \  \otimes \  \bullet \ {}_{1} \textrm{S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S & TOP-START*-*TOP & 0,001 \\ 
+ & Pre & $ {}_0 \textrm{S>S} \  \otimes \  \bullet \ {}_{1} \textrm{S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S & TOP-START*-*TOP & 0,001 \\ 
+ & Pre & $ {}_0 \textrm{S>NP} \  \otimes \  \bullet \ {}_{1} \textrm{S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S & TOP-START*-*TOP & 0,001 \\ 
+ & Pre & $ {}_0 \textrm{S>AP} \  \otimes \  \bullet \ {}_{1} \textrm{S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S & TOP-START*-*TOP & 0,001 \\ 
+66 & & $ {}_0 \textrm{S>S} \  \bullet \ {}_{1} \textrm{S>S*} \ \textrm{S} \  \otimes \ \textrm{S>S} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{1} \textrm{S>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S>S & TOP-START*-*TOP & 0,0024 \\ 
+67 & & $ {}_0 \textrm{S>S} \  \bullet \ {}_{1} \textrm{S>VBP*} \ \textrm{VBP} \  \otimes \ \textrm{S>VBP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{1} \textrm{S>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S>S & TOP-START*-*TOP & 0,0024 \\ 
+68 & & $ {}_0 \textrm{S>S} \  \bullet \ {}_{1} \textrm{S>COMMA*} \ \textrm{COMMA} \  \otimes \ \textrm{S>COMMA} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{1} \textrm{S>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S>S & TOP-START*-*TOP & 0,0095 \\ 
+69 & & $ {}_0 \textrm{S>S} \  \otimes \  \bullet \ {}_{1} \textrm{S} $ & START-s2 [0,0] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{1} \textrm{S>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S>S & TOP-START*-*TOP & 0,9692 \\ 
+70 & & $ {}_0 \textrm{S>S} \  \bullet \ {}_{1} \textrm{S>NP*} \ \textrm{NP} \  \otimes \ \textrm{S>NP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{1} \textrm{S>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S>S & TOP-START*-*TOP & 0,0118 \\ 
+71 & & $ {}_0 \textrm{S>S} \  \bullet \ {}_{1} \textrm{S>UH*} \ \textrm{UH} \  \otimes \ \textrm{S>UH} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{1} \textrm{S>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S>S & TOP-START*-*TOP & 0,0024 \\ 
+72 & & $ {}_0 \textrm{S>S} \  \bullet \ {}_{1} \textrm{S>CNJ*} \ \textrm{CNJ} \  \otimes \ \textrm{S>CNJ} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{1} \textrm{S>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S>S & TOP-START*-*TOP & 0,0024 \\ 
+77 & & $ {}_0 \textrm{SUGG>S} \  \otimes \  \bullet \ {}_{1} \textrm{SUGG} $ & START-s2 [0,0] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{1} \textrm{SUGG>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & SUGG>S & TOP-START*-*TOP & 0,9091 \\ 
+78 & & $ {}_0 \textrm{SUGG>S} \  \bullet \ {}_{1} \textrm{SUGG>COMMA*} \ \textrm{COMMA} \  \otimes \ \textrm{SUGG>COMMA} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{1} \textrm{SUGG>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & SUGG>S & TOP-START*-*TOP & 0,0909 \\ 
+79 & & $ {}_0 \textrm{SUGG} \  \otimes \  \bullet \ {}_{1} \textrm{TOP} $ & START-s2 [0,0] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{SUGG>S} \  \otimes \  \bullet \ {}_{1} \textrm{SUGG} $ & START-s2 [0,0] & completed & 0 & 0 & proj & SUGG & TOP-START*-*TOP & 0,0065 \\ 
+80 & & $ {}_0 \textrm{SUGG} \  \otimes \  \bullet \ {}_{1} \textrm{TOP>SUGG} $ & START-s2 [0,0] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{SUGG>S} \  \otimes \  \bullet \ {}_{1} \textrm{SUGG} $ & START-s2 [0,0] & completed & 0 & 0 & proj & SUGG & TOP-START*-*TOP & 0,9935 \\ 
+81 & & $ {}_0 \textrm{TOP>SUGG} \  \bullet \ {}_{1} \textrm{TOP>COMMA*} \ \textrm{COMMA} \  \otimes \ \textrm{TOP>COMMA} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{SUGG} \  \otimes \  \bullet \ {}_{1} \textrm{TOP>SUGG} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>SUGG & TOP-START*-*TOP & 0,0196 \\ 
+82 & & $ {}_0 \textrm{TOP>SUGG} \  \bullet \ {}_{1} \textrm{TOP>NP*} \ \textrm{NP} \  \otimes \ \textrm{TOP>NP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{SUGG} \  \otimes \  \bullet \ {}_{1} \textrm{TOP>SUGG} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>SUGG & TOP-START*-*TOP & 0,0028 \\ 
+83 & & $ {}_0 \textrm{TOP>SUGG} \  \bullet \ {}_{1} \textrm{TOP>PUN*} \ \textrm{PUN} \  \otimes \ \textrm{TOP>PUN} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{SUGG} \  \otimes \  \bullet \ {}_{1} \textrm{TOP>SUGG} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>SUGG & TOP-START*-*TOP & 0,9777 \\ 
+84 & & $ {}_0 \textrm{TOP>S} \  \bullet \ {}_{1} \textrm{TOP>WRB*} \ \textrm{WRB} \  \otimes \ \textrm{TOP>WRB} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{1} \textrm{TOP>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>S & TOP-START*-*TOP & 0,0002 \\ 
+85 & & $ {}_0 \textrm{TOP>S} \  \bullet \ {}_{1} \textrm{TOP>FW*} \ \textrm{FW} \  \otimes \ \textrm{TOP>FW} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{1} \textrm{TOP>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>S & TOP-START*-*TOP & 0,0002 \\ 
+86 & & $ {}_0 \textrm{TOP>S} \  \bullet \ {}_{1} \textrm{TOP>VP*} \ \textrm{VP} \  \otimes \ \textrm{TOP>VP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{1} \textrm{TOP>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>S & TOP-START*-*TOP & 0,0008 \\ 
+87 & & $ {}_0 \textrm{TOP>S} \  \bullet \ {}_{1} \textrm{TOP>DTP*} \ \textrm{DTP} \  \otimes \ \textrm{TOP>DTP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{1} \textrm{TOP>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>S & TOP-START*-*TOP & 0,0044 \\ 
+88 & & $ {}_0 \textrm{TOP>S} \  \bullet \ {}_{1} \textrm{TOP>UH*} \ \textrm{UH} \  \otimes \ \textrm{TOP>UH} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{1} \textrm{TOP>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>S & TOP-START*-*TOP & 0,0052 \\ 
+89 & & $ {}_0 \textrm{TOP>S} \  \bullet \ {}_{1} \textrm{TOP>PP*} \ \textrm{PP} \  \otimes \ \textrm{TOP>PP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{1} \textrm{TOP>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>S & TOP-START*-*TOP & 0,0002 \\ 
+90 & & $ {}_0 \textrm{TOP>S} \  \bullet \ {}_{1} \textrm{TOP>PUN*} \ \textrm{PUN} \  \otimes \ \textrm{TOP>PUN} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{1} \textrm{TOP>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>S & TOP-START*-*TOP & 0,9164 \\ 
+91 & & $ {}_0 \textrm{TOP>S} \  \bullet \ {}_{1} \textrm{TOP>IN*} \ \textrm{IN} \  \otimes \ \textrm{TOP>IN} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{1} \textrm{TOP>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>S & TOP-START*-*TOP & 0,0056 \\ 
+92 & & $ {}_0 \textrm{TOP>S} \  \bullet \ {}_{1} \textrm{TOP>CNJ*} \ \textrm{CNJ} \  \otimes \ \textrm{TOP>CNJ} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{1} \textrm{TOP>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>S & TOP-START*-*TOP & 0,0027 \\ 
+93 & & $ {}_0 \textrm{TOP>S} \  \bullet \ {}_{1} \textrm{TOP>COMMA*} \ \textrm{COMMA} \  \otimes \ \textrm{TOP>COMMA} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{1} \textrm{TOP>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>S & TOP-START*-*TOP & 0,0259 \\ 
+94 & & $ {}_0 \textrm{TOP>S} \  \bullet \ {}_{1} \textrm{TOP>ADVP*} \ \textrm{ADVP} \  \otimes \ \textrm{TOP>ADVP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{1} \textrm{TOP>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>S & TOP-START*-*TOP & 0,0029 \\ 
+95 & & $ {}_0 \textrm{TOP>S} \  \bullet \ {}_{1} \textrm{TOP>S*} \ \textrm{S} \  \otimes \ \textrm{TOP>S} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{1} \textrm{TOP>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>S & TOP-START*-*TOP & 0,021 \\ 
+96 & & $ {}_0 \textrm{TOP>S} \  \bullet \ {}_{1} \textrm{TOP>VBZ*} \ \textrm{VBZ} \  \otimes \ \textrm{TOP>VBZ} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{1} \textrm{TOP>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>S & TOP-START*-*TOP & 0,0002 \\ 
+97 & & $ {}_0 \textrm{TOP>S} \  \bullet \ {}_{1} \textrm{TOP>CMP*} \ \textrm{CMP} \  \otimes \ \textrm{TOP>CMP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{1} \textrm{TOP>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>S & TOP-START*-*TOP & 0,0012 \\ 
+98 & & $ {}_0 \textrm{TOP>S} \  \bullet \ {}_{1} \textrm{TOP>NP*} \ \textrm{NP} \  \otimes \ \textrm{TOP>NP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{1} \textrm{TOP>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>S & TOP-START*-*TOP & 0,0044 \\ 
+99 & & $ {}_0 \textrm{TOP>S} \  \bullet \ {}_{1} \textrm{TOP>TO*} \ \textrm{TO} \  \otimes \ \textrm{TOP>TO} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{1} \textrm{TOP>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>S & TOP-START*-*TOP & 0,0003 \\ 
+100 & & $ {}_0 \textrm{TOP>S} \  \bullet \ {}_{1} \textrm{TOP>AP*} \ \textrm{AP} \  \otimes \ \textrm{TOP>AP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{1} \textrm{TOP>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>S & TOP-START*-*TOP & 0,0005 \\ 
+101 & & $ {}_0 \textrm{TOP>S} \  \otimes \  \bullet \ {}_{1} \textrm{TOP} $ & START-s2 [0,0] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{1} \textrm{TOP>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>S & TOP-START*-*TOP & 0,0081 \\ 
+102 & & $ {}_0 \textrm{AP>NP} \  \bullet \ {}_{1} \textrm{AP>JJR*} \ \textrm{JJR} \  \otimes \ \textrm{AP>JJR} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{NP} \  \otimes \  \bullet \ {}_{1} \textrm{AP>NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & AP>NP & TOP-START*-*TOP & 0,125 \\ 
+103 & & $ {}_0 \textrm{AP>NP} \  \otimes \  \bullet \ {}_{1} \textrm{AP} $ & START-s2 [0,0] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{NP} \  \otimes \  \bullet \ {}_{1} \textrm{AP>NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & AP>NP & TOP-START*-*TOP & 0,75 \\ 
+104 & & $ {}_0 \textrm{AP>NP} \  \bullet \ {}_{1} \textrm{AP>JJ*} \ \textrm{JJ} \  \otimes \ \textrm{AP>JJ} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{NP} \  \otimes \  \bullet \ {}_{1} \textrm{AP>NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & AP>NP & TOP-START*-*TOP & 0,125 \\ 
+105 & & $ {}_0 \textrm{AP} \  \otimes \  \bullet \ {}_{1} \textrm{AP>AP} $ & START-s2 [0,0] & completed & 0 & 0 & & & & \\ 
+ & Pre & $ {}_0 \textrm{AP>AP} \  \otimes \  \bullet \ {}_{1} \textrm{AP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & AP & TOP-START*-*TOP & 0,0049 \\ 
+ & Pre *& $ {}_0 \textrm{AP>NP} \  \otimes \  \bullet \ {}_{1} \textrm{AP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & AP & TOP-START*-*TOP & 0,0049 \\ 
+106 & & $ {}_0 \textrm{AP} \  \otimes \  \bullet \ {}_{1} \textrm{TOP} $ & START-s2 [0,0] & completed & 0 & 0 & & & & \\ 
+ & Pre & $ {}_0 \textrm{AP>AP} \  \otimes \  \bullet \ {}_{1} \textrm{AP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & AP & TOP-START*-*TOP & 0,0049 \\ 
+ & Pre *& $ {}_0 \textrm{AP>NP} \  \otimes \  \bullet \ {}_{1} \textrm{AP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & AP & TOP-START*-*TOP & 0,0049 \\ 
+107 & & $ {}_0 \textrm{AP} \  \otimes \  \bullet \ {}_{1} \textrm{S>AP} $ & START-s2 [0,0] & completed & 0 & 0 & & & & \\ 
+ & Pre & $ {}_0 \textrm{AP>AP} \  \otimes \  \bullet \ {}_{1} \textrm{AP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & AP & TOP-START*-*TOP & 0,0243 \\ 
+ & Pre *& $ {}_0 \textrm{AP>NP} \  \otimes \  \bullet \ {}_{1} \textrm{AP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & AP & TOP-START*-*TOP & 0,0243 \\ 
+108 & & $ {}_0 \textrm{AP} \  \otimes \  \bullet \ {}_{1} \textrm{TOP>AP} $ & START-s2 [0,0] & completed & 0 & 0 & & & & \\ 
+ & Pre & $ {}_0 \textrm{AP>AP} \  \otimes \  \bullet \ {}_{1} \textrm{AP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & AP & TOP-START*-*TOP & 0,6553 \\ 
+ & Pre *& $ {}_0 \textrm{AP>NP} \  \otimes \  \bullet \ {}_{1} \textrm{AP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & AP & TOP-START*-*TOP & 0,6553 \\ 
+109 & & $ {}_0 \textrm{AP} \  \otimes \  \bullet \ {}_{1} \textrm{NP>AP} $ & START-s2 [0,0] & completed & 0 & 0 & & & & \\ 
+ & Pre & $ {}_0 \textrm{AP>AP} \  \otimes \  \bullet \ {}_{1} \textrm{AP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & AP & TOP-START*-*TOP & 0,3107 \\ 
+ & Pre *& $ {}_0 \textrm{AP>NP} \  \otimes \  \bullet \ {}_{1} \textrm{AP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & AP & TOP-START*-*TOP & 0,3107 \\ 
+110 & & $ {}_0 \textrm{NP>AP} \  \bullet \ {}_{1} \textrm{NP>NP*} \ \textrm{NP} \  \otimes \ \textrm{NP>NP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{AP} \  \otimes \  \bullet \ {}_{1} \textrm{NP>AP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & NP>AP & TOP-START*-*TOP & 0,0221 \\ 
+111 & & $ {}_0 \textrm{NP>AP} \  \otimes \  \bullet \ {}_{1} \textrm{NP} $ & START-s2 [0,0] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{AP} \  \otimes \  \bullet \ {}_{1} \textrm{NP>AP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & NP>AP & TOP-START*-*TOP & 0,0354 \\ 
+112 & & $ {}_0 \textrm{NP>AP} \  \bullet \ {}_{1} \textrm{NP>PP*} \ \textrm{PP} \  \otimes \ \textrm{NP>PP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{AP} \  \otimes \  \bullet \ {}_{1} \textrm{NP>AP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & NP>AP & TOP-START*-*TOP & 0,0133 \\ 
+113 & & $ {}_0 \textrm{NP>AP} \  \bullet \ {}_{1} \textrm{NP>NNS*} \ \textrm{NNS} \  \otimes \ \textrm{NP>NNS} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{AP} \  \otimes \  \bullet \ {}_{1} \textrm{NP>AP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & NP>AP & TOP-START*-*TOP & 0,2655 \\ 
+114 & & $ {}_0 \textrm{NP>AP} \  \bullet \ {}_{1} \textrm{NP>CNUM*} \ \textrm{CNUM} \  \otimes \ \textrm{NP>CNUM} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{AP} \  \otimes \  \bullet \ {}_{1} \textrm{NP>AP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & NP>AP & TOP-START*-*TOP & 0,0044 \\ 
+115 & & $ {}_0 \textrm{NP>AP} \  \bullet \ {}_{1} \textrm{NP>NN*} \ \textrm{NN} \  \otimes \ \textrm{NP>NN} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{AP} \  \otimes \  \bullet \ {}_{1} \textrm{NP>AP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & NP>AP & TOP-START*-*TOP & 0,5708 \\ 
+116 & & $ {}_0 \textrm{NP>AP} \  \bullet \ {}_{1} \textrm{NP>N*} \ \textrm{N} \  \otimes \ \textrm{NP>N} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{AP} \  \otimes \  \bullet \ {}_{1} \textrm{NP>AP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & NP>AP & TOP-START*-*TOP & 0,0221 \\ 
+117 & & $ {}_0 \textrm{NP>AP} \  \bullet \ {}_{1} \textrm{NP>NPS*} \ \textrm{NPS} \  \otimes \ \textrm{NP>NPS} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{AP} \  \otimes \  \bullet \ {}_{1} \textrm{NP>AP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & NP>AP & TOP-START*-*TOP & 0,0044 \\ 
+118 & & $ {}_0 \textrm{NP>AP} \  \bullet \ {}_{1} \textrm{NP>COMMA*} \ \textrm{COMMA} \  \otimes \ \textrm{NP>COMMA} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{AP} \  \otimes \  \bullet \ {}_{1} \textrm{NP>AP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & NP>AP & TOP-START*-*TOP & 0,0133 \\ 
+119 & & $ {}_0 \textrm{NP>AP} \  \bullet \ {}_{1} \textrm{NP>AP*} \ \textrm{AP} \  \otimes \ \textrm{NP>AP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{AP} \  \otimes \  \bullet \ {}_{1} \textrm{NP>AP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & NP>AP & TOP-START*-*TOP & 0,0354 \\ 
+120 & & $ {}_0 \textrm{NP>AP} \  \bullet \ {}_{1} \textrm{NP>ADVP*} \ \textrm{ADVP} \  \otimes \ \textrm{NP>ADVP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{AP} \  \otimes \  \bullet \ {}_{1} \textrm{NP>AP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & NP>AP & TOP-START*-*TOP & 0,0133 \\ 
+129 & & $ {}_0 \textrm{TOP>AP} \  \bullet \ {}_{1} \textrm{TOP>S*} \ \textrm{S} \  \otimes \ \textrm{TOP>S} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{AP} \  \otimes \  \bullet \ {}_{1} \textrm{TOP>AP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>AP & TOP-START*-*TOP & 0,0083 \\ 
+130 & & $ {}_0 \textrm{TOP>AP} \  \bullet \ {}_{1} \textrm{TOP>AP*} \ \textrm{AP} \  \otimes \ \textrm{TOP>AP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{AP} \  \otimes \  \bullet \ {}_{1} \textrm{TOP>AP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>AP & TOP-START*-*TOP & 0,0139 \\ 
+131 & & $ {}_0 \textrm{TOP>AP} \  \otimes \  \bullet \ {}_{1} \textrm{TOP} $ & START-s2 [0,0] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{AP} \  \otimes \  \bullet \ {}_{1} \textrm{TOP>AP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>AP & TOP-START*-*TOP & 0,0083 \\ 
+132 & & $ {}_0 \textrm{TOP>AP} \  \bullet \ {}_{1} \textrm{TOP>PUN*} \ \textrm{PUN} \  \otimes \ \textrm{TOP>PUN} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{AP} \  \otimes \  \bullet \ {}_{1} \textrm{TOP>AP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>AP & TOP-START*-*TOP & 0,867 \\ 
+133 & & $ {}_0 \textrm{TOP>AP} \  \bullet \ {}_{1} \textrm{TOP>UH*} \ \textrm{UH} \  \otimes \ \textrm{TOP>UH} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{AP} \  \otimes \  \bullet \ {}_{1} \textrm{TOP>AP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>AP & TOP-START*-*TOP & 0,0083 \\ 
+134 & & $ {}_0 \textrm{TOP>AP} \  \bullet \ {}_{1} \textrm{TOP>PP*} \ \textrm{PP} \  \otimes \ \textrm{TOP>PP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{AP} \  \otimes \  \bullet \ {}_{1} \textrm{TOP>AP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>AP & TOP-START*-*TOP & 0,0028 \\ 
+135 & & $ {}_0 \textrm{TOP>AP} \  \bullet \ {}_{1} \textrm{TOP>COMMA*} \ \textrm{COMMA} \  \otimes \ \textrm{TOP>COMMA} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{AP} \  \otimes \  \bullet \ {}_{1} \textrm{TOP>AP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>AP & TOP-START*-*TOP & 0,072 \\ 
+136 & & $ {}_0 \textrm{TOP>AP} \  \bullet \ {}_{1} \textrm{TOP>NP*} \ \textrm{NP} \  \otimes \ \textrm{TOP>NP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{AP} \  \otimes \  \bullet \ {}_{1} \textrm{TOP>AP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>AP & TOP-START*-*TOP & 0,0194 \\ 
+137 & & $ {}_0 \textrm{S>AP} \  \bullet \ {}_{1} \textrm{S>RB*} \ \textrm{RB} \  \otimes \ \textrm{S>RB} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{AP} \  \otimes \  \bullet \ {}_{1} \textrm{S>AP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S>AP & TOP-START*-*TOP & 0,0011 \\ 
+138 & & $ {}_0 \textrm{S>AP} \  \bullet \ {}_{1} \textrm{S>S*} \ \textrm{S} \  \otimes \ \textrm{S>S} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{AP} \  \otimes \  \bullet \ {}_{1} \textrm{S>AP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S>AP & TOP-START*-*TOP & 0,0011 \\ 
+139 & & $ {}_0 \textrm{S>AP} \  \bullet \ {}_{1} \textrm{S>COMMA*} \ \textrm{COMMA} \  \otimes \ \textrm{S>COMMA} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{AP} \  \otimes \  \bullet \ {}_{1} \textrm{S>AP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S>AP & TOP-START*-*TOP & 0,0182 \\ 
+140 & & $ {}_0 \textrm{S>AP} \  \bullet \ {}_{1} \textrm{S>ADVP*} \ \textrm{ADVP} \  \otimes \ \textrm{S>ADVP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{AP} \  \otimes \  \bullet \ {}_{1} \textrm{S>AP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S>AP & TOP-START*-*TOP & 0,0279 \\ 
+141 & & $ {}_0 \textrm{S>AP} \  \otimes \  \bullet \ {}_{1} \textrm{S} $ & START-s2 [0,0] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{AP} \  \otimes \  \bullet \ {}_{1} \textrm{S>AP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S>AP & TOP-START*-*TOP & 0,6824 \\ 
+142 & & $ {}_0 \textrm{S>AP} \  \bullet \ {}_{1} \textrm{S>PP*} \ \textrm{PP} \  \otimes \ \textrm{S>PP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{AP} \  \otimes \  \bullet \ {}_{1} \textrm{S>AP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S>AP & TOP-START*-*TOP & 0,2028 \\ 
+143 & & $ {}_0 \textrm{S>AP} \  \bullet \ {}_{1} \textrm{S>UH*} \ \textrm{UH} \  \otimes \ \textrm{S>UH} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{AP} \  \otimes \  \bullet \ {}_{1} \textrm{S>AP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S>AP & TOP-START*-*TOP & 0,0011 \\ 
+144 & & $ {}_0 \textrm{S>AP} \  \bullet \ {}_{1} \textrm{S>VP*} \ \textrm{VP} \  \otimes \ \textrm{S>VP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{AP} \  \otimes \  \bullet \ {}_{1} \textrm{S>AP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S>AP & TOP-START*-*TOP & 0,0021 \\ 
+145 & & $ {}_0 \textrm{S>AP} \  \bullet \ {}_{1} \textrm{S>VBZ*} \ \textrm{VBZ} \  \otimes \ \textrm{S>VBZ} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{AP} \  \otimes \  \bullet \ {}_{1} \textrm{S>AP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S>AP & TOP-START*-*TOP & 0,0075 \\ 
+146 & & $ {}_0 \textrm{S>AP} \  \bullet \ {}_{1} \textrm{S>VBP*} \ \textrm{VBP} \  \otimes \ \textrm{S>VBP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{AP} \  \otimes \  \bullet \ {}_{1} \textrm{S>AP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S>AP & TOP-START*-*TOP & 0,0011 \\ 
+147 & & $ {}_0 \textrm{S>AP} \  \bullet \ {}_{1} \textrm{S>NP*} \ \textrm{NP} \  \otimes \ \textrm{S>NP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{AP} \  \otimes \  \bullet \ {}_{1} \textrm{S>AP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S>AP & TOP-START*-*TOP & 0,0536 \\ 
+148 & & $ {}_0 \textrm{S>AP} \  \bullet \ {}_{1} \textrm{S>CNJ*} \ \textrm{CNJ} \  \otimes \ \textrm{S>CNJ} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{AP} \  \otimes \  \bullet \ {}_{1} \textrm{S>AP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S>AP & TOP-START*-*TOP & 0,0011 \\ 
+153 & & $ {}_0 \textrm{AP>AP} \  \bullet \ {}_{1} \textrm{AP>CNJ*} \ \textrm{CNJ} \  \otimes \ \textrm{AP>CNJ} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{AP} \  \otimes \  \bullet \ {}_{1} \textrm{AP>AP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & AP>AP & TOP-START*-*TOP & 0,1667 \\ 
+154 & & $ {}_0 \textrm{AP>AP} \  \otimes \  \bullet \ {}_{1} \textrm{AP} $ & START-s2 [0,0] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{AP} \  \otimes \  \bullet \ {}_{1} \textrm{AP>AP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & AP>AP & TOP-START*-*TOP & 0,5 \\ 
+155 & & $ {}_0 \textrm{AP>AP} \  \bullet \ {}_{1} \textrm{AP>PP*} \ \textrm{PP} \  \otimes \ \textrm{AP>PP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{AP} \  \otimes \  \bullet \ {}_{1} \textrm{AP>AP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & AP>AP & TOP-START*-*TOP & 0,1667 \\ 
+156 & & $ {}_0 \textrm{AP>AP} \  \bullet \ {}_{1} \textrm{AP>COMMA*} \ \textrm{COMMA} \  \otimes \ \textrm{AP>COMMA} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{AP} \  \otimes \  \bullet \ {}_{1} \textrm{AP>AP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & AP>AP & TOP-START*-*TOP & 0,1667 \\ 
+162 & & $ {}_0 \textrm{VP>NP} \  \bullet \ {}_{1} \textrm{VP>PP*} \ \textrm{PP} \  \otimes \ \textrm{VP>PP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{NP} \  \otimes \  \bullet \ {}_{1} \textrm{VP>NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & VP>NP & TOP-START*-*TOP & 0,0701 \\ 
+163 & & $ {}_0 \textrm{VP>NP} \  \bullet \ {}_{1} \textrm{VP>VP*} \ \textrm{VP} \  \otimes \ \textrm{VP>VP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{NP} \  \otimes \  \bullet \ {}_{1} \textrm{VP>NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & VP>NP & TOP-START*-*TOP & 0,0064 \\ 
+164 & & $ {}_0 \textrm{VP>NP} \  \bullet \ {}_{1} \textrm{VP>NP*} \ \textrm{NP} \  \otimes \ \textrm{VP>NP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{NP} \  \otimes \  \bullet \ {}_{1} \textrm{VP>NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & VP>NP & TOP-START*-*TOP & 0,0255 \\ 
+165 & & $ {}_0 \textrm{VP>NP} \  \bullet \ {}_{1} \textrm{VP>AP*} \ \textrm{AP} \  \otimes \ \textrm{VP>AP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{NP} \  \otimes \  \bullet \ {}_{1} \textrm{VP>NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & VP>NP & TOP-START*-*TOP & 0,0064 \\ 
+166 & & $ {}_0 \textrm{VP>NP} \  \bullet \ {}_{1} \textrm{VP>COMMA*} \ \textrm{COMMA} \  \otimes \ \textrm{VP>COMMA} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{NP} \  \otimes \  \bullet \ {}_{1} \textrm{VP>NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & VP>NP & TOP-START*-*TOP & 0,0064 \\ 
+167 & & $ {}_0 \textrm{VP>NP} \  \bullet \ {}_{1} \textrm{VP>V*} \ \textrm{V} \  \otimes \ \textrm{VP>V} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{NP} \  \otimes \  \bullet \ {}_{1} \textrm{VP>NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & VP>NP & TOP-START*-*TOP & 0,0127 \\ 
+168 & & $ {}_0 \textrm{VP>NP} \  \bullet \ {}_{1} \textrm{VP>RP*} \ \textrm{RP} \  \otimes \ \textrm{VP>RP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{NP} \  \otimes \  \bullet \ {}_{1} \textrm{VP>NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & VP>NP & TOP-START*-*TOP & 0,0191 \\ 
+169 & & $ {}_0 \textrm{VP>NP} \  \bullet \ {}_{1} \textrm{VP>ADVP*} \ \textrm{ADVP} \  \otimes \ \textrm{VP>ADVP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{NP} \  \otimes \  \bullet \ {}_{1} \textrm{VP>NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & VP>NP & TOP-START*-*TOP & 0,4777 \\ 
+170 & & $ {}_0 \textrm{VP>NP} \  \otimes \  \bullet \ {}_{1} \textrm{VP} $ & START-s2 [0,0] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{NP} \  \otimes \  \bullet \ {}_{1} \textrm{VP>NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & VP>NP & TOP-START*-*TOP & 0,3758 \\ 
+171 & & $ {}_0 \textrm{VP} \  \otimes \  \bullet \ {}_{1} \textrm{NP>VP} $ & START-s2 [0,0] & completed & 0 & 0 & & & & \\ 
+ & Pre & $ {}_0 \textrm{VP>NP} \  \otimes \  \bullet \ {}_{1} \textrm{VP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & VP & TOP-START*-*TOP & 0,002 \\ 
+ & Pre & $ {}_0 \textrm{VP>VP} \  \otimes \  \bullet \ {}_{1} \textrm{VP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & VP & TOP-START*-*TOP & 0,002 \\ 
+ & Pre *& $ {}_0 \textrm{VP>PP} \  \otimes \  \bullet \ {}_{1} \textrm{VP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & VP & TOP-START*-*TOP & 0,002 \\ 
+172 & & $ {}_0 \textrm{VP} \  \otimes \  \bullet \ {}_{1} \textrm{VP>VP} $ & START-s2 [0,0] & completed & 0 & 0 & & & & \\ 
+ & Pre & $ {}_0 \textrm{VP>NP} \  \otimes \  \bullet \ {}_{1} \textrm{VP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & VP & TOP-START*-*TOP & 0,004 \\ 
+ & Pre & $ {}_0 \textrm{VP>VP} \  \otimes \  \bullet \ {}_{1} \textrm{VP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & VP & TOP-START*-*TOP & 0,004 \\ 
+ & Pre *& $ {}_0 \textrm{VP>PP} \  \otimes \  \bullet \ {}_{1} \textrm{VP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & VP & TOP-START*-*TOP & 0,004 \\ 
+173 & & $ {}_0 \textrm{VP} \  \otimes \  \bullet \ {}_{1} \textrm{TOP>VP} $ & START-s2 [0,0] & completed & 0 & 0 & & & & \\ 
+ & Pre & $ {}_0 \textrm{VP>NP} \  \otimes \  \bullet \ {}_{1} \textrm{VP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & VP & TOP-START*-*TOP & 0,9742 \\ 
+ & Pre & $ {}_0 \textrm{VP>VP} \  \otimes \  \bullet \ {}_{1} \textrm{VP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & VP & TOP-START*-*TOP & 0,9742 \\ 
+ & Pre *& $ {}_0 \textrm{VP>PP} \  \otimes \  \bullet \ {}_{1} \textrm{VP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & VP & TOP-START*-*TOP & 0,9742 \\ 
+174 & & $ {}_0 \textrm{VP} \  \otimes \  \bullet \ {}_{1} \textrm{TOP} $ & START-s2 [0,0] & completed & 0 & 0 & & & & \\ 
+ & Pre & $ {}_0 \textrm{VP>NP} \  \otimes \  \bullet \ {}_{1} \textrm{VP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & VP & TOP-START*-*TOP & 0,0198 \\ 
+ & Pre & $ {}_0 \textrm{VP>VP} \  \otimes \  \bullet \ {}_{1} \textrm{VP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & VP & TOP-START*-*TOP & 0,0198 \\ 
+ & Pre *& $ {}_0 \textrm{VP>PP} \  \otimes \  \bullet \ {}_{1} \textrm{VP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & VP & TOP-START*-*TOP & 0,0198 \\ 
+175 & & $ {}_0 \textrm{TOP>VP} \  \bullet \ {}_{1} \textrm{TOP>IN*} \ \textrm{IN} \  \otimes \ \textrm{TOP>IN} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{VP} \  \otimes \  \bullet \ {}_{1} \textrm{TOP>VP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>VP & TOP-START*-*TOP & 0,0048 \\ 
+176 & & $ {}_0 \textrm{TOP>VP} \  \bullet \ {}_{1} \textrm{TOP>DTP*} \ \textrm{DTP} \  \otimes \ \textrm{TOP>DTP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{VP} \  \otimes \  \bullet \ {}_{1} \textrm{TOP>VP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>VP & TOP-START*-*TOP & 0,0016 \\ 
+177 & & $ {}_0 \textrm{TOP>VP} \  \bullet \ {}_{1} \textrm{TOP>ADVP*} \ \textrm{ADVP} \  \otimes \ \textrm{TOP>ADVP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{VP} \  \otimes \  \bullet \ {}_{1} \textrm{TOP>VP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>VP & TOP-START*-*TOP & 0,0016 \\ 
+178 & & $ {}_0 \textrm{TOP>VP} \  \bullet \ {}_{1} \textrm{TOP>VP*} \ \textrm{VP} \  \otimes \ \textrm{TOP>VP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{VP} \  \otimes \  \bullet \ {}_{1} \textrm{TOP>VP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>VP & TOP-START*-*TOP & 0,0016 \\ 
+179 & & $ {}_0 \textrm{TOP>VP} \  \bullet \ {}_{1} \textrm{TOP>CNJ*} \ \textrm{CNJ} \  \otimes \ \textrm{TOP>CNJ} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{VP} \  \otimes \  \bullet \ {}_{1} \textrm{TOP>VP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>VP & TOP-START*-*TOP & 0,0048 \\ 
+180 & & $ {}_0 \textrm{TOP>VP} \  \bullet \ {}_{1} \textrm{TOP>COMMA*} \ \textrm{COMMA} \  \otimes \ \textrm{TOP>COMMA} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{VP} \  \otimes \  \bullet \ {}_{1} \textrm{TOP>VP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>VP & TOP-START*-*TOP & 0,0669 \\ 
+181 & & $ {}_0 \textrm{TOP>VP} \  \bullet \ {}_{1} \textrm{TOP>S*} \ \textrm{S} \  \otimes \ \textrm{TOP>S} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{VP} \  \otimes \  \bullet \ {}_{1} \textrm{TOP>VP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>VP & TOP-START*-*TOP & 0,0048 \\ 
+182 & & $ {}_0 \textrm{TOP>VP} \  \bullet \ {}_{1} \textrm{TOP>NP*} \ \textrm{NP} \  \otimes \ \textrm{TOP>NP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{VP} \  \otimes \  \bullet \ {}_{1} \textrm{TOP>VP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>VP & TOP-START*-*TOP & 0,0096 \\ 
+183 & & $ {}_0 \textrm{TOP>VP} \  \bullet \ {}_{1} \textrm{TOP>PUN*} \ \textrm{PUN} \  \otimes \ \textrm{TOP>PUN} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{VP} \  \otimes \  \bullet \ {}_{1} \textrm{TOP>VP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>VP & TOP-START*-*TOP & 0,8965 \\ 
+184 & & $ {}_0 \textrm{TOP>VP} \  \bullet \ {}_{1} \textrm{TOP>UH*} \ \textrm{UH} \  \otimes \ \textrm{TOP>UH} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{VP} \  \otimes \  \bullet \ {}_{1} \textrm{TOP>VP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>VP & TOP-START*-*TOP & 0,008 \\ 
+185 & & $ {}_0 \textrm{VP>VP} \  \bullet \ {}_{1} \textrm{VP>CNJ*} \ \textrm{CNJ} \  \otimes \ \textrm{VP>CNJ} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{VP} \  \otimes \  \bullet \ {}_{1} \textrm{VP>VP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & VP>VP & TOP-START*-*TOP & 0,0185 \\ 
+186 & & $ {}_0 \textrm{VP>VP} \  \otimes \  \bullet \ {}_{1} \textrm{VP} $ & START-s2 [0,0] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{VP} \  \otimes \  \bullet \ {}_{1} \textrm{VP>VP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & VP>VP & TOP-START*-*TOP & 0,9722 \\ 
+187 & & $ {}_0 \textrm{VP>VP} \  \bullet \ {}_{1} \textrm{VP>VP*} \ \textrm{VP} \  \otimes \ \textrm{VP>VP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{VP} \  \otimes \  \bullet \ {}_{1} \textrm{VP>VP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & VP>VP & TOP-START*-*TOP & 0,0093 \\ 
+192 & & $ {}_0 \textrm{NP>VP} \  \otimes \  \bullet \ {}_{1} \textrm{NP} $ & START-s2 [0,0] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{VP} \  \otimes \  \bullet \ {}_{1} \textrm{NP>VP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & NP>VP & TOP-START*-*TOP & 0,8333 \\ 
+193 & & $ {}_0 \textrm{NP>VP} \  \bullet \ {}_{1} \textrm{NP>NN*} \ \textrm{NN} \  \otimes \ \textrm{NP>NN} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{VP} \  \otimes \  \bullet \ {}_{1} \textrm{NP>VP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & NP>VP & TOP-START*-*TOP & 0,0833 \\ 
+194 & & $ {}_0 \textrm{NP>VP} \  \bullet \ {}_{1} \textrm{NP>PP*} \ \textrm{PP} \  \otimes \ \textrm{NP>PP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{VP} \  \otimes \  \bullet \ {}_{1} \textrm{NP>VP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & NP>VP & TOP-START*-*TOP & 0,0833 \\ 
+203 & & $ {}_0 \textrm{NP>NP} \  \bullet \ {}_{1} \textrm{NP>ADVP*} \ \textrm{ADVP} \  \otimes \ \textrm{NP>ADVP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{NP} \  \otimes \  \bullet \ {}_{1} \textrm{NP>NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & NP>NP & TOP-START*-*TOP & 0,0092 \\ 
+204 & & $ {}_0 \textrm{NP>NP} \  \bullet \ {}_{1} \textrm{NP>S*} \ \textrm{S} \  \otimes \ \textrm{NP>S} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{NP} \  \otimes \  \bullet \ {}_{1} \textrm{NP>NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & NP>NP & TOP-START*-*TOP & 0,0013 \\ 
+205 & & $ {}_0 \textrm{NP>NP} \  \bullet \ {}_{1} \textrm{NP>NPS*} \ \textrm{NPS} \  \otimes \ \textrm{NP>NPS} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{NP} \  \otimes \  \bullet \ {}_{1} \textrm{NP>NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & NP>NP & TOP-START*-*TOP & 0,0026 \\ 
+206 & & $ {}_0 \textrm{NP>NP} \  \bullet \ {}_{1} \textrm{NP>PP*} \ \textrm{PP} \  \otimes \ \textrm{NP>PP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{NP} \  \otimes \  \bullet \ {}_{1} \textrm{NP>NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & NP>NP & TOP-START*-*TOP & 0,017 \\ 
+207 & & $ {}_0 \textrm{NP>NP} \  \bullet \ {}_{1} \textrm{NP>COMMA*} \ \textrm{COMMA} \  \otimes \ \textrm{NP>COMMA} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{NP} \  \otimes \  \bullet \ {}_{1} \textrm{NP>NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & NP>NP & TOP-START*-*TOP & 0,0681 \\ 
+208 & & $ {}_0 \textrm{NP>NP} \  \bullet \ {}_{1} \textrm{NP>NP*} \ \textrm{NP} \  \otimes \ \textrm{NP>NP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{NP} \  \otimes \  \bullet \ {}_{1} \textrm{NP>NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & NP>NP & TOP-START*-*TOP & 0,1649 \\ 
+209 & & $ {}_0 \textrm{NP>NP} \  \bullet \ {}_{1} \textrm{NP>NNS*} \ \textrm{NNS} \  \otimes \ \textrm{NP>NNS} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{NP} \  \otimes \  \bullet \ {}_{1} \textrm{NP>NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & NP>NP & TOP-START*-*TOP & 0,0183 \\ 
+210 & & $ {}_0 \textrm{NP>NP} \  \bullet \ {}_{1} \textrm{NP>CNUM*} \ \textrm{CNUM} \  \otimes \ \textrm{NP>CNUM} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{NP} \  \otimes \  \bullet \ {}_{1} \textrm{NP>NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & NP>NP & TOP-START*-*TOP & 0,0013 \\ 
+211 & & $ {}_0 \textrm{NP>NP} \  \bullet \ {}_{1} \textrm{NP>N*} \ \textrm{N} \  \otimes \ \textrm{NP>N} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{NP} \  \otimes \  \bullet \ {}_{1} \textrm{NP>NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & NP>NP & TOP-START*-*TOP & 0,0026 \\ 
+212 & & $ {}_0 \textrm{NP>NP} \  \bullet \ {}_{1} \textrm{NP>POS*} \ \textrm{POS} \  \otimes \ \textrm{NP>POS} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{NP} \  \otimes \  \bullet \ {}_{1} \textrm{NP>NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & NP>NP & TOP-START*-*TOP & 0,0013 \\ 
+213 & & $ {}_0 \textrm{NP>NP} \  \bullet \ {}_{1} \textrm{NP>DTP*} \ \textrm{DTP} \  \otimes \ \textrm{NP>DTP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{NP} \  \otimes \  \bullet \ {}_{1} \textrm{NP>NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & NP>NP & TOP-START*-*TOP & 0,0052 \\ 
+214 & & $ {}_0 \textrm{NP>NP} \  \otimes \  \bullet \ {}_{1} \textrm{NP} $ & START-s2 [0,0] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{NP} \  \otimes \  \bullet \ {}_{1} \textrm{NP>NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & NP>NP & TOP-START*-*TOP & 0,5681 \\ 
+215 & & $ {}_0 \textrm{NP>NP} \  \bullet \ {}_{1} \textrm{NP>AP*} \ \textrm{AP} \  \otimes \ \textrm{NP>AP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{NP} \  \otimes \  \bullet \ {}_{1} \textrm{NP>NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & NP>NP & TOP-START*-*TOP & 0,0052 \\ 
+216 & & $ {}_0 \textrm{NP>NP} \  \bullet \ {}_{1} \textrm{NP>CNJ2*} \ \textrm{CNJ2} \  \otimes \ \textrm{NP>CNJ2} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{NP} \  \otimes \  \bullet \ {}_{1} \textrm{NP>NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & NP>NP & TOP-START*-*TOP & 0,0026 \\ 
+217 & & $ {}_0 \textrm{NP>NP} \  \bullet \ {}_{1} \textrm{NP>NN*} \ \textrm{NN} \  \otimes \ \textrm{NP>NN} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{NP} \  \otimes \  \bullet \ {}_{1} \textrm{NP>NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & NP>NP & TOP-START*-*TOP & 0,0484 \\ 
+218 & & $ {}_0 \textrm{NP>NP} \  \bullet \ {}_{1} \textrm{NP>CNJ*} \ \textrm{CNJ} \  \otimes \ \textrm{NP>CNJ} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{NP} \  \otimes \  \bullet \ {}_{1} \textrm{NP>NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & NP>NP & TOP-START*-*TOP & 0,0838 \\ 
+227 & & $ {}_0 \textrm{N>NP} \  \bullet \ {}_{1} \textrm{N>NN*} \ \textrm{NN} \  \otimes \ \textrm{N>NN} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{NP} \  \otimes \  \bullet \ {}_{1} \textrm{N>NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & N>NP & TOP-START*-*TOP & 0,9 \\ 
+228 & & $ {}_0 \textrm{N>NP} \  \bullet \ {}_{1} \textrm{N>NNS*} \ \textrm{NNS} \  \otimes \ \textrm{N>NNS} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{NP} \  \otimes \  \bullet \ {}_{1} \textrm{N>NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & N>NP & TOP-START*-*TOP & 0,1 \\ 
+229 & & $ {}_0 \textrm{TOP>NP} \  \bullet \ {}_{1} \textrm{TOP>UH*} \ \textrm{UH} \  \otimes \ \textrm{TOP>UH} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{NP} \  \otimes \  \bullet \ {}_{1} \textrm{TOP>NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>NP & TOP-START*-*TOP & 0,011 \\ 
+230 & & $ {}_0 \textrm{TOP>NP} \  \bullet \ {}_{1} \textrm{TOP>ADVP*} \ \textrm{ADVP} \  \otimes \ \textrm{TOP>ADVP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{NP} \  \otimes \  \bullet \ {}_{1} \textrm{TOP>NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>NP & TOP-START*-*TOP & 0,005 \\ 
+231 & & $ {}_0 \textrm{TOP>NP} \  \bullet \ {}_{1} \textrm{TOP>COMMA*} \ \textrm{COMMA} \  \otimes \ \textrm{TOP>COMMA} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{NP} \  \otimes \  \bullet \ {}_{1} \textrm{TOP>NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>NP & TOP-START*-*TOP & 0,0553 \\ 
+232 & & $ {}_0 \textrm{TOP>NP} \  \bullet \ {}_{1} \textrm{TOP>NN*} \ \textrm{NN} \  \otimes \ \textrm{TOP>NN} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{NP} \  \otimes \  \bullet \ {}_{1} \textrm{TOP>NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>NP & TOP-START*-*TOP & 0,0005 \\ 
+233 & & $ {}_0 \textrm{TOP>NP} \  \bullet \ {}_{1} \textrm{TOP>PUN*} \ \textrm{PUN} \  \otimes \ \textrm{TOP>PUN} $ & START-s2 [0,0] & starred & 0,0001 & 0,0001 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{NP} \  \otimes \  \bullet \ {}_{1} \textrm{TOP>NP} $ & START-s2 [0,0] & completed & 0,0001 & 0,0001 & proj & TOP>NP & TOP-START*-*TOP & 0,8282 \\ 
+234 & & $ {}_0 \textrm{TOP>NP} \  \otimes \  \bullet \ {}_{1} \textrm{TOP} $ & START-s2 [0,0] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{NP} \  \otimes \  \bullet \ {}_{1} \textrm{TOP>NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>NP & TOP-START*-*TOP & 0,011 \\ 
+235 & & $ {}_0 \textrm{TOP>NP} \  \bullet \ {}_{1} \textrm{TOP>SUGG*} \ \textrm{SUGG} \  \otimes \ \textrm{TOP>SUGG} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{NP} \  \otimes \  \bullet \ {}_{1} \textrm{TOP>NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>NP & TOP-START*-*TOP & 0,0015 \\ 
+236 & & $ {}_0 \textrm{TOP>NP} \  \bullet \ {}_{1} \textrm{TOP>CNJ*} \ \textrm{CNJ} \  \otimes \ \textrm{TOP>CNJ} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{NP} \  \otimes \  \bullet \ {}_{1} \textrm{TOP>NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>NP & TOP-START*-*TOP & 0,002 \\ 
+237 & & $ {}_0 \textrm{TOP>NP} \  \bullet \ {}_{1} \textrm{TOP>S*} \ \textrm{S} \  \otimes \ \textrm{TOP>S} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{NP} \  \otimes \  \bullet \ {}_{1} \textrm{TOP>NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>NP & TOP-START*-*TOP & 0,0473 \\ 
+238 & & $ {}_0 \textrm{TOP>NP} \  \bullet \ {}_{1} \textrm{TOP>VP*} \ \textrm{VP} \  \otimes \ \textrm{TOP>VP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{NP} \  \otimes \  \bullet \ {}_{1} \textrm{TOP>NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>NP & TOP-START*-*TOP & 0,0105 \\ 
+239 & & $ {}_0 \textrm{TOP>NP} \  \bullet \ {}_{1} \textrm{TOP>DGP*} \ \textrm{DGP} \  \otimes \ \textrm{TOP>DGP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{NP} \  \otimes \  \bullet \ {}_{1} \textrm{TOP>NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>NP & TOP-START*-*TOP & 0,0005 \\ 
+240 & & $ {}_0 \textrm{TOP>NP} \  \bullet \ {}_{1} \textrm{TOP>VBP*} \ \textrm{VBP} \  \otimes \ \textrm{TOP>VBP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{NP} \  \otimes \  \bullet \ {}_{1} \textrm{TOP>NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>NP & TOP-START*-*TOP & 0,0005 \\ 
+241 & & $ {}_0 \textrm{TOP>NP} \  \bullet \ {}_{1} \textrm{TOP>AP*} \ \textrm{AP} \  \otimes \ \textrm{TOP>AP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{NP} \  \otimes \  \bullet \ {}_{1} \textrm{TOP>NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>NP & TOP-START*-*TOP & 0,0015 \\ 
+242 & & $ {}_0 \textrm{TOP>NP} \  \bullet \ {}_{1} \textrm{TOP>NP*} \ \textrm{NP} \  \otimes \ \textrm{TOP>NP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{NP} \  \otimes \  \bullet \ {}_{1} \textrm{TOP>NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>NP & TOP-START*-*TOP & 0,0204 \\ 
+243 & & $ {}_0 \textrm{TOP>NP} \  \bullet \ {}_{1} \textrm{TOP>IN*} \ \textrm{IN} \  \otimes \ \textrm{TOP>IN} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{NP} \  \otimes \  \bullet \ {}_{1} \textrm{TOP>NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>NP & TOP-START*-*TOP & 0,004 \\ 
+244 & & $ {}_0 \textrm{TOP>NP} \  \bullet \ {}_{1} \textrm{TOP>DTP*} \ \textrm{DTP} \  \otimes \ \textrm{TOP>DTP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{NP} \  \otimes \  \bullet \ {}_{1} \textrm{TOP>NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>NP & TOP-START*-*TOP & 0,0005 \\ 
+245 & & $ {}_0 \textrm{TOP>NP} \  \bullet \ {}_{1} \textrm{TOP>VBD*} \ \textrm{VBD} \  \otimes \ \textrm{TOP>VBD} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{NP} \  \otimes \  \bullet \ {}_{1} \textrm{TOP>NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>NP & TOP-START*-*TOP & 0,0005 \\ 
+246 & & $ {}_0 \textrm{VP>PP} \  \otimes \  \bullet \ {}_{1} \textrm{VP} $ & START-s2 [0,0] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{PP} \  \otimes \  \bullet \ {}_{1} \textrm{VP>PP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & VP>PP & TOP-START*-*TOP & 0,8627 \\ 
+247 & & $ {}_0 \textrm{VP>PP} \  \bullet \ {}_{1} \textrm{VP>PP*} \ \textrm{PP} \  \otimes \ \textrm{VP>PP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{PP} \  \otimes \  \bullet \ {}_{1} \textrm{VP>PP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & VP>PP & TOP-START*-*TOP & 0,0196 \\ 
+248 & & $ {}_0 \textrm{VP>PP} \  \bullet \ {}_{1} \textrm{VP>S*} \ \textrm{S} \  \otimes \ \textrm{VP>S} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{PP} \  \otimes \  \bullet \ {}_{1} \textrm{VP>PP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & VP>PP & TOP-START*-*TOP & 0,0098 \\ 
+249 & & $ {}_0 \textrm{VP>PP} \  \bullet \ {}_{1} \textrm{VP>ADVP*} \ \textrm{ADVP} \  \otimes \ \textrm{VP>ADVP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{PP} \  \otimes \  \bullet \ {}_{1} \textrm{VP>PP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & VP>PP & TOP-START*-*TOP & 0,0588 \\ 
+250 & & $ {}_0 \textrm{VP>PP} \  \bullet \ {}_{1} \textrm{VP>COMMA*} \ \textrm{COMMA} \  \otimes \ \textrm{VP>COMMA} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{PP} \  \otimes \  \bullet \ {}_{1} \textrm{VP>PP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & VP>PP & TOP-START*-*TOP & 0,049 \\ 
+263 & & $ {}_0 \textrm{PP>PP} \  \bullet \ {}_{1} \textrm{PP>COMMA*} \ \textrm{COMMA} \  \otimes \ \textrm{PP>COMMA} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{PP} \  \otimes \  \bullet \ {}_{1} \textrm{PP>PP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & PP>PP & TOP-START*-*TOP & 0,0137 \\ 
+264 & & $ {}_0 \textrm{PP>PP} \  \bullet \ {}_{1} \textrm{PP>CNJ2*} \ \textrm{CNJ2} \  \otimes \ \textrm{PP>CNJ2} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{PP} \  \otimes \  \bullet \ {}_{1} \textrm{PP>PP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & PP>PP & TOP-START*-*TOP & 0,0137 \\ 
+265 & & $ {}_0 \textrm{PP>PP} \  \bullet \ {}_{1} \textrm{PP>PP*} \ \textrm{PP} \  \otimes \ \textrm{PP>PP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{PP} \  \otimes \  \bullet \ {}_{1} \textrm{PP>PP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & PP>PP & TOP-START*-*TOP & 0,2192 \\ 
+266 & & $ {}_0 \textrm{PP>PP} \  \bullet \ {}_{1} \textrm{PP>IN*} \ \textrm{IN} \  \otimes \ \textrm{PP>IN} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{PP} \  \otimes \  \bullet \ {}_{1} \textrm{PP>PP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & PP>PP & TOP-START*-*TOP & 0,0274 \\ 
+267 & & $ {}_0 \textrm{PP>PP} \  \bullet \ {}_{1} \textrm{PP>ADVP*} \ \textrm{ADVP} \  \otimes \ \textrm{PP>ADVP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{PP} \  \otimes \  \bullet \ {}_{1} \textrm{PP>PP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & PP>PP & TOP-START*-*TOP & 0,0137 \\ 
+268 & & $ {}_0 \textrm{PP>PP} \  \otimes \  \bullet \ {}_{1} \textrm{PP} $ & START-s2 [0,0] & completed & 0,0001 & 0,0001 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{PP} \  \otimes \  \bullet \ {}_{1} \textrm{PP>PP} $ & START-s2 [0,0] & completed & 0,0001 & 0,0001 & proj & PP>PP & TOP-START*-*TOP & 0,7123 \\ 
+276 & & $ {}_0 \textrm{S>PP} \  \bullet \ {}_{1} \textrm{S>VBD*} \ \textrm{VBD} \  \otimes \ \textrm{S>VBD} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{PP} \  \otimes \  \bullet \ {}_{1} \textrm{S>PP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S>PP & TOP-START*-*TOP & 0,0022 \\ 
+277 & & $ {}_0 \textrm{S>PP} \  \bullet \ {}_{1} \textrm{S>COMMA*} \ \textrm{COMMA} \  \otimes \ \textrm{S>COMMA} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{PP} \  \otimes \  \bullet \ {}_{1} \textrm{S>PP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S>PP & TOP-START*-*TOP & 0,0132 \\ 
+278 & & $ {}_0 \textrm{S>PP} \  \bullet \ {}_{1} \textrm{S>VBP*} \ \textrm{VBP} \  \otimes \ \textrm{S>VBP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{PP} \  \otimes \  \bullet \ {}_{1} \textrm{S>PP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S>PP & TOP-START*-*TOP & 0,0044 \\ 
+279 & & $ {}_0 \textrm{S>PP} \  \bullet \ {}_{1} \textrm{S>S*} \ \textrm{S} \  \otimes \ \textrm{S>S} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{PP} \  \otimes \  \bullet \ {}_{1} \textrm{S>PP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S>PP & TOP-START*-*TOP & 0,0022 \\ 
+280 & & $ {}_0 \textrm{S>PP} \  \otimes \  \bullet \ {}_{1} \textrm{S} $ & START-s2 [0,0] & completed & 0,0001 & 0,0001 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{PP} \  \otimes \  \bullet \ {}_{1} \textrm{S>PP} $ & START-s2 [0,0] & completed & 0,0001 & 0,0001 & proj & S>PP & TOP-START*-*TOP & 0,8565 \\ 
+281 & & $ {}_0 \textrm{S>PP} \  \bullet \ {}_{1} \textrm{S>PP*} \ \textrm{PP} \  \otimes \ \textrm{S>PP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{PP} \  \otimes \  \bullet \ {}_{1} \textrm{S>PP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S>PP & TOP-START*-*TOP & 0,0177 \\ 
+282 & & $ {}_0 \textrm{S>PP} \  \bullet \ {}_{1} \textrm{S>ADVP*} \ \textrm{ADVP} \  \otimes \ \textrm{S>ADVP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{PP} \  \otimes \  \bullet \ {}_{1} \textrm{S>PP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S>PP & TOP-START*-*TOP & 0,0574 \\ 
+283 & & $ {}_0 \textrm{S>PP} \  \bullet \ {}_{1} \textrm{S>NP*} \ \textrm{NP} \  \otimes \ \textrm{S>NP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{PP} \  \otimes \  \bullet \ {}_{1} \textrm{S>PP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S>PP & TOP-START*-*TOP & 0,0442 \\ 
+284 & & $ {}_0 \textrm{S>PP} \  \bullet \ {}_{1} \textrm{S>VBZ*} \ \textrm{VBZ} \  \otimes \ \textrm{S>VBZ} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{PP} \  \otimes \  \bullet \ {}_{1} \textrm{S>PP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S>PP & TOP-START*-*TOP & 0,0022 \\ 
+289 & & $ {}_0 \textrm{S>NP} \ \textrm{S>MD*} \  \bullet \ {}_{1} \textrm{MD} \  \otimes \ \textrm{S>MD} $ & START-s2 [0,0] & incomplete & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S>NP} \  \bullet \ {}_{1} \textrm{S>MD*} \ \textrm{MD} \  \otimes \ \textrm{S>MD} $ & START-s2 [0,0] & starred & 0 & 0 & shift1 & - & - & 0,0491 \\ 
+\hline \multicolumn{5}{l}{\textbf{Chart Cell 2}} & forwP & vitP & op. & lc & gc & P \\ \hline
+290 & & $ {}_1 \textrm{S>MD*} \  \otimes \  \bullet \ {}_{2} \textrm{should} $ & S>MD-s2 [0,1] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S>NP} \  \bullet \ {}_{1} \textrm{S>MD*} \ \textrm{MD} \  \otimes \ \textrm{S>MD} $ & START-s2 [0,0] & starred & 0 & 0 & shift2 & S>MD* & MD & 0,0491 \\ 
+291 & & $ {}_1 \textrm{should} \  \otimes \  \bullet \ {}_{2} \textrm{MD} $ & S>MD-s2 [0,1] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_1 \textrm{S>MD*} \  \otimes \  \bullet \ {}_{2} \textrm{should} $ & S>MD-s2 [0,1] & completed & 0 & 0 & proj & should & MD-S>MD*S>NP*MD & 1 \\ 
+292 & & $ {}_0 \textrm{S>NP} \ \textrm{S>MD*} \ \textrm{MD} \  \otimes \  \bullet \ {}_{2} \textrm{S>MD} $ & START-s2 [0,0] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_1 \textrm{should} \  \otimes \  \bullet \ {}_{2} \textrm{MD} $ & S>MD-s2 [0,1] & completed & 0 & 0 & att & MD & MD-S>MD*S>NP*MD & 1 \\ 
+293 & & $ {}_0 \textrm{S>MD} \  \bullet \ {}_{2} \textrm{S>VP*} \ \textrm{VP} \  \otimes \ \textrm{S>VP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S>NP} \ \textrm{S>MD*} \ \textrm{MD} \  \otimes \  \bullet \ {}_{2} \textrm{S>MD} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S>MD & TOP-START*-*TOP & 0,6768 \\ 
+294 & & $ {}_0 \textrm{S>MD} \  \bullet \ {}_{2} \textrm{S>ADVP*} \ \textrm{ADVP} \  \otimes \ \textrm{S>ADVP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S>NP} \ \textrm{S>MD*} \ \textrm{MD} \  \otimes \  \bullet \ {}_{2} \textrm{S>MD} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S>MD & TOP-START*-*TOP & 0,0447 \\ 
+295 & & $ {}_0 \textrm{S>MD} \  \bullet \ {}_{2} \textrm{S>COMMA*} \ \textrm{COMMA} \  \otimes \ \textrm{S>COMMA} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S>NP} \ \textrm{S>MD*} \ \textrm{MD} \  \otimes \  \bullet \ {}_{2} \textrm{S>MD} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S>MD & TOP-START*-*TOP & 0,0276 \\ 
+296 & & $ {}_0 \textrm{S>MD} \  \bullet \ {}_{2} \textrm{S>NP*} \ \textrm{NP} \  \otimes \ \textrm{S>NP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S>NP} \ \textrm{S>MD*} \ \textrm{MD} \  \otimes \  \bullet \ {}_{2} \textrm{S>MD} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S>MD & TOP-START*-*TOP & 0,1854 \\ 
+297 & & $ {}_0 \textrm{S>MD} \  \otimes \  \bullet \ {}_{2} \textrm{S} $ & START-s2 [0,0] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S>NP} \ \textrm{S>MD*} \ \textrm{MD} \  \otimes \  \bullet \ {}_{2} \textrm{S>MD} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S>MD & TOP-START*-*TOP & 0,0428 \\ 
+298 & & $ {}_0 \textrm{S>MD} \  \bullet \ {}_{2} \textrm{S>RB*} \ \textrm{RB} \  \otimes \ \textrm{S>RB} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S>NP} \ \textrm{S>MD*} \ \textrm{MD} \  \otimes \  \bullet \ {}_{2} \textrm{S>MD} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S>MD & TOP-START*-*TOP & 0,0228 \\ 
+299 & & $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{2} \textrm{TOP} $ & START-s2 [0,0] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S>MD} \  \otimes \  \bullet \ {}_{2} \textrm{S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S & TOP-START*-*TOP & 0,035 \\ 
+ & Pre & $ {}_0 \textrm{S>S} \  \otimes \  \bullet \ {}_{2} \textrm{S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S & TOP-START*-*TOP & 0,035 \\ 
+300 & & $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{2} \textrm{TOP>S} $ & START-s2 [0,0] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S>MD} \  \otimes \  \bullet \ {}_{2} \textrm{S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S & TOP-START*-*TOP & 0,9637 \\ 
+ & Pre & $ {}_0 \textrm{S>S} \  \otimes \  \bullet \ {}_{2} \textrm{S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S & TOP-START*-*TOP & 0,9637 \\ 
+301 & & $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{2} \textrm{SUGG>S} $ & START-s2 [0,0] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S>MD} \  \otimes \  \bullet \ {}_{2} \textrm{S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S & TOP-START*-*TOP & 0,0002 \\ 
+ & Pre & $ {}_0 \textrm{S>S} \  \otimes \  \bullet \ {}_{2} \textrm{S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S & TOP-START*-*TOP & 0,0002 \\ 
+302 & & $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{2} \textrm{S>S} $ & START-s2 [0,0] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S>MD} \  \otimes \  \bullet \ {}_{2} \textrm{S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S & TOP-START*-*TOP & 0,001 \\ 
+ & Pre & $ {}_0 \textrm{S>S} \  \otimes \  \bullet \ {}_{2} \textrm{S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S & TOP-START*-*TOP & 0,001 \\ 
+303 & & $ {}_0 \textrm{S>S} \  \bullet \ {}_{2} \textrm{S>S*} \ \textrm{S} \  \otimes \ \textrm{S>S} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{2} \textrm{S>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S>S & TOP-START*-*TOP & 0,0024 \\ 
+304 & & $ {}_0 \textrm{S>S} \  \bullet \ {}_{2} \textrm{S>VBP*} \ \textrm{VBP} \  \otimes \ \textrm{S>VBP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{2} \textrm{S>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S>S & TOP-START*-*TOP & 0,0024 \\ 
+305 & & $ {}_0 \textrm{S>S} \  \bullet \ {}_{2} \textrm{S>COMMA*} \ \textrm{COMMA} \  \otimes \ \textrm{S>COMMA} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{2} \textrm{S>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S>S & TOP-START*-*TOP & 0,0095 \\ 
+306 & & $ {}_0 \textrm{S>S} \  \otimes \  \bullet \ {}_{2} \textrm{S} $ & START-s2 [0,0] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{2} \textrm{S>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S>S & TOP-START*-*TOP & 0,9692 \\ 
+307 & & $ {}_0 \textrm{S>S} \  \bullet \ {}_{2} \textrm{S>NP*} \ \textrm{NP} \  \otimes \ \textrm{S>NP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{2} \textrm{S>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S>S & TOP-START*-*TOP & 0,0118 \\ 
+308 & & $ {}_0 \textrm{S>S} \  \bullet \ {}_{2} \textrm{S>UH*} \ \textrm{UH} \  \otimes \ \textrm{S>UH} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{2} \textrm{S>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S>S & TOP-START*-*TOP & 0,0024 \\ 
+309 & & $ {}_0 \textrm{S>S} \  \bullet \ {}_{2} \textrm{S>CNJ*} \ \textrm{CNJ} \  \otimes \ \textrm{S>CNJ} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{2} \textrm{S>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S>S & TOP-START*-*TOP & 0,0024 \\ 
+314 & & $ {}_0 \textrm{SUGG>S} \  \otimes \  \bullet \ {}_{2} \textrm{SUGG} $ & START-s2 [0,0] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{2} \textrm{SUGG>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & SUGG>S & TOP-START*-*TOP & 0,9091 \\ 
+315 & & $ {}_0 \textrm{SUGG>S} \  \bullet \ {}_{2} \textrm{SUGG>COMMA*} \ \textrm{COMMA} \  \otimes \ \textrm{SUGG>COMMA} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{2} \textrm{SUGG>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & SUGG>S & TOP-START*-*TOP & 0,0909 \\ 
+316 & & $ {}_0 \textrm{SUGG} \  \otimes \  \bullet \ {}_{2} \textrm{TOP} $ & START-s2 [0,0] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{SUGG>S} \  \otimes \  \bullet \ {}_{2} \textrm{SUGG} $ & START-s2 [0,0] & completed & 0 & 0 & proj & SUGG & TOP-START*-*TOP & 0,0065 \\ 
+317 & & $ {}_0 \textrm{SUGG} \  \otimes \  \bullet \ {}_{2} \textrm{TOP>SUGG} $ & START-s2 [0,0] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{SUGG>S} \  \otimes \  \bullet \ {}_{2} \textrm{SUGG} $ & START-s2 [0,0] & completed & 0 & 0 & proj & SUGG & TOP-START*-*TOP & 0,9935 \\ 
+318 & & $ {}_0 \textrm{TOP>SUGG} \  \bullet \ {}_{2} \textrm{TOP>COMMA*} \ \textrm{COMMA} \  \otimes \ \textrm{TOP>COMMA} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{SUGG} \  \otimes \  \bullet \ {}_{2} \textrm{TOP>SUGG} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>SUGG & TOP-START*-*TOP & 0,0196 \\ 
+319 & & $ {}_0 \textrm{TOP>SUGG} \  \bullet \ {}_{2} \textrm{TOP>NP*} \ \textrm{NP} \  \otimes \ \textrm{TOP>NP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{SUGG} \  \otimes \  \bullet \ {}_{2} \textrm{TOP>SUGG} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>SUGG & TOP-START*-*TOP & 0,0028 \\ 
+320 & & $ {}_0 \textrm{TOP>SUGG} \  \bullet \ {}_{2} \textrm{TOP>PUN*} \ \textrm{PUN} \  \otimes \ \textrm{TOP>PUN} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{SUGG} \  \otimes \  \bullet \ {}_{2} \textrm{TOP>SUGG} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>SUGG & TOP-START*-*TOP & 0,9777 \\ 
+321 & & $ {}_0 \textrm{TOP>S} \  \bullet \ {}_{2} \textrm{TOP>WRB*} \ \textrm{WRB} \  \otimes \ \textrm{TOP>WRB} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{2} \textrm{TOP>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>S & TOP-START*-*TOP & 0,0002 \\ 
+322 & & $ {}_0 \textrm{TOP>S} \  \bullet \ {}_{2} \textrm{TOP>FW*} \ \textrm{FW} \  \otimes \ \textrm{TOP>FW} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{2} \textrm{TOP>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>S & TOP-START*-*TOP & 0,0002 \\ 
+323 & & $ {}_0 \textrm{TOP>S} \  \bullet \ {}_{2} \textrm{TOP>VP*} \ \textrm{VP} \  \otimes \ \textrm{TOP>VP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{2} \textrm{TOP>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>S & TOP-START*-*TOP & 0,0008 \\ 
+324 & & $ {}_0 \textrm{TOP>S} \  \bullet \ {}_{2} \textrm{TOP>DTP*} \ \textrm{DTP} \  \otimes \ \textrm{TOP>DTP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{2} \textrm{TOP>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>S & TOP-START*-*TOP & 0,0044 \\ 
+325 & & $ {}_0 \textrm{TOP>S} \  \bullet \ {}_{2} \textrm{TOP>UH*} \ \textrm{UH} \  \otimes \ \textrm{TOP>UH} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{2} \textrm{TOP>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>S & TOP-START*-*TOP & 0,0052 \\ 
+326 & & $ {}_0 \textrm{TOP>S} \  \bullet \ {}_{2} \textrm{TOP>PP*} \ \textrm{PP} \  \otimes \ \textrm{TOP>PP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{2} \textrm{TOP>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>S & TOP-START*-*TOP & 0,0002 \\ 
+327 & & $ {}_0 \textrm{TOP>S} \  \bullet \ {}_{2} \textrm{TOP>PUN*} \ \textrm{PUN} \  \otimes \ \textrm{TOP>PUN} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{2} \textrm{TOP>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>S & TOP-START*-*TOP & 0,9164 \\ 
+328 & & $ {}_0 \textrm{TOP>S} \  \bullet \ {}_{2} \textrm{TOP>IN*} \ \textrm{IN} \  \otimes \ \textrm{TOP>IN} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{2} \textrm{TOP>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>S & TOP-START*-*TOP & 0,0056 \\ 
+329 & & $ {}_0 \textrm{TOP>S} \  \bullet \ {}_{2} \textrm{TOP>CNJ*} \ \textrm{CNJ} \  \otimes \ \textrm{TOP>CNJ} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{2} \textrm{TOP>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>S & TOP-START*-*TOP & 0,0027 \\ 
+330 & & $ {}_0 \textrm{TOP>S} \  \bullet \ {}_{2} \textrm{TOP>COMMA*} \ \textrm{COMMA} \  \otimes \ \textrm{TOP>COMMA} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{2} \textrm{TOP>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>S & TOP-START*-*TOP & 0,0259 \\ 
+331 & & $ {}_0 \textrm{TOP>S} \  \bullet \ {}_{2} \textrm{TOP>ADVP*} \ \textrm{ADVP} \  \otimes \ \textrm{TOP>ADVP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{2} \textrm{TOP>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>S & TOP-START*-*TOP & 0,0029 \\ 
+332 & & $ {}_0 \textrm{TOP>S} \  \bullet \ {}_{2} \textrm{TOP>S*} \ \textrm{S} \  \otimes \ \textrm{TOP>S} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{2} \textrm{TOP>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>S & TOP-START*-*TOP & 0,021 \\ 
+333 & & $ {}_0 \textrm{TOP>S} \  \bullet \ {}_{2} \textrm{TOP>VBZ*} \ \textrm{VBZ} \  \otimes \ \textrm{TOP>VBZ} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{2} \textrm{TOP>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>S & TOP-START*-*TOP & 0,0002 \\ 
+334 & & $ {}_0 \textrm{TOP>S} \  \bullet \ {}_{2} \textrm{TOP>CMP*} \ \textrm{CMP} \  \otimes \ \textrm{TOP>CMP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{2} \textrm{TOP>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>S & TOP-START*-*TOP & 0,0012 \\ 
+335 & & $ {}_0 \textrm{TOP>S} \  \bullet \ {}_{2} \textrm{TOP>NP*} \ \textrm{NP} \  \otimes \ \textrm{TOP>NP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{2} \textrm{TOP>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>S & TOP-START*-*TOP & 0,0044 \\ 
+336 & & $ {}_0 \textrm{TOP>S} \  \bullet \ {}_{2} \textrm{TOP>TO*} \ \textrm{TO} \  \otimes \ \textrm{TOP>TO} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{2} \textrm{TOP>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>S & TOP-START*-*TOP & 0,0003 \\ 
+337 & & $ {}_0 \textrm{TOP>S} \  \bullet \ {}_{2} \textrm{TOP>AP*} \ \textrm{AP} \  \otimes \ \textrm{TOP>AP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{2} \textrm{TOP>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>S & TOP-START*-*TOP & 0,0005 \\ 
+338 & & $ {}_0 \textrm{TOP>S} \  \otimes \  \bullet \ {}_{2} \textrm{TOP} $ & START-s2 [0,0] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{2} \textrm{TOP>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>S & TOP-START*-*TOP & 0,0081 \\ 
+339 & & $ {}_0 \textrm{S>MD} \ \textrm{S>VP*} \  \bullet \ {}_{2} \textrm{VP} \  \otimes \ \textrm{S>VP} $ & START-s2 [0,0] & incomplete & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S>MD} \  \bullet \ {}_{2} \textrm{S>VP*} \ \textrm{VP} \  \otimes \ \textrm{S>VP} $ & START-s2 [0,0] & starred & 0 & 0 & shift1 & - & - & 0,0262 \\ 
+\hline \multicolumn{5}{l}{\textbf{Chart Cell 3}} & forwP & vitP & op. & lc & gc & P \\ \hline
+340 & & $ {}_2 \textrm{S>VP*} \  \otimes \  \bullet \ {}_{3} \textrm{have} $ & S>VP-s2 [0,2] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S>MD} \  \bullet \ {}_{2} \textrm{S>VP*} \ \textrm{VP} \  \otimes \ \textrm{S>VP} $ & START-s2 [0,0] & starred & 0 & 0 & shift2 & S>VP* & VP & 0,0262 \\ 
+341 & & $ {}_2 \textrm{have} \  \otimes \  \bullet \ {}_{3} \textrm{VB} $ & S>VP-s2 [0,2] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_2 \textrm{S>VP*} \  \otimes \  \bullet \ {}_{3} \textrm{have} $ & S>VP-s2 [0,2] & completed & 0 & 0 & proj & have & VP-S>VP*S>MD*VP & 1 \\ 
+342 & & $ {}_2 \textrm{VB} \  \otimes \  \bullet \ {}_{3} \textrm{-->VB} $ & S>VP-s2 [0,2] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_2 \textrm{have} \  \otimes \  \bullet \ {}_{3} \textrm{VB} $ & S>VP-s2 [0,2] & completed & 0 & 0 & proj & VB & VP-S>VP*S>MD*VP & 0,001 \\ 
+343 & & $ {}_2 \textrm{VB} \  \otimes \  \bullet \ {}_{3} \textrm{VP} $ & S>VP-s2 [0,2] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_2 \textrm{have} \  \otimes \  \bullet \ {}_{3} \textrm{VB} $ & S>VP-s2 [0,2] & completed & 0 & 0 & proj & VB & VP-S>VP*S>MD*VP & 0,0807 \\ 
+344 & & $ {}_2 \textrm{VB} \  \otimes \  \bullet \ {}_{3} \textrm{VP>VB} $ & S>VP-s2 [0,2] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_2 \textrm{have} \  \otimes \  \bullet \ {}_{3} \textrm{VB} $ & S>VP-s2 [0,2] & completed & 0 & 0 & proj & VB & VP-S>VP*S>MD*VP & 0,9184 \\ 
+345 & & $ {}_2 \textrm{VP>VB} \  \bullet \ {}_{3} \textrm{VP>CD*} \ \textrm{CD} \  \otimes \ \textrm{VP>CD} $ & S>VP-s2 [0,2] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_2 \textrm{VB} \  \otimes \  \bullet \ {}_{3} \textrm{VP>VB} $ & S>VP-s2 [0,2] & completed & 0 & 0 & proj & VP>VB & VP-S>VP*S>MD*VP & 0,0011 \\ 
+346 & & $ {}_2 \textrm{VP>VB} \  \bullet \ {}_{3} \textrm{VP>COMMA*} \ \textrm{COMMA} \  \otimes \ \textrm{VP>COMMA} $ & S>VP-s2 [0,2] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_2 \textrm{VB} \  \otimes \  \bullet \ {}_{3} \textrm{VP>VB} $ & S>VP-s2 [0,2] & completed & 0 & 0 & proj & VP>VB & VP-S>VP*S>MD*VP & 0,0169 \\ 
+347 & & $ {}_2 \textrm{VP>VB} \  \bullet \ {}_{3} \textrm{VP>PP*} \ \textrm{PP} \  \otimes \ \textrm{VP>PP} $ & S>VP-s2 [0,2] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_2 \textrm{VB} \  \otimes \  \bullet \ {}_{3} \textrm{VP>VB} $ & S>VP-s2 [0,2] & completed & 0 & 0 & proj & VP>VB & VP-S>VP*S>MD*VP & 0,093 \\ 
+348 & & $ {}_2 \textrm{VP>VB} \  \bullet \ {}_{3} \textrm{VP>NP*} \ \textrm{NP} \  \otimes \ \textrm{VP>NP} $ & S>VP-s2 [0,2] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_2 \textrm{VB} \  \otimes \  \bullet \ {}_{3} \textrm{VP>VB} $ & S>VP-s2 [0,2] & completed & 0 & 0 & proj & VP>VB & VP-S>VP*S>MD*VP & 0,4958 \\ 
+349 & & $ {}_2 \textrm{VP>VB} \  \bullet \ {}_{3} \textrm{VP>S*} \ \textrm{S} \  \otimes \ \textrm{VP>S} $ & S>VP-s2 [0,2] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_2 \textrm{VB} \  \otimes \  \bullet \ {}_{3} \textrm{VP>VB} $ & S>VP-s2 [0,2] & completed & 0 & 0 & proj & VP>VB & VP-S>VP*S>MD*VP & 0,0011 \\ 
+350 & & $ {}_2 \textrm{VP>VB} \  \bullet \ {}_{3} \textrm{VP>RP*} \ \textrm{RP} \  \otimes \ \textrm{VP>RP} $ & S>VP-s2 [0,2] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_2 \textrm{VB} \  \otimes \  \bullet \ {}_{3} \textrm{VP>VB} $ & S>VP-s2 [0,2] & completed & 0 & 0 & proj & VP>VB & VP-S>VP*S>MD*VP & 0,0201 \\ 
+351 & & $ {}_2 \textrm{VP>VB} \  \bullet \ {}_{3} \textrm{VP>RB*} \ \textrm{RB} \  \otimes \ \textrm{VP>RB} $ & S>VP-s2 [0,2] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_2 \textrm{VB} \  \otimes \  \bullet \ {}_{3} \textrm{VP>VB} $ & S>VP-s2 [0,2] & completed & 0 & 0 & proj & VP>VB & VP-S>VP*S>MD*VP & 0,0032 \\ 
+352 & & $ {}_2 \textrm{VP>VB} \  \bullet \ {}_{3} \textrm{VP>IN*} \ \textrm{IN} \  \otimes \ \textrm{VP>IN} $ & S>VP-s2 [0,2] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_2 \textrm{VB} \  \otimes \  \bullet \ {}_{3} \textrm{VP>VB} $ & S>VP-s2 [0,2] & completed & 0 & 0 & proj & VP>VB & VP-S>VP*S>MD*VP & 0,0021 \\ 
+353 & & $ {}_2 \textrm{VP>VB} \  \bullet \ {}_{3} \textrm{VP>AP*} \ \textrm{AP} \  \otimes \ \textrm{VP>AP} $ & S>VP-s2 [0,2] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_2 \textrm{VB} \  \otimes \  \bullet \ {}_{3} \textrm{VP>VB} $ & S>VP-s2 [0,2] & completed & 0 & 0 & proj & VP>VB & VP-S>VP*S>MD*VP & 0,2357 \\ 
+354 & & $ {}_2 \textrm{VP>VB} \  \bullet \ {}_{3} \textrm{VP>DTP*} \ \textrm{DTP} \  \otimes \ \textrm{VP>DTP} $ & S>VP-s2 [0,2] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_2 \textrm{VB} \  \otimes \  \bullet \ {}_{3} \textrm{VP>VB} $ & S>VP-s2 [0,2] & completed & 0 & 0 & proj & VP>VB & VP-S>VP*S>MD*VP & 0,0011 \\ 
+355 & & $ {}_2 \textrm{VP>VB} \  \bullet \ {}_{3} \textrm{VP>ADVP*} \ \textrm{ADVP} \  \otimes \ \textrm{VP>ADVP} $ & S>VP-s2 [0,2] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_2 \textrm{VB} \  \otimes \  \bullet \ {}_{3} \textrm{VP>VB} $ & S>VP-s2 [0,2] & completed & 0 & 0 & proj & VP>VB & VP-S>VP*S>MD*VP & 0,0825 \\ 
+356 & & $ {}_2 \textrm{VP>VB} \  \bullet \ {}_{3} \textrm{VP>SUGG*} \ \textrm{SUGG} \  \otimes \ \textrm{VP>SUGG} $ & S>VP-s2 [0,2] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_2 \textrm{VB} \  \otimes \  \bullet \ {}_{3} \textrm{VP>VB} $ & S>VP-s2 [0,2] & completed & 0 & 0 & proj & VP>VB & VP-S>VP*S>MD*VP & 0,0011 \\ 
+357 & & $ {}_2 \textrm{VP>VB} \  \bullet \ {}_{3} \textrm{VP>VP*} \ \textrm{VP} \  \otimes \ \textrm{VP>VP} $ & S>VP-s2 [0,2] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_2 \textrm{VB} \  \otimes \  \bullet \ {}_{3} \textrm{VP>VB} $ & S>VP-s2 [0,2] & completed & 0 & 0 & proj & VP>VB & VP-S>VP*S>MD*VP & 0,0455 \\ 
+358 & & $ {}_2 \textrm{VP>VB} \  \otimes \  \bullet \ {}_{3} \textrm{VP} $ & S>VP-s2 [0,2] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_2 \textrm{VB} \  \otimes \  \bullet \ {}_{3} \textrm{VP>VB} $ & S>VP-s2 [0,2] & completed & 0 & 0 & proj & VP>VB & VP-S>VP*S>MD*VP & 0,0011 \\ 
+359 & & $ {}_2 \textrm{VP} \  \otimes \  \bullet \ {}_{3} \textrm{VP>VP} $ & S>VP-s2 [0,2] & completed & 0 & 0 & & & & \\ 
+ & Pre & $ {}_2 \textrm{VP>VB} \  \otimes \  \bullet \ {}_{3} \textrm{VP} $ & S>VP-s2 [0,2] & completed & 0 & 0 & proj & VP & VP-S>VP*S>MD*VP & 0,0039 \\ 
+ & Pre *& $ {}_2 \textrm{VB} \  \otimes \  \bullet \ {}_{3} \textrm{VP} $ & S>VP-s2 [0,2] & completed & 0 & 0 & proj & VP & VP-S>VP*S>MD*VP & 0,0039 \\ 
+ & Pre & $ {}_2 \textrm{VP>VP} \  \otimes \  \bullet \ {}_{3} \textrm{VP} $ & S>VP-s2 [0,2] & completed & 0 & 0 & proj & VP & VP-S>VP*S>MD*VP & 0,0039 \\ 
+360 & & $ {}_0 \textrm{S>MD} \ \textrm{S>VP*} \ \textrm{VP} \  \otimes \  \bullet \ {}_{3} \textrm{S>VP} $ & START-s2 [0,0] & completed & 0 & 0 & & & & \\ 
+ & Pre & $ {}_2 \textrm{VP>VB} \  \otimes \  \bullet \ {}_{3} \textrm{VP} $ & S>VP-s2 [0,2] & completed & 0 & 0 & att & VP & VP-S>VP*S>MD*VP & 0,9961 \\ 
+ & Pre *& $ {}_2 \textrm{VB} \  \otimes \  \bullet \ {}_{3} \textrm{VP} $ & S>VP-s2 [0,2] & completed & 0 & 0 & att & VP & VP-S>VP*S>MD*VP & 0,9961 \\ 
+ & Pre & $ {}_2 \textrm{VP>VP} \  \otimes \  \bullet \ {}_{3} \textrm{VP} $ & S>VP-s2 [0,2] & completed & 0 & 0 & att & VP & VP-S>VP*S>MD*VP & 0,9961 \\ 
+361 & & $ {}_0 \textrm{S>VP} \  \bullet \ {}_{3} \textrm{S>ADVP*} \ \textrm{ADVP} \  \otimes \ \textrm{S>ADVP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S>MD} \ \textrm{S>VP*} \ \textrm{VP} \  \otimes \  \bullet \ {}_{3} \textrm{S>VP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S>VP & TOP-START*-*TOP & 0,0034 \\ 
+362 & & $ {}_0 \textrm{S>VP} \  \bullet \ {}_{3} \textrm{S>AP*} \ \textrm{AP} \  \otimes \ \textrm{S>AP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S>MD} \ \textrm{S>VP*} \ \textrm{VP} \  \otimes \  \bullet \ {}_{3} \textrm{S>VP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S>VP & TOP-START*-*TOP & 0,0005 \\ 
+363 & & $ {}_0 \textrm{S>VP} \  \bullet \ {}_{3} \textrm{S>COMMA*} \ \textrm{COMMA} \  \otimes \ \textrm{S>COMMA} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S>MD} \ \textrm{S>VP*} \ \textrm{VP} \  \otimes \  \bullet \ {}_{3} \textrm{S>VP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S>VP & TOP-START*-*TOP & 0,0048 \\ 
+364 & & $ {}_0 \textrm{S>VP} \  \bullet \ {}_{3} \textrm{S>S*} \ \textrm{S} \  \otimes \ \textrm{S>S} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S>MD} \ \textrm{S>VP*} \ \textrm{VP} \  \otimes \  \bullet \ {}_{3} \textrm{S>VP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S>VP & TOP-START*-*TOP & 0,001 \\ 
+365 & & $ {}_0 \textrm{S>VP} \  \bullet \ {}_{3} \textrm{S>NP*} \ \textrm{NP} \  \otimes \ \textrm{S>NP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S>MD} \ \textrm{S>VP*} \ \textrm{VP} \  \otimes \  \bullet \ {}_{3} \textrm{S>VP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S>VP & TOP-START*-*TOP & 0,0005 \\ 
+366 & & $ {}_0 \textrm{S>VP} \  \otimes \  \bullet \ {}_{3} \textrm{S} $ & START-s2 [0,0] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S>MD} \ \textrm{S>VP*} \ \textrm{VP} \  \otimes \  \bullet \ {}_{3} \textrm{S>VP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S>VP & TOP-START*-*TOP & 0,9899 \\ 
+367 & & $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{3} \textrm{TOP} $ & START-s2 [0,0] & completed & 0 & 0 & & & & \\ 
+ & Pre & $ {}_0 \textrm{S>S} \  \otimes \  \bullet \ {}_{3} \textrm{S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S & TOP-START*-*TOP & 0,035 \\ 
+ & Pre *& $ {}_0 \textrm{S>VP} \  \otimes \  \bullet \ {}_{3} \textrm{S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S & TOP-START*-*TOP & 0,035 \\ 
+368 & & $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{3} \textrm{TOP>S} $ & START-s2 [0,0] & completed & 0 & 0 & & & & \\ 
+ & Pre & $ {}_0 \textrm{S>S} \  \otimes \  \bullet \ {}_{3} \textrm{S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S & TOP-START*-*TOP & 0,9637 \\ 
+ & Pre *& $ {}_0 \textrm{S>VP} \  \otimes \  \bullet \ {}_{3} \textrm{S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S & TOP-START*-*TOP & 0,9637 \\ 
+369 & & $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{3} \textrm{SUGG>S} $ & START-s2 [0,0] & completed & 0 & 0 & & & & \\ 
+ & Pre & $ {}_0 \textrm{S>S} \  \otimes \  \bullet \ {}_{3} \textrm{S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S & TOP-START*-*TOP & 0,0002 \\ 
+ & Pre *& $ {}_0 \textrm{S>VP} \  \otimes \  \bullet \ {}_{3} \textrm{S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S & TOP-START*-*TOP & 0,0002 \\ 
+370 & & $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{3} \textrm{S>S} $ & START-s2 [0,0] & completed & 0 & 0 & & & & \\ 
+ & Pre & $ {}_0 \textrm{S>S} \  \otimes \  \bullet \ {}_{3} \textrm{S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S & TOP-START*-*TOP & 0,001 \\ 
+ & Pre *& $ {}_0 \textrm{S>VP} \  \otimes \  \bullet \ {}_{3} \textrm{S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S & TOP-START*-*TOP & 0,001 \\ 
+371 & & $ {}_0 \textrm{S>S} \  \bullet \ {}_{3} \textrm{S>S*} \ \textrm{S} \  \otimes \ \textrm{S>S} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{3} \textrm{S>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S>S & TOP-START*-*TOP & 0,0024 \\ 
+372 & & $ {}_0 \textrm{S>S} \  \bullet \ {}_{3} \textrm{S>VBP*} \ \textrm{VBP} \  \otimes \ \textrm{S>VBP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{3} \textrm{S>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S>S & TOP-START*-*TOP & 0,0024 \\ 
+373 & & $ {}_0 \textrm{S>S} \  \bullet \ {}_{3} \textrm{S>COMMA*} \ \textrm{COMMA} \  \otimes \ \textrm{S>COMMA} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{3} \textrm{S>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S>S & TOP-START*-*TOP & 0,0095 \\ 
+374 & & $ {}_0 \textrm{S>S} \  \otimes \  \bullet \ {}_{3} \textrm{S} $ & START-s2 [0,0] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{3} \textrm{S>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S>S & TOP-START*-*TOP & 0,9692 \\ 
+375 & & $ {}_0 \textrm{S>S} \  \bullet \ {}_{3} \textrm{S>NP*} \ \textrm{NP} \  \otimes \ \textrm{S>NP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{3} \textrm{S>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S>S & TOP-START*-*TOP & 0,0118 \\ 
+376 & & $ {}_0 \textrm{S>S} \  \bullet \ {}_{3} \textrm{S>UH*} \ \textrm{UH} \  \otimes \ \textrm{S>UH} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{3} \textrm{S>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S>S & TOP-START*-*TOP & 0,0024 \\ 
+377 & & $ {}_0 \textrm{S>S} \  \bullet \ {}_{3} \textrm{S>CNJ*} \ \textrm{CNJ} \  \otimes \ \textrm{S>CNJ} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{3} \textrm{S>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S>S & TOP-START*-*TOP & 0,0024 \\ 
+382 & & $ {}_0 \textrm{SUGG>S} \  \otimes \  \bullet \ {}_{3} \textrm{SUGG} $ & START-s2 [0,0] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{3} \textrm{SUGG>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & SUGG>S & TOP-START*-*TOP & 0,9091 \\ 
+383 & & $ {}_0 \textrm{SUGG>S} \  \bullet \ {}_{3} \textrm{SUGG>COMMA*} \ \textrm{COMMA} \  \otimes \ \textrm{SUGG>COMMA} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{3} \textrm{SUGG>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & SUGG>S & TOP-START*-*TOP & 0,0909 \\ 
+384 & & $ {}_0 \textrm{SUGG} \  \otimes \  \bullet \ {}_{3} \textrm{TOP} $ & START-s2 [0,0] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{SUGG>S} \  \otimes \  \bullet \ {}_{3} \textrm{SUGG} $ & START-s2 [0,0] & completed & 0 & 0 & proj & SUGG & TOP-START*-*TOP & 0,0065 \\ 
+385 & & $ {}_0 \textrm{SUGG} \  \otimes \  \bullet \ {}_{3} \textrm{TOP>SUGG} $ & START-s2 [0,0] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{SUGG>S} \  \otimes \  \bullet \ {}_{3} \textrm{SUGG} $ & START-s2 [0,0] & completed & 0 & 0 & proj & SUGG & TOP-START*-*TOP & 0,9935 \\ 
+386 & & $ {}_0 \textrm{TOP>SUGG} \  \bullet \ {}_{3} \textrm{TOP>COMMA*} \ \textrm{COMMA} \  \otimes \ \textrm{TOP>COMMA} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{SUGG} \  \otimes \  \bullet \ {}_{3} \textrm{TOP>SUGG} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>SUGG & TOP-START*-*TOP & 0,0196 \\ 
+387 & & $ {}_0 \textrm{TOP>SUGG} \  \bullet \ {}_{3} \textrm{TOP>NP*} \ \textrm{NP} \  \otimes \ \textrm{TOP>NP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{SUGG} \  \otimes \  \bullet \ {}_{3} \textrm{TOP>SUGG} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>SUGG & TOP-START*-*TOP & 0,0028 \\ 
+388 & & $ {}_0 \textrm{TOP>SUGG} \  \bullet \ {}_{3} \textrm{TOP>PUN*} \ \textrm{PUN} \  \otimes \ \textrm{TOP>PUN} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{SUGG} \  \otimes \  \bullet \ {}_{3} \textrm{TOP>SUGG} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>SUGG & TOP-START*-*TOP & 0,9777 \\ 
+389 & & $ {}_0 \textrm{TOP>S} \  \bullet \ {}_{3} \textrm{TOP>WRB*} \ \textrm{WRB} \  \otimes \ \textrm{TOP>WRB} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{3} \textrm{TOP>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>S & TOP-START*-*TOP & 0,0002 \\ 
+390 & & $ {}_0 \textrm{TOP>S} \  \bullet \ {}_{3} \textrm{TOP>FW*} \ \textrm{FW} \  \otimes \ \textrm{TOP>FW} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{3} \textrm{TOP>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>S & TOP-START*-*TOP & 0,0002 \\ 
+391 & & $ {}_0 \textrm{TOP>S} \  \bullet \ {}_{3} \textrm{TOP>VP*} \ \textrm{VP} \  \otimes \ \textrm{TOP>VP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{3} \textrm{TOP>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>S & TOP-START*-*TOP & 0,0008 \\ 
+392 & & $ {}_0 \textrm{TOP>S} \  \bullet \ {}_{3} \textrm{TOP>DTP*} \ \textrm{DTP} \  \otimes \ \textrm{TOP>DTP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{3} \textrm{TOP>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>S & TOP-START*-*TOP & 0,0044 \\ 
+393 & & $ {}_0 \textrm{TOP>S} \  \bullet \ {}_{3} \textrm{TOP>UH*} \ \textrm{UH} \  \otimes \ \textrm{TOP>UH} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{3} \textrm{TOP>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>S & TOP-START*-*TOP & 0,0052 \\ 
+394 & & $ {}_0 \textrm{TOP>S} \  \bullet \ {}_{3} \textrm{TOP>PP*} \ \textrm{PP} \  \otimes \ \textrm{TOP>PP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{3} \textrm{TOP>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>S & TOP-START*-*TOP & 0,0002 \\ 
+395 & & $ {}_0 \textrm{TOP>S} \  \bullet \ {}_{3} \textrm{TOP>PUN*} \ \textrm{PUN} \  \otimes \ \textrm{TOP>PUN} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{3} \textrm{TOP>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>S & TOP-START*-*TOP & 0,9164 \\ 
+396 & & $ {}_0 \textrm{TOP>S} \  \bullet \ {}_{3} \textrm{TOP>IN*} \ \textrm{IN} \  \otimes \ \textrm{TOP>IN} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{3} \textrm{TOP>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>S & TOP-START*-*TOP & 0,0056 \\ 
+397 & & $ {}_0 \textrm{TOP>S} \  \bullet \ {}_{3} \textrm{TOP>CNJ*} \ \textrm{CNJ} \  \otimes \ \textrm{TOP>CNJ} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{3} \textrm{TOP>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>S & TOP-START*-*TOP & 0,0027 \\ 
+398 & & $ {}_0 \textrm{TOP>S} \  \bullet \ {}_{3} \textrm{TOP>COMMA*} \ \textrm{COMMA} \  \otimes \ \textrm{TOP>COMMA} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{3} \textrm{TOP>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>S & TOP-START*-*TOP & 0,0259 \\ 
+399 & & $ {}_0 \textrm{TOP>S} \  \bullet \ {}_{3} \textrm{TOP>ADVP*} \ \textrm{ADVP} \  \otimes \ \textrm{TOP>ADVP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{3} \textrm{TOP>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>S & TOP-START*-*TOP & 0,0029 \\ 
+400 & & $ {}_0 \textrm{TOP>S} \  \bullet \ {}_{3} \textrm{TOP>S*} \ \textrm{S} \  \otimes \ \textrm{TOP>S} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{3} \textrm{TOP>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>S & TOP-START*-*TOP & 0,021 \\ 
+401 & & $ {}_0 \textrm{TOP>S} \  \bullet \ {}_{3} \textrm{TOP>VBZ*} \ \textrm{VBZ} \  \otimes \ \textrm{TOP>VBZ} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{3} \textrm{TOP>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>S & TOP-START*-*TOP & 0,0002 \\ 
+402 & & $ {}_0 \textrm{TOP>S} \  \bullet \ {}_{3} \textrm{TOP>CMP*} \ \textrm{CMP} \  \otimes \ \textrm{TOP>CMP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{3} \textrm{TOP>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>S & TOP-START*-*TOP & 0,0012 \\ 
+403 & & $ {}_0 \textrm{TOP>S} \  \bullet \ {}_{3} \textrm{TOP>NP*} \ \textrm{NP} \  \otimes \ \textrm{TOP>NP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{3} \textrm{TOP>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>S & TOP-START*-*TOP & 0,0044 \\ 
+404 & & $ {}_0 \textrm{TOP>S} \  \bullet \ {}_{3} \textrm{TOP>TO*} \ \textrm{TO} \  \otimes \ \textrm{TOP>TO} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{3} \textrm{TOP>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>S & TOP-START*-*TOP & 0,0003 \\ 
+405 & & $ {}_0 \textrm{TOP>S} \  \bullet \ {}_{3} \textrm{TOP>AP*} \ \textrm{AP} \  \otimes \ \textrm{TOP>AP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{3} \textrm{TOP>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>S & TOP-START*-*TOP & 0,0005 \\ 
+406 & & $ {}_0 \textrm{TOP>S} \  \otimes \  \bullet \ {}_{3} \textrm{TOP} $ & START-s2 [0,0] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{3} \textrm{TOP>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>S & TOP-START*-*TOP & 0,0081 \\ 
+407 & & $ {}_2 \textrm{VP>VP} \  \bullet \ {}_{3} \textrm{VP>CNJ*} \ \textrm{CNJ} \  \otimes \ \textrm{VP>CNJ} $ & S>VP-s2 [0,2] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_2 \textrm{VP} \  \otimes \  \bullet \ {}_{3} \textrm{VP>VP} $ & S>VP-s2 [0,2] & completed & 0 & 0 & proj & VP>VP & VP-S>VP*S>MD*VP & 0,0492 \\ 
+408 & & $ {}_2 \textrm{VP>VP} \  \otimes \  \bullet \ {}_{3} \textrm{VP} $ & S>VP-s2 [0,2] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_2 \textrm{VP} \  \otimes \  \bullet \ {}_{3} \textrm{VP>VP} $ & S>VP-s2 [0,2] & completed & 0 & 0 & proj & VP>VP & VP-S>VP*S>MD*VP & 0,9344 \\ 
+409 & & $ {}_2 \textrm{VP>VP} \  \bullet \ {}_{3} \textrm{VP>VP*} \ \textrm{VP} \  \otimes \ \textrm{VP>VP} $ & S>VP-s2 [0,2] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_2 \textrm{VP} \  \otimes \  \bullet \ {}_{3} \textrm{VP>VP} $ & S>VP-s2 [0,2] & completed & 0 & 0 & proj & VP>VP & VP-S>VP*S>MD*VP & 0,0164 \\ 
+414 & & $ {}_2 \textrm{-->VB} \  \bullet \ {}_{3} \textrm{-->RB*} \ \textrm{RB} \  \otimes \ \textrm{-->RB} $ & S>VP-s2 [0,2] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_2 \textrm{VB} \  \otimes \  \bullet \ {}_{3} \textrm{-->VB} $ & S>VP-s2 [0,2] & completed & 0 & 0 & proj & -->VB & VP-S>VP*S>MD*VP & 1 \\ 
+415 & & $ {}_2 \textrm{VP>VB} \ \textrm{VP>ADVP*} \  \bullet \ {}_{3} \textrm{ADVP} \  \otimes \ \textrm{VP>ADVP} $ & S>VP-s2 [0,2] & incomplete & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_2 \textrm{VP>VB} \  \bullet \ {}_{3} \textrm{VP>ADVP*} \ \textrm{ADVP} \  \otimes \ \textrm{VP>ADVP} $ & S>VP-s2 [0,2] & starred & 0 & 0 & shift1 & - & - & 0,0089 \\ 
+417 & & $ {}_2 \textrm{VP>VB} \ \textrm{VP>DTP*} \  \bullet \ {}_{3} \textrm{DTP} \  \otimes \ \textrm{VP>DTP} $ & S>VP-s2 [0,2] & incomplete & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_2 \textrm{VP>VB} \  \bullet \ {}_{3} \textrm{VP>DTP*} \ \textrm{DTP} \  \otimes \ \textrm{VP>DTP} $ & S>VP-s2 [0,2] & starred & 0 & 0 & shift1 & - & - & 0,4 \\ 
+419 & & $ {}_0 \textrm{TOP>S} \ \textrm{TOP>NP*} \  \bullet \ {}_{3} \textrm{NP} \  \otimes \ \textrm{TOP>NP} $ & START-s2 [0,0] & incomplete & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{TOP>S} \  \bullet \ {}_{3} \textrm{TOP>NP*} \ \textrm{NP} \  \otimes \ \textrm{TOP>NP} $ & START-s2 [0,0] & starred & 0 & 0 & shift1 & - & - & 0,0385 \\ 
+421 & & $ {}_0 \textrm{TOP>S} \ \textrm{TOP>DTP*} \  \bullet \ {}_{3} \textrm{DTP} \  \otimes \ \textrm{TOP>DTP} $ & START-s2 [0,0] & incomplete & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{TOP>S} \  \bullet \ {}_{3} \textrm{TOP>DTP*} \ \textrm{DTP} \  \otimes \ \textrm{TOP>DTP} $ & START-s2 [0,0] & starred & 0 & 0 & shift1 & - & - & 0,5385 \\ 
+423 & & $ {}_2 \textrm{VP>VB} \ \textrm{VP>NP*} \  \bullet \ {}_{3} \textrm{NP} \  \otimes \ \textrm{VP>NP} $ & S>VP-s2 [0,2] & incomplete & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_2 \textrm{VP>VB} \  \bullet \ {}_{3} \textrm{VP>NP*} \ \textrm{NP} \  \otimes \ \textrm{VP>NP} $ & S>VP-s2 [0,2] & starred & 0 & 0 & shift1 & - & - & 0,0805 \\ 
+\hline \multicolumn{5}{l}{\textbf{Chart Cell 4}} & forwP & vitP & op. & lc & gc & P \\ \hline
+416 & & $ {}_3 \textrm{VP>ADVP*} \  \otimes \  \bullet \ {}_{4} \textrm{a} $ & VP>ADVP-s2 [2,3] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_2 \textrm{VP>VB} \  \bullet \ {}_{3} \textrm{VP>ADVP*} \ \textrm{ADVP} \  \otimes \ \textrm{VP>ADVP} $ & S>VP-s2 [0,2] & starred & 0 & 0 & shift2 & VP>ADVP* & ADVP & 0,0089 \\ 
+418 & & $ {}_3 \textrm{VP>DTP*} \  \otimes \  \bullet \ {}_{4} \textrm{a} $ & VP>DTP-s2 [2,3] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_2 \textrm{VP>VB} \  \bullet \ {}_{3} \textrm{VP>DTP*} \ \textrm{DTP} \  \otimes \ \textrm{VP>DTP} $ & S>VP-s2 [0,2] & starred & 0 & 0 & shift2 & VP>DTP* & DTP & 0,4 \\ 
+420 & & $ {}_3 \textrm{TOP>NP*} \  \otimes \  \bullet \ {}_{4} \textrm{a} $ & TOP>NP-s2 [0,3] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{TOP>S} \  \bullet \ {}_{3} \textrm{TOP>NP*} \ \textrm{NP} \  \otimes \ \textrm{TOP>NP} $ & START-s2 [0,0] & starred & 0 & 0 & shift2 & TOP>NP* & NP & 0,0385 \\ 
+422 & & $ {}_3 \textrm{TOP>DTP*} \  \otimes \  \bullet \ {}_{4} \textrm{a} $ & TOP>DTP-s2 [0,3] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{TOP>S} \  \bullet \ {}_{3} \textrm{TOP>DTP*} \ \textrm{DTP} \  \otimes \ \textrm{TOP>DTP} $ & START-s2 [0,0] & starred & 0 & 0 & shift2 & TOP>DTP* & DTP & 0,5385 \\ 
+424 & & $ {}_3 \textrm{VP>NP*} \  \otimes \  \bullet \ {}_{4} \textrm{a} $ & VP>NP-s2 [2,3] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_2 \textrm{VP>VB} \  \bullet \ {}_{3} \textrm{VP>NP*} \ \textrm{NP} \  \otimes \ \textrm{VP>NP} $ & S>VP-s2 [0,2] & starred & 0 & 0 & shift2 & VP>NP* & NP & 0,0805 \\ 
+425 & & $ {}_3 \textrm{a} \  \otimes \  \bullet \ {}_{4} \textrm{DT} $ & TOP>NP-s2 [0,3] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_3 \textrm{TOP>NP*} \  \otimes \  \bullet \ {}_{4} \textrm{a} $ & TOP>NP-s2 [0,3] & completed & 0 & 0 & proj & a & NP-TOP>NP*TOP>S*NP & 1 \\ 
+426 & & $ {}_3 \textrm{DT} \  \otimes \  \bullet \ {}_{4} \textrm{DT} $ & TOP>NP-s2 [0,3] & completed & 0 & 0 & & & & \\ 
+ & Pre & $ {}_3 \textrm{DT} \  \otimes \  \bullet \ {}_{4} \textrm{DT} $ & TOP>NP-s2 [0,3] & completed & 0 & 0 & proj & DT & NP-TOP>NP*TOP>S*NP & 0,4286 \\ 
+ & Pre *& $ {}_3 \textrm{a} \  \otimes \  \bullet \ {}_{4} \textrm{DT} $ & TOP>NP-s2 [0,3] & completed & 0 & 0 & proj & DT & NP-TOP>NP*TOP>S*NP & 0,4286 \\ 
+427 & & $ {}_3 \textrm{DT} \  \otimes \  \bullet \ {}_{4} \textrm{PR} $ & TOP>NP-s2 [0,3] & completed & 0 & 0 & & & & \\ 
+ & Pre & $ {}_3 \textrm{DT} \  \otimes \  \bullet \ {}_{4} \textrm{DT} $ & TOP>NP-s2 [0,3] & completed & 0 & 0 & proj & DT & NP-TOP>NP*TOP>S*NP & 0,1429 \\ 
+ & Pre *& $ {}_3 \textrm{a} \  \otimes \  \bullet \ {}_{4} \textrm{DT} $ & TOP>NP-s2 [0,3] & completed & 0 & 0 & proj & DT & NP-TOP>NP*TOP>S*NP & 0,1429 \\ 
+428 & & $ {}_3 \textrm{DT} \  \otimes \  \bullet \ {}_{4} \textrm{DTP} $ & TOP>NP-s2 [0,3] & completed & 0 & 0 & & & & \\ 
+ & Pre & $ {}_3 \textrm{DT} \  \otimes \  \bullet \ {}_{4} \textrm{DT} $ & TOP>NP-s2 [0,3] & completed & 0 & 0 & proj & DT & NP-TOP>NP*TOP>S*NP & 0,4286 \\ 
+ & Pre *& $ {}_3 \textrm{a} \  \otimes \  \bullet \ {}_{4} \textrm{DT} $ & TOP>NP-s2 [0,3] & completed & 0 & 0 & proj & DT & NP-TOP>NP*TOP>S*NP & 0,4286 \\ 
+429 & & $ {}_3 \textrm{DTP} \  \otimes \  \bullet \ {}_{4} \textrm{NP>DTP} $ & TOP>NP-s2 [0,3] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_3 \textrm{DT} \  \otimes \  \bullet \ {}_{4} \textrm{DTP} $ & TOP>NP-s2 [0,3] & completed & 0 & 0 & proj & DTP & NP-TOP>NP*TOP>S*NP & 1 \\ 
+430 & & $ {}_3 \textrm{NP>DTP} \  \bullet \ {}_{4} \textrm{NP>NN*} \ \textrm{NN} \  \otimes \ \textrm{NP>NN} $ & TOP>NP-s2 [0,3] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_3 \textrm{DTP} \  \otimes \  \bullet \ {}_{4} \textrm{NP>DTP} $ & TOP>NP-s2 [0,3] & completed & 0 & 0 & proj & NP>DTP & NP-TOP>NP*TOP>S*NP & 0,6667 \\ 
+431 & & $ {}_3 \textrm{NP>DTP} \  \bullet \ {}_{4} \textrm{NP>NNS*} \ \textrm{NNS} \  \otimes \ \textrm{NP>NNS} $ & TOP>NP-s2 [0,3] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_3 \textrm{DTP} \  \otimes \  \bullet \ {}_{4} \textrm{NP>DTP} $ & TOP>NP-s2 [0,3] & completed & 0 & 0 & proj & NP>DTP & NP-TOP>NP*TOP>S*NP & 0,3333 \\ 
+432 & & $ {}_3 \textrm{PR} \  \otimes \  \bullet \ {}_{4} \textrm{NP} $ & TOP>NP-s2 [0,3] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_3 \textrm{DT} \  \otimes \  \bullet \ {}_{4} \textrm{PR} $ & TOP>NP-s2 [0,3] & completed & 0 & 0 & proj & PR & NP-TOP>NP*TOP>S*NP & 1 \\ 
+433 & & $ {}_3 \textrm{NP} \  \otimes \  \bullet \ {}_{4} \textrm{NP>NP} $ & TOP>NP-s2 [0,3] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_3 \textrm{PR} \  \otimes \  \bullet \ {}_{4} \textrm{NP} $ & TOP>NP-s2 [0,3] & completed & 0 & 0 & proj & NP & NP-TOP>NP*TOP>S*NP & 0,125 \\ 
+ & Pre & $ {}_3 \textrm{NP} \  \otimes \  \bullet \ {}_{4} \textrm{NP} $ & TOP>NP-s2 [0,3] & completed & 0 & 0 & proj & NP & NP-TOP>NP*TOP>S*NP & 0,125 \\ 
+ & Pre & $ {}_3 \textrm{NP>NP} \  \otimes \  \bullet \ {}_{4} \textrm{NP} $ & TOP>NP-s2 [0,3] & completed & 0 & 0 & proj & NP & NP-TOP>NP*TOP>S*NP & 0,125 \\ 
+434 & & $ {}_3 \textrm{NP} \  \otimes \  \bullet \ {}_{4} \textrm{NP} $ & TOP>NP-s2 [0,3] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_3 \textrm{PR} \  \otimes \  \bullet \ {}_{4} \textrm{NP} $ & TOP>NP-s2 [0,3] & completed & 0 & 0 & proj & NP & NP-TOP>NP*TOP>S*NP & 0,0625 \\ 
+ & Pre & $ {}_3 \textrm{NP} \  \otimes \  \bullet \ {}_{4} \textrm{NP} $ & TOP>NP-s2 [0,3] & completed & 0 & 0 & proj & NP & NP-TOP>NP*TOP>S*NP & 0,0625 \\ 
+ & Pre & $ {}_3 \textrm{NP>NP} \  \otimes \  \bullet \ {}_{4} \textrm{NP} $ & TOP>NP-s2 [0,3] & completed & 0 & 0 & proj & NP & NP-TOP>NP*TOP>S*NP & 0,0625 \\ 
+435 & & $ {}_0 \textrm{TOP>S} \ \textrm{TOP>NP*} \ \textrm{NP} \  \otimes \  \bullet \ {}_{4} \textrm{TOP>NP} $ & START-s2 [0,0] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_3 \textrm{PR} \  \otimes \  \bullet \ {}_{4} \textrm{NP} $ & TOP>NP-s2 [0,3] & completed & 0 & 0 & att & NP & NP-TOP>NP*TOP>S*NP & 0,8125 \\ 
+ & Pre & $ {}_3 \textrm{NP} \  \otimes \  \bullet \ {}_{4} \textrm{NP} $ & TOP>NP-s2 [0,3] & completed & 0 & 0 & att & NP & NP-TOP>NP*TOP>S*NP & 0,8125 \\ 
+ & Pre & $ {}_3 \textrm{NP>NP} \  \otimes \  \bullet \ {}_{4} \textrm{NP} $ & TOP>NP-s2 [0,3] & completed & 0 & 0 & att & NP & NP-TOP>NP*TOP>S*NP & 0,8125 \\ 
+436 & & $ {}_0 \textrm{TOP>NP} \  \bullet \ {}_{4} \textrm{TOP>UH*} \ \textrm{UH} \  \otimes \ \textrm{TOP>UH} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{TOP>S} \ \textrm{TOP>NP*} \ \textrm{NP} \  \otimes \  \bullet \ {}_{4} \textrm{TOP>NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>NP & TOP-START*-*TOP & 0,011 \\ 
+437 & & $ {}_0 \textrm{TOP>NP} \  \bullet \ {}_{4} \textrm{TOP>ADVP*} \ \textrm{ADVP} \  \otimes \ \textrm{TOP>ADVP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{TOP>S} \ \textrm{TOP>NP*} \ \textrm{NP} \  \otimes \  \bullet \ {}_{4} \textrm{TOP>NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>NP & TOP-START*-*TOP & 0,005 \\ 
+438 & & $ {}_0 \textrm{TOP>NP} \  \bullet \ {}_{4} \textrm{TOP>COMMA*} \ \textrm{COMMA} \  \otimes \ \textrm{TOP>COMMA} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{TOP>S} \ \textrm{TOP>NP*} \ \textrm{NP} \  \otimes \  \bullet \ {}_{4} \textrm{TOP>NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>NP & TOP-START*-*TOP & 0,0553 \\ 
+439 & & $ {}_0 \textrm{TOP>NP} \  \bullet \ {}_{4} \textrm{TOP>NN*} \ \textrm{NN} \  \otimes \ \textrm{TOP>NN} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{TOP>S} \ \textrm{TOP>NP*} \ \textrm{NP} \  \otimes \  \bullet \ {}_{4} \textrm{TOP>NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>NP & TOP-START*-*TOP & 0,0005 \\ 
+440 & & $ {}_0 \textrm{TOP>NP} \  \bullet \ {}_{4} \textrm{TOP>PUN*} \ \textrm{PUN} \  \otimes \ \textrm{TOP>PUN} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{TOP>S} \ \textrm{TOP>NP*} \ \textrm{NP} \  \otimes \  \bullet \ {}_{4} \textrm{TOP>NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>NP & TOP-START*-*TOP & 0,8282 \\ 
+441 & & $ {}_0 \textrm{TOP>NP} \  \otimes \  \bullet \ {}_{4} \textrm{TOP} $ & START-s2 [0,0] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{TOP>S} \ \textrm{TOP>NP*} \ \textrm{NP} \  \otimes \  \bullet \ {}_{4} \textrm{TOP>NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>NP & TOP-START*-*TOP & 0,011 \\ 
+442 & & $ {}_0 \textrm{TOP>NP} \  \bullet \ {}_{4} \textrm{TOP>SUGG*} \ \textrm{SUGG} \  \otimes \ \textrm{TOP>SUGG} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{TOP>S} \ \textrm{TOP>NP*} \ \textrm{NP} \  \otimes \  \bullet \ {}_{4} \textrm{TOP>NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>NP & TOP-START*-*TOP & 0,0015 \\ 
+443 & & $ {}_0 \textrm{TOP>NP} \  \bullet \ {}_{4} \textrm{TOP>CNJ*} \ \textrm{CNJ} \  \otimes \ \textrm{TOP>CNJ} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{TOP>S} \ \textrm{TOP>NP*} \ \textrm{NP} \  \otimes \  \bullet \ {}_{4} \textrm{TOP>NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>NP & TOP-START*-*TOP & 0,002 \\ 
+444 & & $ {}_0 \textrm{TOP>NP} \  \bullet \ {}_{4} \textrm{TOP>S*} \ \textrm{S} \  \otimes \ \textrm{TOP>S} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{TOP>S} \ \textrm{TOP>NP*} \ \textrm{NP} \  \otimes \  \bullet \ {}_{4} \textrm{TOP>NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>NP & TOP-START*-*TOP & 0,0473 \\ 
+445 & & $ {}_0 \textrm{TOP>NP} \  \bullet \ {}_{4} \textrm{TOP>VP*} \ \textrm{VP} \  \otimes \ \textrm{TOP>VP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{TOP>S} \ \textrm{TOP>NP*} \ \textrm{NP} \  \otimes \  \bullet \ {}_{4} \textrm{TOP>NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>NP & TOP-START*-*TOP & 0,0105 \\ 
+446 & & $ {}_0 \textrm{TOP>NP} \  \bullet \ {}_{4} \textrm{TOP>DGP*} \ \textrm{DGP} \  \otimes \ \textrm{TOP>DGP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{TOP>S} \ \textrm{TOP>NP*} \ \textrm{NP} \  \otimes \  \bullet \ {}_{4} \textrm{TOP>NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>NP & TOP-START*-*TOP & 0,0005 \\ 
+447 & & $ {}_0 \textrm{TOP>NP} \  \bullet \ {}_{4} \textrm{TOP>VBP*} \ \textrm{VBP} \  \otimes \ \textrm{TOP>VBP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{TOP>S} \ \textrm{TOP>NP*} \ \textrm{NP} \  \otimes \  \bullet \ {}_{4} \textrm{TOP>NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>NP & TOP-START*-*TOP & 0,0005 \\ 
+448 & & $ {}_0 \textrm{TOP>NP} \  \bullet \ {}_{4} \textrm{TOP>AP*} \ \textrm{AP} \  \otimes \ \textrm{TOP>AP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{TOP>S} \ \textrm{TOP>NP*} \ \textrm{NP} \  \otimes \  \bullet \ {}_{4} \textrm{TOP>NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>NP & TOP-START*-*TOP & 0,0015 \\ 
+449 & & $ {}_0 \textrm{TOP>NP} \  \bullet \ {}_{4} \textrm{TOP>NP*} \ \textrm{NP} \  \otimes \ \textrm{TOP>NP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{TOP>S} \ \textrm{TOP>NP*} \ \textrm{NP} \  \otimes \  \bullet \ {}_{4} \textrm{TOP>NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>NP & TOP-START*-*TOP & 0,0204 \\ 
+450 & & $ {}_0 \textrm{TOP>NP} \  \bullet \ {}_{4} \textrm{TOP>IN*} \ \textrm{IN} \  \otimes \ \textrm{TOP>IN} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{TOP>S} \ \textrm{TOP>NP*} \ \textrm{NP} \  \otimes \  \bullet \ {}_{4} \textrm{TOP>NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>NP & TOP-START*-*TOP & 0,004 \\ 
+451 & & $ {}_0 \textrm{TOP>NP} \  \bullet \ {}_{4} \textrm{TOP>DTP*} \ \textrm{DTP} \  \otimes \ \textrm{TOP>DTP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{TOP>S} \ \textrm{TOP>NP*} \ \textrm{NP} \  \otimes \  \bullet \ {}_{4} \textrm{TOP>NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>NP & TOP-START*-*TOP & 0,0005 \\ 
+452 & & $ {}_0 \textrm{TOP>NP} \  \bullet \ {}_{4} \textrm{TOP>VBD*} \ \textrm{VBD} \  \otimes \ \textrm{TOP>VBD} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{TOP>S} \ \textrm{TOP>NP*} \ \textrm{NP} \  \otimes \  \bullet \ {}_{4} \textrm{TOP>NP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>NP & TOP-START*-*TOP & 0,0005 \\ 
+456 & & $ {}_3 \textrm{NP>NP} \  \bullet \ {}_{4} \textrm{NP>ADVP*} \ \textrm{ADVP} \  \otimes \ \textrm{NP>ADVP} $ & TOP>NP-s2 [0,3] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_3 \textrm{NP} \  \otimes \  \bullet \ {}_{4} \textrm{NP>NP} $ & TOP>NP-s2 [0,3] & completed & 0 & 0 & proj & NP>NP & NP-TOP>NP*TOP>S*NP & 0,1 \\ 
+457 & & $ {}_3 \textrm{NP>NP} \  \bullet \ {}_{4} \textrm{NP>COMMA*} \ \textrm{COMMA} \  \otimes \ \textrm{NP>COMMA} $ & TOP>NP-s2 [0,3] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_3 \textrm{NP} \  \otimes \  \bullet \ {}_{4} \textrm{NP>NP} $ & TOP>NP-s2 [0,3] & completed & 0 & 0 & proj & NP>NP & NP-TOP>NP*TOP>S*NP & 0,1 \\ 
+458 & & $ {}_3 \textrm{NP>NP} \  \bullet \ {}_{4} \textrm{NP>NP*} \ \textrm{NP} \  \otimes \ \textrm{NP>NP} $ & TOP>NP-s2 [0,3] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_3 \textrm{NP} \  \otimes \  \bullet \ {}_{4} \textrm{NP>NP} $ & TOP>NP-s2 [0,3] & completed & 0 & 0 & proj & NP>NP & NP-TOP>NP*TOP>S*NP & 0,1 \\ 
+459 & & $ {}_3 \textrm{NP>NP} \  \bullet \ {}_{4} \textrm{NP>CNJ*} \ \textrm{CNJ} \  \otimes \ \textrm{NP>CNJ} $ & TOP>NP-s2 [0,3] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_3 \textrm{NP} \  \otimes \  \bullet \ {}_{4} \textrm{NP>NP} $ & TOP>NP-s2 [0,3] & completed & 0 & 0 & proj & NP>NP & NP-TOP>NP*TOP>S*NP & 0,2 \\ 
+460 & & $ {}_3 \textrm{NP>NP} \  \otimes \  \bullet \ {}_{4} \textrm{NP} $ & TOP>NP-s2 [0,3] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_3 \textrm{NP} \  \otimes \  \bullet \ {}_{4} \textrm{NP>NP} $ & TOP>NP-s2 [0,3] & completed & 0 & 0 & proj & NP>NP & NP-TOP>NP*TOP>S*NP & 0,5 \\ 
+467 & & $ {}_3 \textrm{a} \  \otimes \  \bullet \ {}_{4} \textrm{DT} $ & VP>ADVP-s2 [2,3] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_3 \textrm{VP>ADVP*} \  \otimes \  \bullet \ {}_{4} \textrm{a} $ & VP>ADVP-s2 [2,3] & completed & 0 & 0 & proj & a & ADVP-VP>ADVP*VP>VB*ADVP & 1 \\ 
+468 & & $ {}_3 \textrm{DT} \  \otimes \  \bullet \ {}_{4} \textrm{DT} $ & VP>ADVP-s2 [2,3] & completed & 0 & 0 & & & & \\ 
+ & Pre & $ {}_3 \textrm{DT} \  \otimes \  \bullet \ {}_{4} \textrm{DT} $ & VP>ADVP-s2 [2,3] & completed & 0 & 0 & proj & DT & ADVP-VP>ADVP*VP>VB*ADVP & 0,5 \\ 
+ & Pre *& $ {}_3 \textrm{a} \  \otimes \  \bullet \ {}_{4} \textrm{DT} $ & VP>ADVP-s2 [2,3] & completed & 0 & 0 & proj & DT & ADVP-VP>ADVP*VP>VB*ADVP & 0,5 \\ 
+469 & & $ {}_3 \textrm{DT} \  \otimes \  \bullet \ {}_{4} \textrm{DTP} $ & VP>ADVP-s2 [2,3] & completed & 0 & 0 & & & & \\ 
+ & Pre & $ {}_3 \textrm{DT} \  \otimes \  \bullet \ {}_{4} \textrm{DT} $ & VP>ADVP-s2 [2,3] & completed & 0 & 0 & proj & DT & ADVP-VP>ADVP*VP>VB*ADVP & 0,5 \\ 
+ & Pre *& $ {}_3 \textrm{a} \  \otimes \  \bullet \ {}_{4} \textrm{DT} $ & VP>ADVP-s2 [2,3] & completed & 0 & 0 & proj & DT & ADVP-VP>ADVP*VP>VB*ADVP & 0,5 \\ 
+470 & & $ {}_3 \textrm{DTP} \  \otimes \  \bullet \ {}_{4} \textrm{DGP>DTP} $ & VP>ADVP-s2 [2,3] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_3 \textrm{DT} \  \otimes \  \bullet \ {}_{4} \textrm{DTP} $ & VP>ADVP-s2 [2,3] & completed & 0 & 0 & proj & DTP & ADVP-VP>ADVP*VP>VB*ADVP & 1 \\ 
+471 & & $ {}_3 \textrm{DGP>DTP} \  \bullet \ {}_{4} \textrm{DGP>DG*} \ \textrm{DG} \  \otimes \ \textrm{DGP>DG} $ & VP>ADVP-s2 [2,3] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_3 \textrm{DTP} \  \otimes \  \bullet \ {}_{4} \textrm{DGP>DTP} $ & VP>ADVP-s2 [2,3] & completed & 0 & 0 & proj & DGP>DTP & ADVP-VP>ADVP*VP>VB*ADVP & 1 \\ 
+474 & & $ {}_3 \textrm{a} \  \otimes \  \bullet \ {}_{4} \textrm{DT} $ & TOP>DTP-s2 [0,3] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_3 \textrm{TOP>DTP*} \  \otimes \  \bullet \ {}_{4} \textrm{a} $ & TOP>DTP-s2 [0,3] & completed & 0 & 0 & proj & a & DTP-TOP>DTP*TOP>S*DTP & 1 \\ 
+475 & & $ {}_3 \textrm{DT} \  \otimes \  \bullet \ {}_{4} \textrm{DT} $ & TOP>DTP-s2 [0,3] & completed & 0 & 0 & & & & \\ 
+ & Pre & $ {}_3 \textrm{DT} \  \otimes \  \bullet \ {}_{4} \textrm{DT} $ & TOP>DTP-s2 [0,3] & completed & 0 & 0 & proj & DT & DTP-TOP>DTP*TOP>S*DTP & 0,5 \\ 
+ & Pre *& $ {}_3 \textrm{a} \  \otimes \  \bullet \ {}_{4} \textrm{DT} $ & TOP>DTP-s2 [0,3] & completed & 0 & 0 & proj & DT & DTP-TOP>DTP*TOP>S*DTP & 0,5 \\ 
+476 & & $ {}_3 \textrm{DT} \  \otimes \  \bullet \ {}_{4} \textrm{DTP} $ & TOP>DTP-s2 [0,3] & completed & 0 & 0 & & & & \\ 
+ & Pre & $ {}_3 \textrm{DT} \  \otimes \  \bullet \ {}_{4} \textrm{DT} $ & TOP>DTP-s2 [0,3] & completed & 0 & 0 & proj & DT & DTP-TOP>DTP*TOP>S*DTP & 0,5 \\ 
+ & Pre *& $ {}_3 \textrm{a} \  \otimes \  \bullet \ {}_{4} \textrm{DT} $ & TOP>DTP-s2 [0,3] & completed & 0 & 0 & proj & DT & DTP-TOP>DTP*TOP>S*DTP & 0,5 \\ 
+477 & & $ {}_0 \textrm{TOP>S} \ \textrm{TOP>DTP*} \ \textrm{DTP} \  \otimes \  \bullet \ {}_{4} \textrm{TOP>DTP} $ & START-s2 [0,0] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_3 \textrm{DT} \  \otimes \  \bullet \ {}_{4} \textrm{DTP} $ & TOP>DTP-s2 [0,3] & completed & 0 & 0 & att & DTP & DTP-TOP>DTP*TOP>S*DTP & 1 \\ 
+478 & & $ {}_0 \textrm{TOP>DTP} \  \otimes \  \bullet \ {}_{4} \textrm{TOP} $ & START-s2 [0,0] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{TOP>S} \ \textrm{TOP>DTP*} \ \textrm{DTP} \  \otimes \  \bullet \ {}_{4} \textrm{TOP>DTP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>DTP & TOP-START*-*TOP & 0,2976 \\ 
+479 & & $ {}_0 \textrm{TOP>DTP} \  \bullet \ {}_{4} \textrm{TOP>IN*} \ \textrm{IN} \  \otimes \ \textrm{TOP>IN} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{TOP>S} \ \textrm{TOP>DTP*} \ \textrm{DTP} \  \otimes \  \bullet \ {}_{4} \textrm{TOP>DTP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>DTP & TOP-START*-*TOP & 0,0119 \\ 
+480 & & $ {}_0 \textrm{TOP>DTP} \  \bullet \ {}_{4} \textrm{TOP>DTP*} \ \textrm{DTP} \  \otimes \ \textrm{TOP>DTP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{TOP>S} \ \textrm{TOP>DTP*} \ \textrm{DTP} \  \otimes \  \bullet \ {}_{4} \textrm{TOP>DTP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>DTP & TOP-START*-*TOP & 0,0357 \\ 
+481 & & $ {}_0 \textrm{TOP>DTP} \  \bullet \ {}_{4} \textrm{TOP>NP*} \ \textrm{NP} \  \otimes \ \textrm{TOP>NP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{TOP>S} \ \textrm{TOP>DTP*} \ \textrm{DTP} \  \otimes \  \bullet \ {}_{4} \textrm{TOP>DTP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>DTP & TOP-START*-*TOP & 0,0952 \\ 
+482 & & $ {}_0 \textrm{TOP>DTP} \  \bullet \ {}_{4} \textrm{TOP>S*} \ \textrm{S} \  \otimes \ \textrm{TOP>S} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{TOP>S} \ \textrm{TOP>DTP*} \ \textrm{DTP} \  \otimes \  \bullet \ {}_{4} \textrm{TOP>DTP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>DTP & TOP-START*-*TOP & 0,1548 \\ 
+483 & & $ {}_0 \textrm{TOP>DTP} \  \bullet \ {}_{4} \textrm{TOP>VP*} \ \textrm{VP} \  \otimes \ \textrm{TOP>VP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{TOP>S} \ \textrm{TOP>DTP*} \ \textrm{DTP} \  \otimes \  \bullet \ {}_{4} \textrm{TOP>DTP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>DTP & TOP-START*-*TOP & 0,0357 \\ 
+484 & & $ {}_0 \textrm{TOP>DTP} \  \bullet \ {}_{4} \textrm{TOP>PUN*} \ \textrm{PUN} \  \otimes \ \textrm{TOP>PUN} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{TOP>S} \ \textrm{TOP>DTP*} \ \textrm{DTP} \  \otimes \  \bullet \ {}_{4} \textrm{TOP>DTP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>DTP & TOP-START*-*TOP & 0,0952 \\ 
+485 & & $ {}_0 \textrm{TOP>DTP} \  \bullet \ {}_{4} \textrm{TOP>ADVP*} \ \textrm{ADVP} \  \otimes \ \textrm{TOP>ADVP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{TOP>S} \ \textrm{TOP>DTP*} \ \textrm{DTP} \  \otimes \  \bullet \ {}_{4} \textrm{TOP>DTP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>DTP & TOP-START*-*TOP & 0,0119 \\ 
+486 & & $ {}_0 \textrm{TOP>DTP} \  \bullet \ {}_{4} \textrm{TOP>PP*} \ \textrm{PP} \  \otimes \ \textrm{TOP>PP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{TOP>S} \ \textrm{TOP>DTP*} \ \textrm{DTP} \  \otimes \  \bullet \ {}_{4} \textrm{TOP>DTP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>DTP & TOP-START*-*TOP & 0,0119 \\ 
+487 & & $ {}_0 \textrm{TOP>DTP} \  \bullet \ {}_{4} \textrm{TOP>UH*} \ \textrm{UH} \  \otimes \ \textrm{TOP>UH} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{TOP>S} \ \textrm{TOP>DTP*} \ \textrm{DTP} \  \otimes \  \bullet \ {}_{4} \textrm{TOP>DTP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>DTP & TOP-START*-*TOP & 0,1548 \\ 
+488 & & $ {}_0 \textrm{TOP>DTP} \  \bullet \ {}_{4} \textrm{TOP>AP*} \ \textrm{AP} \  \otimes \ \textrm{TOP>AP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{TOP>S} \ \textrm{TOP>DTP*} \ \textrm{DTP} \  \otimes \  \bullet \ {}_{4} \textrm{TOP>DTP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>DTP & TOP-START*-*TOP & 0,0238 \\ 
+489 & & $ {}_0 \textrm{TOP>DTP} \  \bullet \ {}_{4} \textrm{TOP>COMMA*} \ \textrm{COMMA} \  \otimes \ \textrm{TOP>COMMA} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{TOP>S} \ \textrm{TOP>DTP*} \ \textrm{DTP} \  \otimes \  \bullet \ {}_{4} \textrm{TOP>DTP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>DTP & TOP-START*-*TOP & 0,0714 \\ 
+492 & & $ {}_3 \textrm{a} \  \otimes \  \bullet \ {}_{4} \textrm{DT} $ & VP>DTP-s2 [2,3] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_3 \textrm{VP>DTP*} \  \otimes \  \bullet \ {}_{4} \textrm{a} $ & VP>DTP-s2 [2,3] & completed & 0 & 0 & proj & a & DTP-VP>DTP*VP>VB*DTP & 1 \\ 
+493 & & $ {}_3 \textrm{DT} \  \otimes \  \bullet \ {}_{4} \textrm{DT} $ & VP>DTP-s2 [2,3] & completed & 0 & 0 & & & & \\ 
+ & Pre & $ {}_3 \textrm{DT} \  \otimes \  \bullet \ {}_{4} \textrm{DT} $ & VP>DTP-s2 [2,3] & completed & 0 & 0 & proj & DT & DTP-VP>DTP*VP>VB*DTP & 0,4444 \\ 
+ & Pre *& $ {}_3 \textrm{a} \  \otimes \  \bullet \ {}_{4} \textrm{DT} $ & VP>DTP-s2 [2,3] & completed & 0 & 0 & proj & DT & DTP-VP>DTP*VP>VB*DTP & 0,4444 \\ 
+494 & & $ {}_3 \textrm{DT} \  \otimes \  \bullet \ {}_{4} \textrm{DTP} $ & VP>DTP-s2 [2,3] & completed & 0 & 0 & & & & \\ 
+ & Pre & $ {}_3 \textrm{DT} \  \otimes \  \bullet \ {}_{4} \textrm{DT} $ & VP>DTP-s2 [2,3] & completed & 0 & 0 & proj & DT & DTP-VP>DTP*VP>VB*DTP & 0,5556 \\ 
+ & Pre *& $ {}_3 \textrm{a} \  \otimes \  \bullet \ {}_{4} \textrm{DT} $ & VP>DTP-s2 [2,3] & completed & 0 & 0 & proj & DT & DTP-VP>DTP*VP>VB*DTP & 0,5556 \\ 
+495 & & $ {}_2 \textrm{VP>VB} \ \textrm{VP>DTP*} \ \textrm{DTP} \  \otimes \  \bullet \ {}_{4} \textrm{VP>DTP} $ & S>VP-s2 [0,2] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_3 \textrm{DT} \  \otimes \  \bullet \ {}_{4} \textrm{DTP} $ & VP>DTP-s2 [2,3] & completed & 0 & 0 & att & DTP & DTP-VP>DTP*VP>VB*DTP & 1 \\ 
+496 & & $ {}_2 \textrm{VP>DTP} \  \bullet \ {}_{4} \textrm{VP>NP*} \ \textrm{NP} \  \otimes \ \textrm{VP>NP} $ & S>VP-s2 [0,2] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_2 \textrm{VP>VB} \ \textrm{VP>DTP*} \ \textrm{DTP} \  \otimes \  \bullet \ {}_{4} \textrm{VP>DTP} $ & S>VP-s2 [0,2] & completed & 0 & 0 & proj & VP>DTP & VP-S>VP*S>MD*VP & 1 \\ 
+499 & & $ {}_3 \textrm{a} \  \otimes \  \bullet \ {}_{4} \textrm{DT} $ & VP>NP-s2 [2,3] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_3 \textrm{VP>NP*} \  \otimes \  \bullet \ {}_{4} \textrm{a} $ & VP>NP-s2 [2,3] & completed & 0 & 0 & proj & a & NP-VP>NP*VP>VB*NP & 1 \\ 
+500 & & $ {}_3 \textrm{DT} \  \otimes \  \bullet \ {}_{4} \textrm{DT} $ & VP>NP-s2 [2,3] & completed & 0 & 0 & & & & \\ 
+ & Pre & $ {}_3 \textrm{DT} \  \otimes \  \bullet \ {}_{4} \textrm{DT} $ & VP>NP-s2 [2,3] & completed & 0 & 0 & proj & DT & NP-VP>NP*VP>VB*NP & 0,3843 \\ 
+ & Pre *& $ {}_3 \textrm{a} \  \otimes \  \bullet \ {}_{4} \textrm{DT} $ & VP>NP-s2 [2,3] & completed & 0 & 0 & proj & DT & NP-VP>NP*VP>VB*NP & 0,3843 \\ 
+501 & & $ {}_3 \textrm{DT} \  \otimes \  \bullet \ {}_{4} \textrm{PR} $ & VP>NP-s2 [2,3] & completed & 0 & 0 & & & & \\ 
+ & Pre & $ {}_3 \textrm{DT} \  \otimes \  \bullet \ {}_{4} \textrm{DT} $ & VP>NP-s2 [2,3] & completed & 0 & 0 & proj & DT & NP-VP>NP*VP>VB*NP & 0,2314 \\ 
+ & Pre *& $ {}_3 \textrm{a} \  \otimes \  \bullet \ {}_{4} \textrm{DT} $ & VP>NP-s2 [2,3] & completed & 0 & 0 & proj & DT & NP-VP>NP*VP>VB*NP & 0,2314 \\ 
+502 & & $ {}_3 \textrm{DT} \  \otimes \  \bullet \ {}_{4} \textrm{DTP} $ & VP>NP-s2 [2,3] & completed & 0 & 0 & & & & \\ 
+ & Pre & $ {}_3 \textrm{DT} \  \otimes \  \bullet \ {}_{4} \textrm{DT} $ & VP>NP-s2 [2,3] & completed & 0 & 0 & proj & DT & NP-VP>NP*VP>VB*NP & 0,3843 \\ 
+ & Pre *& $ {}_3 \textrm{a} \  \otimes \  \bullet \ {}_{4} \textrm{DT} $ & VP>NP-s2 [2,3] & completed & 0 & 0 & proj & DT & NP-VP>NP*VP>VB*NP & 0,3843 \\ 
+503 & & $ {}_3 \textrm{DTP} \  \otimes \  \bullet \ {}_{4} \textrm{DGP>DTP} $ & VP>NP-s2 [2,3] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_3 \textrm{DT} \  \otimes \  \bullet \ {}_{4} \textrm{DTP} $ & VP>NP-s2 [2,3] & completed & 0 & 0 & proj & DTP & NP-VP>NP*VP>VB*NP & 0,0037 \\ 
+504 & & $ {}_3 \textrm{DTP} \  \otimes \  \bullet \ {}_{4} \textrm{NP>DTP} $ & VP>NP-s2 [2,3] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_3 \textrm{DT} \  \otimes \  \bullet \ {}_{4} \textrm{DTP} $ & VP>NP-s2 [2,3] & completed & 0 & 0 & proj & DTP & NP-VP>NP*VP>VB*NP & 0,9963 \\ 
+505 & & $ {}_3 \textrm{NP>DTP} \  \bullet \ {}_{4} \textrm{NP>NN*} \ \textrm{NN} \  \otimes \ \textrm{NP>NN} $ & VP>NP-s2 [2,3] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_3 \textrm{DTP} \  \otimes \  \bullet \ {}_{4} \textrm{NP>DTP} $ & VP>NP-s2 [2,3] & completed & 0 & 0 & proj & NP>DTP & NP-VP>NP*VP>VB*NP & 0,5222 \\ 
+506 & & $ {}_3 \textrm{NP>DTP} \  \bullet \ {}_{4} \textrm{NP>NPS*} \ \textrm{NPS} \  \otimes \ \textrm{NP>NPS} $ & VP>NP-s2 [2,3] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_3 \textrm{DTP} \  \otimes \  \bullet \ {}_{4} \textrm{NP>DTP} $ & VP>NP-s2 [2,3] & completed & 0 & 0 & proj & NP>DTP & NP-VP>NP*VP>VB*NP & 0,0037 \\ 
+507 & & $ {}_3 \textrm{NP>DTP} \  \bullet \ {}_{4} \textrm{NP>N*} \ \textrm{N} \  \otimes \ \textrm{NP>N} $ & VP>NP-s2 [2,3] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_3 \textrm{DTP} \  \otimes \  \bullet \ {}_{4} \textrm{NP>DTP} $ & VP>NP-s2 [2,3] & completed & 0 & 0 & proj & NP>DTP & NP-VP>NP*VP>VB*NP & 0,1185 \\ 
+508 & & $ {}_3 \textrm{NP>DTP} \  \bullet \ {}_{4} \textrm{NP>NP*} \ \textrm{NP} \  \otimes \ \textrm{NP>NP} $ & VP>NP-s2 [2,3] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_3 \textrm{DTP} \  \otimes \  \bullet \ {}_{4} \textrm{NP>DTP} $ & VP>NP-s2 [2,3] & completed & 0 & 0 & proj & NP>DTP & NP-VP>NP*VP>VB*NP & 0,037 \\ 
+509 & & $ {}_3 \textrm{NP>DTP} \  \bullet \ {}_{4} \textrm{NP>V*} \ \textrm{V} \  \otimes \ \textrm{NP>V} $ & VP>NP-s2 [2,3] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_3 \textrm{DTP} \  \otimes \  \bullet \ {}_{4} \textrm{NP>DTP} $ & VP>NP-s2 [2,3] & completed & 0 & 0 & proj & NP>DTP & NP-VP>NP*VP>VB*NP & 0,0074 \\ 
+510 & & $ {}_3 \textrm{NP>DTP} \  \bullet \ {}_{4} \textrm{NP>CNUM*} \ \textrm{CNUM} \  \otimes \ \textrm{NP>CNUM} $ & VP>NP-s2 [2,3] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_3 \textrm{DTP} \  \otimes \  \bullet \ {}_{4} \textrm{NP>DTP} $ & VP>NP-s2 [2,3] & completed & 0 & 0 & proj & NP>DTP & NP-VP>NP*VP>VB*NP & 0,0111 \\ 
+511 & & $ {}_3 \textrm{NP>DTP} \  \bullet \ {}_{4} \textrm{NP>NNS*} \ \textrm{NNS} \  \otimes \ \textrm{NP>NNS} $ & VP>NP-s2 [2,3] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_3 \textrm{DTP} \  \otimes \  \bullet \ {}_{4} \textrm{NP>DTP} $ & VP>NP-s2 [2,3] & completed & 0 & 0 & proj & NP>DTP & NP-VP>NP*VP>VB*NP & 0,0852 \\ 
+512 & & $ {}_3 \textrm{NP>DTP} \  \bullet \ {}_{4} \textrm{NP>ONUM*} \ \textrm{ONUM} \  \otimes \ \textrm{NP>ONUM} $ & VP>NP-s2 [2,3] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_3 \textrm{DTP} \  \otimes \  \bullet \ {}_{4} \textrm{NP>DTP} $ & VP>NP-s2 [2,3] & completed & 0 & 0 & proj & NP>DTP & NP-VP>NP*VP>VB*NP & 0,0481 \\ 
+513 & & $ {}_3 \textrm{NP>DTP} \  \bullet \ {}_{4} \textrm{NP>COMMA*} \ \textrm{COMMA} \  \otimes \ \textrm{NP>COMMA} $ & VP>NP-s2 [2,3] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_3 \textrm{DTP} \  \otimes \  \bullet \ {}_{4} \textrm{NP>DTP} $ & VP>NP-s2 [2,3] & completed & 0 & 0 & proj & NP>DTP & NP-VP>NP*VP>VB*NP & 0,0222 \\ 
+514 & & $ {}_3 \textrm{NP>DTP} \  \bullet \ {}_{4} \textrm{NP>AP*} \ \textrm{AP} \  \otimes \ \textrm{NP>AP} $ & VP>NP-s2 [2,3] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_3 \textrm{DTP} \  \otimes \  \bullet \ {}_{4} \textrm{NP>DTP} $ & VP>NP-s2 [2,3] & completed & 0 & 0 & proj & NP>DTP & NP-VP>NP*VP>VB*NP & 0,1444 \\ 
+515 & & $ {}_3 \textrm{DGP>DTP} \  \bullet \ {}_{4} \textrm{DGP>DG*} \ \textrm{DG} \  \otimes \ \textrm{DGP>DG} $ & VP>NP-s2 [2,3] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_3 \textrm{DTP} \  \otimes \  \bullet \ {}_{4} \textrm{DGP>DTP} $ & VP>NP-s2 [2,3] & completed & 0 & 0 & proj & DGP>DTP & NP-VP>NP*VP>VB*NP & 1 \\ 
+516 & & $ {}_3 \textrm{PR} \  \otimes \  \bullet \ {}_{4} \textrm{NP} $ & VP>NP-s2 [2,3] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_3 \textrm{DT} \  \otimes \  \bullet \ {}_{4} \textrm{PR} $ & VP>NP-s2 [2,3] & completed & 0 & 0 & proj & PR & NP-VP>NP*VP>VB*NP & 1 \\ 
+517 & & $ {}_3 \textrm{NP} \  \otimes \  \bullet \ {}_{4} \textrm{N>NP} $ & VP>NP-s2 [2,3] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_3 \textrm{PR} \  \otimes \  \bullet \ {}_{4} \textrm{NP} $ & VP>NP-s2 [2,3] & completed & 0 & 0 & proj & NP & NP-VP>NP*VP>VB*NP & 0,0008 \\ 
+ & Pre & $ {}_3 \textrm{NP>NP} \  \otimes \  \bullet \ {}_{4} \textrm{NP} $ & VP>NP-s2 [2,3] & completed & 0 & 0 & proj & NP & NP-VP>NP*VP>VB*NP & 0,0008 \\ 
+ & Pre & $ {}_3 \textrm{NP} \  \otimes \  \bullet \ {}_{4} \textrm{NP} $ & VP>NP-s2 [2,3] & completed & 0 & 0 & proj & NP & NP-VP>NP*VP>VB*NP & 0,0008 \\ 
+518 & & $ {}_3 \textrm{NP} \  \otimes \  \bullet \ {}_{4} \textrm{NP>NP} $ & VP>NP-s2 [2,3] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_3 \textrm{PR} \  \otimes \  \bullet \ {}_{4} \textrm{NP} $ & VP>NP-s2 [2,3] & completed & 0 & 0 & proj & NP & NP-VP>NP*VP>VB*NP & 0,0501 \\ 
+ & Pre & $ {}_3 \textrm{NP>NP} \  \otimes \  \bullet \ {}_{4} \textrm{NP} $ & VP>NP-s2 [2,3] & completed & 0 & 0 & proj & NP & NP-VP>NP*VP>VB*NP & 0,0501 \\ 
+ & Pre & $ {}_3 \textrm{NP} \  \otimes \  \bullet \ {}_{4} \textrm{NP} $ & VP>NP-s2 [2,3] & completed & 0 & 0 & proj & NP & NP-VP>NP*VP>VB*NP & 0,0501 \\ 
+519 & & $ {}_3 \textrm{NP} \  \otimes \  \bullet \ {}_{4} \textrm{NP} $ & VP>NP-s2 [2,3] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_3 \textrm{PR} \  \otimes \  \bullet \ {}_{4} \textrm{NP} $ & VP>NP-s2 [2,3] & completed & 0 & 0 & proj & NP & NP-VP>NP*VP>VB*NP & 0,0205 \\ 
+ & Pre & $ {}_3 \textrm{NP>NP} \  \otimes \  \bullet \ {}_{4} \textrm{NP} $ & VP>NP-s2 [2,3] & completed & 0 & 0 & proj & NP & NP-VP>NP*VP>VB*NP & 0,0205 \\ 
+ & Pre & $ {}_3 \textrm{NP} \  \otimes \  \bullet \ {}_{4} \textrm{NP} $ & VP>NP-s2 [2,3] & completed & 0 & 0 & proj & NP & NP-VP>NP*VP>VB*NP & 0,0205 \\ 
+520 & & $ {}_2 \textrm{VP>VB} \ \textrm{VP>NP*} \ \textrm{NP} \  \otimes \  \bullet \ {}_{4} \textrm{VP>NP} $ & S>VP-s2 [0,2] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_3 \textrm{PR} \  \otimes \  \bullet \ {}_{4} \textrm{NP} $ & VP>NP-s2 [2,3] & completed & 0 & 0 & att & NP & NP-VP>NP*VP>VB*NP & 0,9285 \\ 
+ & Pre & $ {}_3 \textrm{NP>NP} \  \otimes \  \bullet \ {}_{4} \textrm{NP} $ & VP>NP-s2 [2,3] & completed & 0 & 0 & att & NP & NP-VP>NP*VP>VB*NP & 0,9285 \\ 
+ & Pre & $ {}_3 \textrm{NP} \  \otimes \  \bullet \ {}_{4} \textrm{NP} $ & VP>NP-s2 [2,3] & completed & 0 & 0 & att & NP & NP-VP>NP*VP>VB*NP & 0,9285 \\ 
+521 & & $ {}_2 \textrm{VP>NP} \  \bullet \ {}_{4} \textrm{VP>PP*} \ \textrm{PP} \  \otimes \ \textrm{VP>PP} $ & S>VP-s2 [0,2] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_2 \textrm{VP>VB} \ \textrm{VP>NP*} \ \textrm{NP} \  \otimes \  \bullet \ {}_{4} \textrm{VP>NP} $ & S>VP-s2 [0,2] & completed & 0 & 0 & proj & VP>NP & VP-S>VP*S>MD*VP & 0,0461 \\ 
+522 & & $ {}_2 \textrm{VP>NP} \  \bullet \ {}_{4} \textrm{VP>VP*} \ \textrm{VP} \  \otimes \ \textrm{VP>VP} $ & S>VP-s2 [0,2] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_2 \textrm{VP>VB} \ \textrm{VP>NP*} \ \textrm{NP} \  \otimes \  \bullet \ {}_{4} \textrm{VP>NP} $ & S>VP-s2 [0,2] & completed & 0 & 0 & proj & VP>NP & VP-S>VP*S>MD*VP & 0,0115 \\ 
+523 & & $ {}_2 \textrm{VP>NP} \  \bullet \ {}_{4} \textrm{VP>IN*} \ \textrm{IN} \  \otimes \ \textrm{VP>IN} $ & S>VP-s2 [0,2] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_2 \textrm{VP>VB} \ \textrm{VP>NP*} \ \textrm{NP} \  \otimes \  \bullet \ {}_{4} \textrm{VP>NP} $ & S>VP-s2 [0,2] & completed & 0 & 0 & proj & VP>NP & VP-S>VP*S>MD*VP & 0,0019 \\ 
+524 & & $ {}_2 \textrm{VP>NP} \  \bullet \ {}_{4} \textrm{VP>NP*} \ \textrm{NP} \  \otimes \ \textrm{VP>NP} $ & S>VP-s2 [0,2] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_2 \textrm{VP>VB} \ \textrm{VP>NP*} \ \textrm{NP} \  \otimes \  \bullet \ {}_{4} \textrm{VP>NP} $ & S>VP-s2 [0,2] & completed & 0 & 0 & proj & VP>NP & VP-S>VP*S>MD*VP & 0,0384 \\ 
+525 & & $ {}_2 \textrm{VP>NP} \  \bullet \ {}_{4} \textrm{VP>AP*} \ \textrm{AP} \  \otimes \ \textrm{VP>AP} $ & S>VP-s2 [0,2] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_2 \textrm{VP>VB} \ \textrm{VP>NP*} \ \textrm{NP} \  \otimes \  \bullet \ {}_{4} \textrm{VP>NP} $ & S>VP-s2 [0,2] & completed & 0 & 0 & proj & VP>NP & VP-S>VP*S>MD*VP & 0,0038 \\ 
+526 & & $ {}_2 \textrm{VP>NP} \  \bullet \ {}_{4} \textrm{VP>COMMA*} \ \textrm{COMMA} \  \otimes \ \textrm{VP>COMMA} $ & S>VP-s2 [0,2] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_2 \textrm{VP>VB} \ \textrm{VP>NP*} \ \textrm{NP} \  \otimes \  \bullet \ {}_{4} \textrm{VP>NP} $ & S>VP-s2 [0,2] & completed & 0 & 0 & proj & VP>NP & VP-S>VP*S>MD*VP & 0,0077 \\ 
+527 & & $ {}_2 \textrm{VP>NP} \  \bullet \ {}_{4} \textrm{VP>VB*} \ \textrm{VB} \  \otimes \ \textrm{VP>VB} $ & S>VP-s2 [0,2] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_2 \textrm{VP>VB} \ \textrm{VP>NP*} \ \textrm{NP} \  \otimes \  \bullet \ {}_{4} \textrm{VP>NP} $ & S>VP-s2 [0,2] & completed & 0 & 0 & proj & VP>NP & VP-S>VP*S>MD*VP & 0,0019 \\ 
+528 & & $ {}_2 \textrm{VP>NP} \  \bullet \ {}_{4} \textrm{VP>RP*} \ \textrm{RP} \  \otimes \ \textrm{VP>RP} $ & S>VP-s2 [0,2] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_2 \textrm{VP>VB} \ \textrm{VP>NP*} \ \textrm{NP} \  \otimes \  \bullet \ {}_{4} \textrm{VP>NP} $ & S>VP-s2 [0,2] & completed & 0 & 0 & proj & VP>NP & VP-S>VP*S>MD*VP & 0,0518 \\ 
+529 & & $ {}_2 \textrm{VP>NP} \  \otimes \  \bullet \ {}_{4} \textrm{VP} $ & S>VP-s2 [0,2] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_2 \textrm{VP>VB} \ \textrm{VP>NP*} \ \textrm{NP} \  \otimes \  \bullet \ {}_{4} \textrm{VP>NP} $ & S>VP-s2 [0,2] & completed & 0 & 0 & proj & VP>NP & VP-S>VP*S>MD*VP & 0,5144 \\ 
+530 & & $ {}_2 \textrm{VP>NP} \  \bullet \ {}_{4} \textrm{VP>ADVP*} \ \textrm{ADVP} \  \otimes \ \textrm{VP>ADVP} $ & S>VP-s2 [0,2] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_2 \textrm{VP>VB} \ \textrm{VP>NP*} \ \textrm{NP} \  \otimes \  \bullet \ {}_{4} \textrm{VP>NP} $ & S>VP-s2 [0,2] & completed & 0 & 0 & proj & VP>NP & VP-S>VP*S>MD*VP & 0,3225 \\ 
+531 & & $ {}_2 \textrm{VP} \  \otimes \  \bullet \ {}_{4} \textrm{VP>VP} $ & S>VP-s2 [0,2] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_2 \textrm{VP>NP} \  \otimes \  \bullet \ {}_{4} \textrm{VP} $ & S>VP-s2 [0,2] & completed & 0 & 0 & proj & VP & VP-S>VP*S>MD*VP & 0,0039 \\ 
+ & Pre & $ {}_2 \textrm{VP>VP} \  \otimes \  \bullet \ {}_{4} \textrm{VP} $ & S>VP-s2 [0,2] & completed & 0 & 0 & proj & VP & VP-S>VP*S>MD*VP & 0,0039 \\ 
+532 & & $ {}_0 \textrm{S>MD} \ \textrm{S>VP*} \ \textrm{VP} \  \otimes \  \bullet \ {}_{4} \textrm{S>VP} $ & START-s2 [0,0] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_2 \textrm{VP>NP} \  \otimes \  \bullet \ {}_{4} \textrm{VP} $ & S>VP-s2 [0,2] & completed & 0 & 0 & att & VP & VP-S>VP*S>MD*VP & 0,9961 \\ 
+ & Pre & $ {}_2 \textrm{VP>VP} \  \otimes \  \bullet \ {}_{4} \textrm{VP} $ & S>VP-s2 [0,2] & completed & 0 & 0 & att & VP & VP-S>VP*S>MD*VP & 0,9961 \\ 
+533 & & $ {}_0 \textrm{S>VP} \  \bullet \ {}_{4} \textrm{S>ADVP*} \ \textrm{ADVP} \  \otimes \ \textrm{S>ADVP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S>MD} \ \textrm{S>VP*} \ \textrm{VP} \  \otimes \  \bullet \ {}_{4} \textrm{S>VP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S>VP & TOP-START*-*TOP & 0,0034 \\ 
+534 & & $ {}_0 \textrm{S>VP} \  \bullet \ {}_{4} \textrm{S>AP*} \ \textrm{AP} \  \otimes \ \textrm{S>AP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S>MD} \ \textrm{S>VP*} \ \textrm{VP} \  \otimes \  \bullet \ {}_{4} \textrm{S>VP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S>VP & TOP-START*-*TOP & 0,0005 \\ 
+535 & & $ {}_0 \textrm{S>VP} \  \bullet \ {}_{4} \textrm{S>COMMA*} \ \textrm{COMMA} \  \otimes \ \textrm{S>COMMA} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S>MD} \ \textrm{S>VP*} \ \textrm{VP} \  \otimes \  \bullet \ {}_{4} \textrm{S>VP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S>VP & TOP-START*-*TOP & 0,0048 \\ 
+536 & & $ {}_0 \textrm{S>VP} \  \bullet \ {}_{4} \textrm{S>S*} \ \textrm{S} \  \otimes \ \textrm{S>S} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S>MD} \ \textrm{S>VP*} \ \textrm{VP} \  \otimes \  \bullet \ {}_{4} \textrm{S>VP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S>VP & TOP-START*-*TOP & 0,001 \\ 
+537 & & $ {}_0 \textrm{S>VP} \  \bullet \ {}_{4} \textrm{S>NP*} \ \textrm{NP} \  \otimes \ \textrm{S>NP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S>MD} \ \textrm{S>VP*} \ \textrm{VP} \  \otimes \  \bullet \ {}_{4} \textrm{S>VP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S>VP & TOP-START*-*TOP & 0,0005 \\ 
+538 & & $ {}_0 \textrm{S>VP} \  \otimes \  \bullet \ {}_{4} \textrm{S} $ & START-s2 [0,0] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S>MD} \ \textrm{S>VP*} \ \textrm{VP} \  \otimes \  \bullet \ {}_{4} \textrm{S>VP} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S>VP & TOP-START*-*TOP & 0,9899 \\ 
+539 & & $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{4} \textrm{TOP} $ & START-s2 [0,0] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S>VP} \  \otimes \  \bullet \ {}_{4} \textrm{S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S & TOP-START*-*TOP & 0,035 \\ 
+ & Pre & $ {}_0 \textrm{S>S} \  \otimes \  \bullet \ {}_{4} \textrm{S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S & TOP-START*-*TOP & 0,035 \\ 
+540 & & $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{4} \textrm{TOP>S} $ & START-s2 [0,0] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S>VP} \  \otimes \  \bullet \ {}_{4} \textrm{S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S & TOP-START*-*TOP & 0,9637 \\ 
+ & Pre & $ {}_0 \textrm{S>S} \  \otimes \  \bullet \ {}_{4} \textrm{S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S & TOP-START*-*TOP & 0,9637 \\ 
+541 & & $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{4} \textrm{SUGG>S} $ & START-s2 [0,0] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S>VP} \  \otimes \  \bullet \ {}_{4} \textrm{S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S & TOP-START*-*TOP & 0,0002 \\ 
+ & Pre & $ {}_0 \textrm{S>S} \  \otimes \  \bullet \ {}_{4} \textrm{S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S & TOP-START*-*TOP & 0,0002 \\ 
+542 & & $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{4} \textrm{S>S} $ & START-s2 [0,0] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S>VP} \  \otimes \  \bullet \ {}_{4} \textrm{S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S & TOP-START*-*TOP & 0,001 \\ 
+ & Pre & $ {}_0 \textrm{S>S} \  \otimes \  \bullet \ {}_{4} \textrm{S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S & TOP-START*-*TOP & 0,001 \\ 
+543 & & $ {}_0 \textrm{S>S} \  \bullet \ {}_{4} \textrm{S>S*} \ \textrm{S} \  \otimes \ \textrm{S>S} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{4} \textrm{S>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S>S & TOP-START*-*TOP & 0,0024 \\ 
+544 & & $ {}_0 \textrm{S>S} \  \bullet \ {}_{4} \textrm{S>VBP*} \ \textrm{VBP} \  \otimes \ \textrm{S>VBP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{4} \textrm{S>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S>S & TOP-START*-*TOP & 0,0024 \\ 
+545 & & $ {}_0 \textrm{S>S} \  \bullet \ {}_{4} \textrm{S>COMMA*} \ \textrm{COMMA} \  \otimes \ \textrm{S>COMMA} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{4} \textrm{S>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S>S & TOP-START*-*TOP & 0,0095 \\ 
+546 & & $ {}_0 \textrm{S>S} \  \otimes \  \bullet \ {}_{4} \textrm{S} $ & START-s2 [0,0] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{4} \textrm{S>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S>S & TOP-START*-*TOP & 0,9692 \\ 
+547 & & $ {}_0 \textrm{S>S} \  \bullet \ {}_{4} \textrm{S>NP*} \ \textrm{NP} \  \otimes \ \textrm{S>NP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{4} \textrm{S>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S>S & TOP-START*-*TOP & 0,0118 \\ 
+548 & & $ {}_0 \textrm{S>S} \  \bullet \ {}_{4} \textrm{S>UH*} \ \textrm{UH} \  \otimes \ \textrm{S>UH} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{4} \textrm{S>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S>S & TOP-START*-*TOP & 0,0024 \\ 
+549 & & $ {}_0 \textrm{S>S} \  \bullet \ {}_{4} \textrm{S>CNJ*} \ \textrm{CNJ} \  \otimes \ \textrm{S>CNJ} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{4} \textrm{S>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & S>S & TOP-START*-*TOP & 0,0024 \\ 
+554 & & $ {}_0 \textrm{SUGG>S} \  \otimes \  \bullet \ {}_{4} \textrm{SUGG} $ & START-s2 [0,0] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{4} \textrm{SUGG>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & SUGG>S & TOP-START*-*TOP & 0,9091 \\ 
+555 & & $ {}_0 \textrm{SUGG>S} \  \bullet \ {}_{4} \textrm{SUGG>COMMA*} \ \textrm{COMMA} \  \otimes \ \textrm{SUGG>COMMA} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{4} \textrm{SUGG>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & SUGG>S & TOP-START*-*TOP & 0,0909 \\ 
+556 & & $ {}_0 \textrm{SUGG} \  \otimes \  \bullet \ {}_{4} \textrm{TOP} $ & START-s2 [0,0] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{SUGG>S} \  \otimes \  \bullet \ {}_{4} \textrm{SUGG} $ & START-s2 [0,0] & completed & 0 & 0 & proj & SUGG & TOP-START*-*TOP & 0,0065 \\ 
+557 & & $ {}_0 \textrm{SUGG} \  \otimes \  \bullet \ {}_{4} \textrm{TOP>SUGG} $ & START-s2 [0,0] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{SUGG>S} \  \otimes \  \bullet \ {}_{4} \textrm{SUGG} $ & START-s2 [0,0] & completed & 0 & 0 & proj & SUGG & TOP-START*-*TOP & 0,9935 \\ 
+558 & & $ {}_0 \textrm{TOP>SUGG} \  \bullet \ {}_{4} \textrm{TOP>COMMA*} \ \textrm{COMMA} \  \otimes \ \textrm{TOP>COMMA} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{SUGG} \  \otimes \  \bullet \ {}_{4} \textrm{TOP>SUGG} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>SUGG & TOP-START*-*TOP & 0,0196 \\ 
+559 & & $ {}_0 \textrm{TOP>SUGG} \  \bullet \ {}_{4} \textrm{TOP>NP*} \ \textrm{NP} \  \otimes \ \textrm{TOP>NP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{SUGG} \  \otimes \  \bullet \ {}_{4} \textrm{TOP>SUGG} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>SUGG & TOP-START*-*TOP & 0,0028 \\ 
+560 & & $ {}_0 \textrm{TOP>SUGG} \  \bullet \ {}_{4} \textrm{TOP>PUN*} \ \textrm{PUN} \  \otimes \ \textrm{TOP>PUN} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{SUGG} \  \otimes \  \bullet \ {}_{4} \textrm{TOP>SUGG} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>SUGG & TOP-START*-*TOP & 0,9777 \\ 
+561 & & $ {}_0 \textrm{TOP>S} \  \bullet \ {}_{4} \textrm{TOP>WRB*} \ \textrm{WRB} \  \otimes \ \textrm{TOP>WRB} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{4} \textrm{TOP>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>S & TOP-START*-*TOP & 0,0002 \\ 
+562 & & $ {}_0 \textrm{TOP>S} \  \bullet \ {}_{4} \textrm{TOP>FW*} \ \textrm{FW} \  \otimes \ \textrm{TOP>FW} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{4} \textrm{TOP>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>S & TOP-START*-*TOP & 0,0002 \\ 
+563 & & $ {}_0 \textrm{TOP>S} \  \bullet \ {}_{4} \textrm{TOP>VP*} \ \textrm{VP} \  \otimes \ \textrm{TOP>VP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{4} \textrm{TOP>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>S & TOP-START*-*TOP & 0,0008 \\ 
+564 & & $ {}_0 \textrm{TOP>S} \  \bullet \ {}_{4} \textrm{TOP>DTP*} \ \textrm{DTP} \  \otimes \ \textrm{TOP>DTP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{4} \textrm{TOP>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>S & TOP-START*-*TOP & 0,0044 \\ 
+565 & & $ {}_0 \textrm{TOP>S} \  \bullet \ {}_{4} \textrm{TOP>UH*} \ \textrm{UH} \  \otimes \ \textrm{TOP>UH} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{4} \textrm{TOP>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>S & TOP-START*-*TOP & 0,0052 \\ 
+566 & & $ {}_0 \textrm{TOP>S} \  \bullet \ {}_{4} \textrm{TOP>PP*} \ \textrm{PP} \  \otimes \ \textrm{TOP>PP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{4} \textrm{TOP>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>S & TOP-START*-*TOP & 0,0002 \\ 
+567 & & $ {}_0 \textrm{TOP>S} \  \bullet \ {}_{4} \textrm{TOP>PUN*} \ \textrm{PUN} \  \otimes \ \textrm{TOP>PUN} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{4} \textrm{TOP>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>S & TOP-START*-*TOP & 0,9164 \\ 
+568 & & $ {}_0 \textrm{TOP>S} \  \bullet \ {}_{4} \textrm{TOP>IN*} \ \textrm{IN} \  \otimes \ \textrm{TOP>IN} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{4} \textrm{TOP>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>S & TOP-START*-*TOP & 0,0056 \\ 
+569 & & $ {}_0 \textrm{TOP>S} \  \bullet \ {}_{4} \textrm{TOP>CNJ*} \ \textrm{CNJ} \  \otimes \ \textrm{TOP>CNJ} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{4} \textrm{TOP>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>S & TOP-START*-*TOP & 0,0027 \\ 
+570 & & $ {}_0 \textrm{TOP>S} \  \bullet \ {}_{4} \textrm{TOP>COMMA*} \ \textrm{COMMA} \  \otimes \ \textrm{TOP>COMMA} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{4} \textrm{TOP>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>S & TOP-START*-*TOP & 0,0259 \\ 
+571 & & $ {}_0 \textrm{TOP>S} \  \bullet \ {}_{4} \textrm{TOP>ADVP*} \ \textrm{ADVP} \  \otimes \ \textrm{TOP>ADVP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{4} \textrm{TOP>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>S & TOP-START*-*TOP & 0,0029 \\ 
+572 & & $ {}_0 \textrm{TOP>S} \  \bullet \ {}_{4} \textrm{TOP>S*} \ \textrm{S} \  \otimes \ \textrm{TOP>S} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{4} \textrm{TOP>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>S & TOP-START*-*TOP & 0,021 \\ 
+573 & & $ {}_0 \textrm{TOP>S} \  \bullet \ {}_{4} \textrm{TOP>VBZ*} \ \textrm{VBZ} \  \otimes \ \textrm{TOP>VBZ} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{4} \textrm{TOP>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>S & TOP-START*-*TOP & 0,0002 \\ 
+574 & & $ {}_0 \textrm{TOP>S} \  \bullet \ {}_{4} \textrm{TOP>CMP*} \ \textrm{CMP} \  \otimes \ \textrm{TOP>CMP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{4} \textrm{TOP>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>S & TOP-START*-*TOP & 0,0012 \\ 
+575 & & $ {}_0 \textrm{TOP>S} \  \bullet \ {}_{4} \textrm{TOP>NP*} \ \textrm{NP} \  \otimes \ \textrm{TOP>NP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{4} \textrm{TOP>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>S & TOP-START*-*TOP & 0,0044 \\ 
+576 & & $ {}_0 \textrm{TOP>S} \  \bullet \ {}_{4} \textrm{TOP>TO*} \ \textrm{TO} \  \otimes \ \textrm{TOP>TO} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{4} \textrm{TOP>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>S & TOP-START*-*TOP & 0,0003 \\ 
+577 & & $ {}_0 \textrm{TOP>S} \  \bullet \ {}_{4} \textrm{TOP>AP*} \ \textrm{AP} \  \otimes \ \textrm{TOP>AP} $ & START-s2 [0,0] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{4} \textrm{TOP>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>S & TOP-START*-*TOP & 0,0005 \\ 
+578 & & $ {}_0 \textrm{TOP>S} \  \otimes \  \bullet \ {}_{4} \textrm{TOP} $ & START-s2 [0,0] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_0 \textrm{S} \  \otimes \  \bullet \ {}_{4} \textrm{TOP>S} $ & START-s2 [0,0] & completed & 0 & 0 & proj & TOP>S & TOP-START*-*TOP & 0,0081 \\ 
+579 & & $ {}_2 \textrm{VP>VP} \  \bullet \ {}_{4} \textrm{VP>CNJ*} \ \textrm{CNJ} \  \otimes \ \textrm{VP>CNJ} $ & S>VP-s2 [0,2] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_2 \textrm{VP} \  \otimes \  \bullet \ {}_{4} \textrm{VP>VP} $ & S>VP-s2 [0,2] & completed & 0 & 0 & proj & VP>VP & VP-S>VP*S>MD*VP & 0,0492 \\ 
+580 & & $ {}_2 \textrm{VP>VP} \  \otimes \  \bullet \ {}_{4} \textrm{VP} $ & S>VP-s2 [0,2] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_2 \textrm{VP} \  \otimes \  \bullet \ {}_{4} \textrm{VP>VP} $ & S>VP-s2 [0,2] & completed & 0 & 0 & proj & VP>VP & VP-S>VP*S>MD*VP & 0,9344 \\ 
+581 & & $ {}_2 \textrm{VP>VP} \  \bullet \ {}_{4} \textrm{VP>VP*} \ \textrm{VP} \  \otimes \ \textrm{VP>VP} $ & S>VP-s2 [0,2] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_2 \textrm{VP} \  \otimes \  \bullet \ {}_{4} \textrm{VP>VP} $ & S>VP-s2 [0,2] & completed & 0 & 0 & proj & VP>VP & VP-S>VP*S>MD*VP & 0,0164 \\ 
+588 & & $ {}_3 \textrm{NP>NP} \  \bullet \ {}_{4} \textrm{NP>AP*} \ \textrm{AP} \  \otimes \ \textrm{NP>AP} $ & VP>NP-s2 [2,3] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_3 \textrm{NP} \  \otimes \  \bullet \ {}_{4} \textrm{NP>NP} $ & VP>NP-s2 [2,3] & completed & 0 & 0 & proj & NP>NP & NP-VP>NP*VP>VB*NP & 0,0348 \\ 
+589 & & $ {}_3 \textrm{NP>NP} \  \bullet \ {}_{4} \textrm{NP>COMMA*} \ \textrm{COMMA} \  \otimes \ \textrm{NP>COMMA} $ & VP>NP-s2 [2,3] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_3 \textrm{NP} \  \otimes \  \bullet \ {}_{4} \textrm{NP>NP} $ & VP>NP-s2 [2,3] & completed & 0 & 0 & proj & NP>NP & NP-VP>NP*VP>VB*NP & 0,0087 \\ 
+590 & & $ {}_3 \textrm{NP>NP} \  \bullet \ {}_{4} \textrm{NP>NNS*} \ \textrm{NNS} \  \otimes \ \textrm{NP>NNS} $ & VP>NP-s2 [2,3] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_3 \textrm{NP} \  \otimes \  \bullet \ {}_{4} \textrm{NP>NP} $ & VP>NP-s2 [2,3] & completed & 0 & 0 & proj & NP>NP & NP-VP>NP*VP>VB*NP & 0,0348 \\ 
+591 & & $ {}_3 \textrm{NP>NP} \  \bullet \ {}_{4} \textrm{NP>NP*} \ \textrm{NP} \  \otimes \ \textrm{NP>NP} $ & VP>NP-s2 [2,3] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_3 \textrm{NP} \  \otimes \  \bullet \ {}_{4} \textrm{NP>NP} $ & VP>NP-s2 [2,3] & completed & 0 & 0 & proj & NP>NP & NP-VP>NP*VP>VB*NP & 0,1652 \\ 
+592 & & $ {}_3 \textrm{NP>NP} \  \bullet \ {}_{4} \textrm{NP>NN*} \ \textrm{NN} \  \otimes \ \textrm{NP>NN} $ & VP>NP-s2 [2,3] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_3 \textrm{NP} \  \otimes \  \bullet \ {}_{4} \textrm{NP>NP} $ & VP>NP-s2 [2,3] & completed & 0 & 0 & proj & NP>NP & NP-VP>NP*VP>VB*NP & 0,1478 \\ 
+593 & & $ {}_3 \textrm{NP>NP} \  \bullet \ {}_{4} \textrm{NP>N*} \ \textrm{N} \  \otimes \ \textrm{NP>N} $ & VP>NP-s2 [2,3] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_3 \textrm{NP} \  \otimes \  \bullet \ {}_{4} \textrm{NP>NP} $ & VP>NP-s2 [2,3] & completed & 0 & 0 & proj & NP>NP & NP-VP>NP*VP>VB*NP & 0,0435 \\ 
+594 & & $ {}_3 \textrm{NP>NP} \  \bullet \ {}_{4} \textrm{NP>UH*} \ \textrm{UH} \  \otimes \ \textrm{NP>UH} $ & VP>NP-s2 [2,3] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_3 \textrm{NP} \  \otimes \  \bullet \ {}_{4} \textrm{NP>NP} $ & VP>NP-s2 [2,3] & completed & 0 & 0 & proj & NP>NP & NP-VP>NP*VP>VB*NP & 0,0087 \\ 
+595 & & $ {}_3 \textrm{NP>NP} \  \bullet \ {}_{4} \textrm{NP>CNJ*} \ \textrm{CNJ} \  \otimes \ \textrm{NP>CNJ} $ & VP>NP-s2 [2,3] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_3 \textrm{NP} \  \otimes \  \bullet \ {}_{4} \textrm{NP>NP} $ & VP>NP-s2 [2,3] & completed & 0 & 0 & proj & NP>NP & NP-VP>NP*VP>VB*NP & 0,113 \\ 
+596 & & $ {}_3 \textrm{NP>NP} \  \otimes \  \bullet \ {}_{4} \textrm{NP} $ & VP>NP-s2 [2,3] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_3 \textrm{NP} \  \otimes \  \bullet \ {}_{4} \textrm{NP>NP} $ & VP>NP-s2 [2,3] & completed & 0 & 0 & proj & NP>NP & NP-VP>NP*VP>VB*NP & 0,4435 \\ 
+601 & & $ {}_3 \textrm{N>NP} \  \bullet \ {}_{4} \textrm{N>COMMA*} \ \textrm{COMMA} \  \otimes \ \textrm{N>COMMA} $ & VP>NP-s2 [2,3] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_3 \textrm{NP} \  \otimes \  \bullet \ {}_{4} \textrm{N>NP} $ & VP>NP-s2 [2,3] & completed & 0 & 0 & proj & N>NP & NP-VP>NP*VP>VB*NP & 1 \\ 
+605 & & $ {}_3 \textrm{NP>NP} \ \textrm{NP>N*} \  \bullet \ {}_{4} \textrm{N} \  \otimes \ \textrm{NP>N} $ & VP>NP-s2 [2,3] & incomplete & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_3 \textrm{NP>NP} \  \bullet \ {}_{4} \textrm{NP>N*} \ \textrm{N} \  \otimes \ \textrm{NP>N} $ & VP>NP-s2 [2,3] & starred & 0 & 0 & shift1 & - & - & 0,0588 \\ 
+\hline \multicolumn{5}{l}{\textbf{Chart Cell 5}} & forwP & vitP & op. & lc & gc & P \\ \hline
+606 & & $ {}_4 \textrm{NP>N*} \  \otimes \  \bullet \ {}_{5} \textrm{working} $ & NP>N-s2 [3,4] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_3 \textrm{NP>NP} \  \bullet \ {}_{4} \textrm{NP>N*} \ \textrm{N} \  \otimes \ \textrm{NP>N} $ & VP>NP-s2 [2,3] & starred & 0 & 0 & shift2 & NP>N* & N & 0,0588 \\ 
+607 & & $ {}_4 \textrm{working} \  \otimes \  \bullet \ {}_{5} \textrm{VBG} $ & NP>N-s2 [3,4] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_4 \textrm{NP>N*} \  \otimes \  \bullet \ {}_{5} \textrm{working} $ & NP>N-s2 [3,4] & completed & 0 & 0 & proj & working & N-NP>N*NP>NP*N & 1 \\ 
+608 & & $ {}_4 \textrm{VBG} \  \otimes \  \bullet \ {}_{5} \textrm{V} $ & NP>N-s2 [3,4] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_4 \textrm{working} \  \otimes \  \bullet \ {}_{5} \textrm{VBG} $ & NP>N-s2 [3,4] & completed & 0 & 0 & proj & VBG & N-NP>N*NP>NP*N & 1 \\ 
+609 & & $ {}_4 \textrm{V} \  \otimes \  \bullet \ {}_{5} \textrm{NP} $ & NP>N-s2 [3,4] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_4 \textrm{VBG} \  \otimes \  \bullet \ {}_{5} \textrm{V} $ & NP>N-s2 [3,4] & completed & 0 & 0 & proj & V & N-NP>N*NP>NP*N & 1 \\ 
+610 & & $ {}_4 \textrm{NP} \  \otimes \  \bullet \ {}_{5} \textrm{N>NP} $ & NP>N-s2 [3,4] & completed & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_4 \textrm{V} \  \otimes \  \bullet \ {}_{5} \textrm{NP} $ & NP>N-s2 [3,4] & completed & 0 & 0 & proj & NP & N-NP>N*NP>NP*N & 1 \\ 
+611 & & $ {}_4 \textrm{N>NP} \  \bullet \ {}_{5} \textrm{N>NN*} \ \textrm{NN} \  \otimes \ \textrm{N>NN} $ & NP>N-s2 [3,4] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_4 \textrm{NP} \  \otimes \  \bullet \ {}_{5} \textrm{N>NP} $ & NP>N-s2 [3,4] & completed & 0 & 0 & proj & N>NP & N-NP>N*NP>NP*N & 0,6667 \\ 
+612 & & $ {}_4 \textrm{N>NP} \  \bullet \ {}_{5} \textrm{N>NNS*} \ \textrm{NNS} \  \otimes \ \textrm{N>NNS} $ & NP>N-s2 [3,4] & starred & 0 & 0 & & & & \\ 
+ & Pre *& $ {}_4 \textrm{NP} \  \otimes \  \bullet \ {}_{5} \textrm{N>NP} $ & NP>N-s2 [3,4] & completed & 0 & 0 & proj & N>NP & N-NP>N*NP>NP*N & 0,3333 \\ 
+\hline \multicolumn{5}{l}{\textbf{Chart Cell 6}} & forwP & vitP & op. & lc & gc & P \\ \hline
+\hline \multicolumn{5}{l}{\textbf{Chart Cell 7}} & forwP & vitP & op. & lc & gc & P \\ \hline
+\hline
+\caption{Chart of the sentence \emph{we should have a working lunch .}. Pre * indicates the Viterbi predecessor state.}
+\label{tab:chart}
+\end{longtable}
+
+\end{document}

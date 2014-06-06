@@ -1,0 +1,22 @@
+Hoi Jelle,
+
+het begint erop te lijken dat er toch nog iets gaat lukken.
+het probleem waarover we het vanmiddag hadden heb ik geloof ik opgelost: de truc is dat je de predecessor states moet samplen op basis van hun inner probability, en niet op basis van hun Viterbi probability. ik kan nog niet helemaal begrijpen waarom dat zo is, maar ik heb de sampler getest op grote aantallen, en dan benadert hij de distributie (tenminste voor de simpele "a b c" zin).
+het is me nu ook gelukt om de brackets te leren van zinnen van de recursieve Elman grammar, unsupervised. weliswaar heb ik nog niet getest of het generaliseert naar een test set, maar ook op de training set was het me nog niet eerder gelukt.
+hier zijn de scores (getest voor 1500 zinnen van 3-7 woorden, maar al na 200 zinnen bereikte hij deze score):
+Average UP=0.722
+Average UR=0.783
+Exact Match=775
+
+en dat is veel beter dan de baseline (helaas is het geen Wall Street Journal):
+Averages for right branching
+Average UP=0.633
+Average UR=0.687
+Averages for left branching
+Average UP=0.424
+Average UR=0.461.
+Een van de redenen waarom het eerder niet lukte was dat de sampler totaal gebiased was (en exhaustive search is niet mogelijk voor zinnen van deze lengte).
+Overigens, voor hele simpele, niet-recursieve grammatica's gaan precisie en recall naar 100%.
+Een probleempje is dat het leren dmv updaten van de slot representaties in de theorie een leuk idee was, maar in de praktijk niet echt lukt, want dan worden al gauw alle representaties van alle nodes en alle slots aan elkaar gelijk. daarom betwijfel ik of met het huidige leeralgorithme (alleen updaten van de node representaties) HPN goed kan generaliseren. Suggesties voor hoe ik kan voorkomen dat de slots en nodes identiek aan elkaar worden als gevolg van tegelijk updaten van de slot en de node representaties zijn welkom!
+
+volgende stap is het onderzoeken en verbeteren van het update mechanisme, en het testen van prefix probabilities.

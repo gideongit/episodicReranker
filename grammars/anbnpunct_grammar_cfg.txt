@@ -1,0 +1,18 @@
+terminals
+a
+b
+.
+nonterminals
+S
+T
+A
+B
+PUN
+productions
+S --> T PUN
+T --> A T B
+T --> A B
+lexical_productions
+A --> a
+B --> b
+PUN --> .

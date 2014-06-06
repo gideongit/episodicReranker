@@ -1,0 +1,3 @@
+(S (NP (PropN Mary)) (VP (VT feeds) (NP (N boy))))
+(S (NP (N girl) (RC (WHO who) (VP (VI lives)))) (VP (VI walks)))
+(S (NP (N boy) (RC (WHO who) (NP (PropN John)) (VT chases))) (VP (VT chases) (NP (N girl)))))

@@ -1,0 +1,35 @@
+terminals
+the
+horse
+barn
+fell
+raced
+past
+%%%%%%%%%%%%%%%%%%%%%%%
+nonterminals
+S
+NP
+VP
+DT
+NN
+PP
+VBD
+VBN
+%%%%%%%%%%%%%%%%%%%%%%%
+productions
+S --> NP VP 1.
+NP --> DT NN .9
+NP --> NP VP .1
+PP --> IN NP 1.
+VP --> VBD PP .15
+VP --> VBN PP .65
+VP --> VBD .2
+%%%%%%%%%%%%%%%%%%%%%%%
+lexical_productions
+DT --> the 1.
+NN --> horse .5
+NN --> barn .5
+VBD --> fell .5
+VBD --> raced .5
+VBN --> raced 1.0
+IN --> past 1.

@@ -1,0 +1,43 @@
+terminals
+b*0.49156 0.493096 0.0867 0 0 0.712537 0 0
+a*0.926845 0 0 0 0.375444 0 0 0
+.*0 0 0 0.373456 0 0 0.927648 0
+nonterminals
+X1*0.000008 0 0.603677 0 0.757214 0.000004 0 0.249403
+X2*0 0 0 0.834073 0 0 0.159597 0.528063
+START*0 0 0 0 0 0 0 0
+X3*0 0.137512 0 0 0 0 0.144913 0.979842
+productions
+X1*1 0 0 0 0 0 0 0*0.758682 0.651461 0*0 1 0 0 0 0 0 0
+START*0 0 0 0 0 0 0 0*0 1 0*0 0 0 0 0 0 0 1
+X2*0 0 1 0 0 0 0 0*0 0 1*0 0 0 1 0 0 0 0
+X3*0 0 0 0 1 0 0 0*1 0 0*0 0 0 0 0 1 0 0*0 0 1*0 0 0 0 0 0 1 0
+b*1 0 0
+a*0 1 0
+.*0 0 1
+conditional project and attach counts
+goalSlotPlusLC*attachment*X1*START*X2*X3
+X1_slot3@X3*55*0*0*0*0
+X1_slot3@X1*0*0*0*0*88
+X1_slot3@b*368*340*0*2*0
+X3_slot5@.*553*0*0*0*0
+X1_slot3@a*0*536*0*0*0
+X3_slot5@X3*96*0*0*0*0
+X3_slot3@b*549*1*0*37*0
+X2_slot3@.*208*0*0*0*0
+X3_slot5@X2*38*0*0*0*0
+X2_slot3@X1*0*9*0*169*1
+X2_slot3@X2*246*0*0*0*0
+X2_slot3@X3*1*0*0*0*0
+START_slot3@X1*55*0*0*0*0
+START_slot3@X3*535*0*0*0*0
+START_slot3@X2*171*0*0*0*0
+START_slot3@a*0*360*0*0*401
+X3_slot3@X1*4*0*0*0*97
+conditional shift counts
+goalPlusNonT*b*a*.
+X2_slot3@X2_slot2*0*0*208
+X3_slot3@X3_slot2*587*0*0
+X3_slot5@X3_slot4*0*0*553
+X1_slot3@X1_slot2*710*536*0
+START_slot3@START_slot2*0*761*0

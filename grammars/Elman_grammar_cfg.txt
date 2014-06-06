@@ -1,0 +1,97 @@
+terminals
+who
+boy
+girl
+cat
+dog
+boys
+girls
+cats
+dogs
+John
+Mary
+chase
+feed 
+see
+hear
+live
+walk
+chases
+feeds
+sees
+hears
+lives
+walks 
+nonterminals
+S
+NP
+VP
+NP_pl
+VP_pl
+PropN
+N
+N_pl
+RC
+RC_pl
+VT
+VI
+VTI
+VT_pl
+VI_pl
+VTI_pl
+WHO
+productions
+S --> NP VP
+S --> NP_pl VP_pl
+NP --> PropN
+NP --> N
+NP --> N RC
+NP_pl --> N_pl
+NP_pl --> N_pl RC_pl
+VP --> VI
+VP --> VTI
+VP --> VT NP
+VP --> VTI NP
+VP --> VT NP_pl
+VP --> VTI NP_pl
+VP_pl --> VI_pl
+VP_pl --> VTI_pl
+VP_pl --> VT_pl NP
+VP_pl --> VTI_pl NP
+VP_pl --> VT_pl NP_pl
+VP_pl --> VTI_pl NP_pl
+%
+RC --> WHO VP
+RC --> WHO NP VT
+RC --> WHO NP VTI
+RC --> WHO NP_pl VT_pl
+RC --> WHO NP_pl VTI_pl
+RC_pl --> WHO VP_pl
+RC_pl --> WHO NP VT
+RC_pl --> WHO NP VTI
+RC_pl --> WHO NP_pl VT_pl
+RC_pl --> WHO NP_pl VTI_pl
+lexical_productions
+VI --> walks
+VI --> lives
+VT --> chases
+VT --> feeds
+VTI --> sees
+VTI --> hears
+VI_pl --> walk
+VI_pl --> live 
+VT_pl --> chase
+VT_pl --> feed 
+VTI_pl --> see
+VTI_pl --> hear
+N --> boy
+N --> girl
+N --> cat
+N --> dog
+N_pl --> boys
+N_pl --> girls
+N_pl --> cats
+N_pl --> dogs
+PropN --> John
+PropN --> Mary
+WHO --> who

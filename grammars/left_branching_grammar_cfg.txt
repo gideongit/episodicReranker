@@ -1,0 +1,28 @@
+terminals
+boy
+girl
+chases
+feeds
+lives
+walks 
+nonterminals
+S
+SUBJ
+OBJ
+NP
+N
+VT
+%VI
+%%%%%%%%%%%%%%%%%%%%%%%
+productions
+S --> SUBJ OBJ
+SUBJ --> NP VT
+NP --> N
+OBJ --> NP
+%%%%%%%%%%%%%%%%%%%%%%%
+lexical_productions
+%VI --> walks
+%VI --> lives
+VT --> chases
+N --> boy
+N --> girl

@@ -1,0 +1,27 @@
+terminals
+a
+b
+c
+d
+e
+f
+g
+nonterminals
+S
+X
+Y
+V
+W
+%%%%%%%%%%%%%%%%%%%%%%%
+productions
+S --> X Y
+X --> V W
+%%%%%%%%%%%%%%%%%%%%%%%
+lexical_productions
+V --> a
+W --> b
+Y --> c
+Y --> d
+Y --> e
+Y --> f
+Y --> g

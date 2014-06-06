@@ -1,0 +1,11 @@
+terminals
+a
+%%%%%%%%%%%%%%%%%%%%%%%
+nonterminals
+S
+%%%%%%%%%%%%%%%%%%%%%%%
+productions
+S --> S S 0.7
+%%%%%%%%%%%%%%%%%%%%%%%
+lexical_productions
+S --> a 0.3

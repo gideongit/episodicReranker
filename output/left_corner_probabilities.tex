@@ -1,0 +1,40 @@
+\documentclass[10pt]{article}
+\oddsidemargin 0in
+\evensidemargin 0in
+\usepackage[latin2]{inputenc}
+\usepackage{../../../Latex/styles/graphicx}
+
+\usepackage[T1]{fontenc}
+\begin{document}
+\begin{table}[htbp] \centering \resizebox{1.3\linewidth}{!}{ \begin{tabular}[t]{lllllllllllllll}
+\multicolumn{15}{c}{Project and attach probabilities (conditioned on left corner and goal slot)} \\ \hline
+l. corner & goal categ. & P(attach) & Pr(TOP*S)& Pr(S/VP*eats*VP)& Pr(N*girl)& Pr(NP*chocolate)& Pr(V*eats)& Pr(NP/N*girl*N)& Pr(NP*DET*NP/N)& Pr(DET*the)& Pr(VP/NP*chocolate*NP)& Pr(VP*V*VP/NP)& Pr(S*NP*S/VP)& Pr(START*-*TOP) \\
+DET & TOP &  &  &  &  &  &  &  & 1 &  &  &  &  &  \\ 
+N & N & 1 &  &  &  &  &  &  &  &  &  &  &  &  \\ 
+NP & NP & 1 &  &  &  &  &  &  &  &  &  &  &  &  \\ 
+NP & TOP &  &  &  &  &  &  &  &  &  &  &  & 1 &  \\ 
+S & TOP &  & 1 &  &  &  &  &  &  &  &  &  &  &  \\ 
+V & VP &  &  &  &  &  &  &  &  &  &  & 1 &  &  \\ 
+VP & VP & 1 &  &  &  &  &  &  &  &  &  &  &  &  \\ 
+chocolate & NP &  &  &  &  & 1 &  &  &  &  &  &  &  &  \\ 
+eats & VP &  &  &  &  &  & 1 &  &  &  &  &  &  &  \\ 
+girl & N &  &  &  & 1 &  &  &  &  &  &  &  &  &  \\ 
+the & TOP &  &  &  &  &  &  &  &  & 1 &  &  &  &  \\ 
+\hline
+\end{tabular}}
+\caption{Left corner probabilities computed directly from labels in treebank}
+\label{tab:attach_project_probabilities}
+\end{table}
+\begin{table}[htbp] \centering \resizebox{1.3\linewidth}{!}{ \begin{tabular}[t]{ll|llll}
+\multicolumn{6}{c}{Shift probabilities (conditioned on starred nonT and its right sister)} \\ \hline
+starCat. & goalCat.& Sh(chocolate)& Sh(girl)& Sh(the)& Sh(eats) \\
+NP/N & - &  &  &  &  \\ 
+S/VP & - &  &  &  &  \\ 
+START & TOP & 0,25 & 0,25 & 0,25 & 0,25 \\ 
+VP/NP & - &  &  &  &  \\ 
+\hline
+\end{tabular}}
+\caption{Left corner probabilities estimated from treebank}
+\label{tab:shift_probabilities}
+\end{table}
+\end{document}

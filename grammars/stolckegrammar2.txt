@@ -1,0 +1,16 @@
+terminals
+a
+init
+%%%%%%%%%%%%%%%%%%%%%%%
+nonterminals
+TTTOP
+S
+Y
+%%%%%%%%%%%%%%%%%%%%%%%
+productions
+TTTOP --> Y S 1.0
+S --> S S 0.7
+%%%%%%%%%%%%%%%%%%%%%%%
+lexical_productions
+S --> a 0.3
+Y --> init 1.0

@@ -1,0 +1,9 @@
+terminals
+boy*1 0 0 0
+girl*1 0 0 0 
+walks*0 1 0 0
+runs*0 1 0 0
+nonterminals
+S*0 0 0 0
+productions
+S*1 0 0 0*0 1 0 0

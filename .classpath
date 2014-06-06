@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/gborens1/workspace/library/commons-io-1.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/gborens1/workspace/library/epsgraphics-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/gborens1/workspace/library/evalC_GUI.jar"/>
+	<classpathentry kind="lib" path="C:/Users/gborens1/workspace/library/iText-2.1.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/gborens1/workspace/library/jlfgr-1_0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/gborens1/workspace/library/mdsj.jar"/>
+	<classpathentry kind="output" path="build"/>
+</classpath>

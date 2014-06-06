@@ -1,0 +1,39 @@
+terminals
+a
+b
+c
+d
+e
+p
+q
+%%%%%%%%%%%%%%%%%%%%%%%
+nonterminals
+X
+Y
+Z
+W
+A
+B
+C
+D
+E
+P
+Q
+%%%%%%%%%%%%%%%%%%%%%%%
+productions
+X --> Y D 0.3
+X --> W E 0.7
+Y --> Z C 0.2
+Y --> A B 0.8
+Z --> A B 0.5
+Z --> P Q 0.5
+W --> Z C 1.
+%%%%%%%%%%%%%%%%%%%%%%%
+lexical_productions
+A --> a 1.
+B --> b 1.
+C --> c 1.
+D --> d 1.
+E --> e 1.
+P --> p 1.
+Q --> q 1.

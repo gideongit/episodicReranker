@@ -1,0 +1,47 @@
+terminals
+who
+boy
+girl
+cat
+dog
+John
+Mary
+chases
+feeds
+lives
+walks 
+nonterminals
+S
+NP
+VP
+PropN
+N
+RC
+SBAR
+VT
+VI
+WHO
+%%%%%%%%%%%%%%%%%%%%%%%
+productions
+S --> NP VP
+NP --> PropN
+NP --> N
+NP --> N RC
+VP --> VI
+VP --> VT NP
+RC --> WHO VP
+RC --> WHO SBAR
+SBAR --> NP VT
+%%%%%%%%%%%%%%%%%%%%%%%
+lexical_productions
+VI --> walks
+VI --> lives
+VT --> chases
+VT --> feeds
+N --> boy
+N --> girl
+N --> cat
+N --> dog
+PropN --> John
+PropN --> Mary
+WHO --> who

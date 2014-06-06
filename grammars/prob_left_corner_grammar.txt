@@ -1,0 +1,37 @@
+terminals
+who
+boy
+girl
+John
+Mary
+chases
+feeds
+lives
+walks 
+nonterminals
+S
+NP
+VP
+PropN
+N
+RC
+VT
+VI
+WHO
+%%%%%%%%%%%%%%%%%%%%%%%
+projections
+
+attach
+
+shift probabilities
+left corner, goal+slot --> prnode P
+left corner, goal+slot --> bu-attach P
+
+S --> NP VP 1.0
+NP --> PropN 0.2
+NP --> N 0.5
+NP --> N RC 0.3
+VP --> VI 0.4
+VP --> VT NP 0.6
+RC --> WHO VP 0.9
+RC --> WHO NP VT 0.1

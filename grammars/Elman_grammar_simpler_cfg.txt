@@ -1,0 +1,35 @@
+terminals
+who
+boy
+girl
+John
+chases
+lives
+nonterminals
+S
+NP
+VP
+PropN
+N
+RC
+VT
+VI
+WHO
+%%%%%%%%%%%%%%%%%%%%%%%
+productions
+S --> NP VP
+NP --> PropN
+NP --> N
+NP --> N RC
+VP --> VI
+VP --> VT NP
+RC --> WHO VP
+RC --> WHO NP VT
+%%%%%%%%%%%%%%%%%%%%%%%
+lexical_productions
+VI --> lives
+VT --> chases
+N --> boy
+N --> girl
+PropN --> John
+WHO --> who

@@ -1,0 +1,41 @@
+terminals
+who
+boy
+girl
+John
+Mary
+chases
+feeds
+lives
+walks 
+nonterminals
+S
+NP
+VP
+PropN
+N
+RC
+VT
+VI
+WHO
+%%%%%%%%%%%%%%%%%%%%%%%
+productions
+S --> NP VP 1.0
+NP --> PropN 0.2
+NP --> N 0.5
+NP --> N RC 0.3
+VP --> VI 0.4
+VP --> VT NP 0.6
+RC --> WHO VP 0.9
+RC --> WHO NP VT 0.1
+%%%%%%%%%%%%%%%%%%%%%%%
+lexical_productions
+VI --> walks 0.5
+VI --> lives 0.5 
+VT --> chases 0.8
+VT --> feeds 0.2
+N --> boy 0.6
+N --> girl 0.4
+PropN --> John 0.5
+PropN --> Mary 0.5
+WHO --> who 1.0
